@@ -38,7 +38,7 @@ $(document).ready(function() {
         controlArrows: true,
         verticalCentered: true,
         resize : false,
-        sectionsColor : ['#ccc', '#fff'],
+        //sectionsColor : ['#ccc', '#fff'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',

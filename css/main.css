@@ -1,12 +1,43 @@
+@charset "UTF-8";
+@font-face{font-family:FuturalPT;src:url(../fonts/FuturaPTBook.otf)}
 .nav-container{float:left;position:relative;left:50%}
 .nav-container .nav{float:left;position:relative;left:-50%}
+.nav-container .nav li{margin-left:40px}
 .nav-container .nav li.active a{background-color:transparent;color:#b9343e}
-.nav-container .nav li a{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#434343;font-size:1.6em;font-weight:400}
-.main-screen .get-it-btn .cta-btn,.main-screen .header{text-transform:uppercase;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300}
+.nav-container .nav li a{font-family:FuturalPT;color:#434343;font-size:1.6em;font-weight:400}
+.look-screen .look-text,.main-screen .get-it-btn .cta-btn,.main-screen .header,.poll-screen .poll-text{font-weight:300;font-family:FuturalPT}
 .navbar{position:absolute;z-index:100;width:100%;background-color:transparent;border:none}
 .main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
-.main-screen .header{color:#400001;font-size:5em;text-align:center}
-.main-screen .header-logo{height:100px;background-color:#001}
-.main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;position:relative;margin-left:-250px;left:50%;background-color:#b9343e;width:500px;height:86px}
-.main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin-left:40px}
-.main-screen .get-it-btn .cta-btn{color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%}
+.main-screen .header{text-transform:uppercase;color:#400001;font-size:5em;text-align:right;margin-bottom:30px}
+.main-screen .header-logo{height:100px}
+.main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;position:relative;margin-left:-224px;left:50%;background-color:#b9343e;width:348px;height:86px;border:none}
+.main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
+.main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
+.poll-screen{background-color:#b0343e}
+.poll-screen .poll-text{color:#FFF;text-align:center;margin-top:15%}
+.poll-screen .poll-text h1{font-size:4.375em;line-height:80px;margin-bottom:30px}
+.poll-screen .poll-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
+.poll-screen .poll-text h3{font-size:2em;padding:0 20%;line-height:48px}
+.poll-screen .poll-text .try-it{width:670px;text-align:right;display:inline-block;margin-top:100px}
+.poll-screen .poll-text .try-it h3{padding:0;font-size:2.625em}
+.poll-screen .poll-text .try-it img{float:right;margin:15px 0 0 35px}
+.poll-screen .iphone img{width:422px;height:846px}
+.look-screen{background-color:#e6cfc9}
+.look-screen .look-text{text-align:center;margin-top:15%;padding:0}
+.look-screen .look-text h1{color:#b0343e;font-size:4.375em;line-height:80px;margin-bottom:30px}
+.look-screen .look-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
+.look-screen .look-text h3{font-size:2em;padding:0 20%;line-height:48px}
+.look-screen .look-text .try-it-look{width:670px;padding:0;margin-top:130px}
+.look-screen .look-text .try-it-look img{float:left}
+.look-screen .look-text .try-it-look h3{text-align:left;padding:0;color:#b0343e;font-weight:700;font-size:2.625em;transform:rotate(7.811deg);margin-top:0}
+.explore-screen{background-color:#f8f2f0}
+.explore-screen .explore-text{color:#404142;text-align:center;font-family:FuturalPT;font-weight:300;margin-top:15%}
+.explore-screen .explore-text h1{font-size:4.375em;line-height:80px;margin-bottom:30px;color:#b0343e}
+.explore-screen .explore-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
+.explore-screen .explore-text h3{font-size:2em;padding:0 20%;line-height:48px}
+.explore-screen .explore-text .try-it-explore{width:650px;text-align:right;display:inline-block;margin-top:70px}
+.explore-screen .explore-text .try-it-explore h3{display:inline-block;padding:0;font-size:2.625em;transform:rotate(-9.974deg);color:#b9343e}
+.explore-screen .explore-text .try-it-explore img{float:right;margin:15px 0 0 35px}
+.explore-screen .explore-text .explore-image{width:670px}
+.explore-screen .explore-text .explore-image img{float:right}
+.explore-screen .iphone img{width:422px;height:846px}
