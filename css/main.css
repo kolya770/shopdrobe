@@ -1,0 +1,12 @@
+.nav-container{float:left;position:relative;left:50%}
+.nav-container .nav{float:left;position:relative;left:-50%}
+.nav-container .nav li.active a{background-color:transparent;color:#b9343e}
+.nav-container .nav li a{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#434343;font-size:1.6em;font-weight:400}
+.main-screen .get-it-btn .cta-btn,.main-screen .header{text-transform:uppercase;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300}
+.navbar{position:absolute;z-index:100;width:100%;background-color:transparent;border:none}
+.main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
+.main-screen .header{color:#400001;font-size:5em;text-align:center}
+.main-screen .header-logo{height:100px;background-color:#001}
+.main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;position:relative;margin-left:-250px;left:50%;background-color:#b9343e;width:500px;height:86px}
+.main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin-left:40px}
+.main-screen .get-it-btn .cta-btn{color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%}

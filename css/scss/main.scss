@@ -1,0 +1,93 @@
+
+$font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.nav-container {
+  float: left;
+  position: relative;
+  left: 50%;
+
+  .nav {
+    float: left;
+    position: relative;
+    left: -50%;
+
+    li {
+      &.active a {
+        background-color: transparent;
+        color:  #b9343e;
+      }
+      a {
+        font-family: $font;
+        color:  #434343;
+        font-size: 1.6em;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.navbar {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+
+  background-color: transparent;
+  border: none;
+}
+
+.main-screen {
+  background: url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,0.65);
+  background-size: cover;
+
+  .header {
+    text-transform: uppercase;
+    font-family: $font;
+    color:  #400001;
+    font-size: 5em;
+    font-weight: 300;
+    text-align: center;
+    &-logo {
+      height: 100px;
+      background-color: #000011;
+    }
+  }
+
+  .get-it-btn {
+    $width: 500px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+
+    position: relative;
+    margin-left: - ($width / 2);
+    left: 50%;
+
+    background-color:  #b9343e;
+    width: $width;
+    height: 86px;
+
+    .shirt {
+      $size: 49px;
+      background: url(../img/shirt-btn.png);
+
+      width: $size;
+      height: $size;
+
+      margin-left: 40px;
+    }
+
+    .cta-btn {
+      text-transform: uppercase;
+
+      font-family: $font;
+      color:  #ffffff;
+      font-size: 32px;
+      font-weight: 300;
+      text-align: right;
+      vertical-align: middle;
+      height: 100%;
+    }
+
+  }
+}
