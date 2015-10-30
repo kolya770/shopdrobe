@@ -100,11 +100,15 @@ $font: "FuturalPT";
 .poll-screen {
   background-color:  rgb(176, 52, 62);
   .poll-text {
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    top:50%;
+    margin-top: -325px;
     color: #FFFFFF;
     text-align: center;
     font-family: $font;
     font-weight: 300;
-    margin-top: 15%;
     h1 {
       font-size: 4.375em;
       line-height: 80px;
@@ -137,20 +141,27 @@ $font: "FuturalPT";
     }
   }
   .iphone {
+    float: right;
     img {
-      width: 422px;
-      height: 846px;
+      height: 100%;
+      width: 100%;
     }
   }
 }
 .look-screen {
   background-color: rgb(230, 207, 201);
   .look-text {
+    position: relative;
     text-align: center;
     font-family: $font;
     font-weight: 300;
-    margin-top: 15%;
     padding: 0;
+    height: 100vh;
+    .low{
+      position: absolute;
+      top:50%;
+      margin-top:-325px;
+    }
     h1 {
       color:rgb(176, 52, 62);
       font-size: 4.375em;
@@ -186,6 +197,13 @@ $font: "FuturalPT";
       }
     }
   }
+  .iphone {
+    float: left;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 }
 .explore-screen {
   background-color:  rgb(248, 242, 240);
@@ -194,7 +212,11 @@ $font: "FuturalPT";
     text-align: center;
     font-family: $font;
     font-weight: 300;
-    margin-top: 15%;
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    top:50%;
+    margin-top: -325px;
     h1 {
       font-size: 4.375em;
       line-height: 80px;
@@ -237,9 +259,54 @@ $font: "FuturalPT";
     }
   }
   .iphone {
+    float: right;
     img {
-      width: 422px;
-      height: 846px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+.footer-screen {
+  background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
+  background-size: cover;
+  h1 {
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 4.375em;
+    font-weight: 300;
+  }
+  .get-it-btn {
+    background-color:  #ffffff;
+    width: 349px;
+    height: 86px;
+  }
+}
+
+@media only screen and (max-height : 980px) and (min-height:780px) {
+
+    .poll-screen {
+      .iphone {
+        img {
+          width: 80%;
+        }
+      }
+    }
+}
+@media only screen and (max-height : 779px) {
+
+  .poll-screen {
+    .poll-text {
+      height: 600px;
+      margin-top: -300px;
+      
+      .try-it {
+        margin-top: 50px;
+      }
+    }
+    .iphone {
+      img {
+        width: 65%;
+      }
     }
   }
 }
