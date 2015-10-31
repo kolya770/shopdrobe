@@ -10,6 +10,7 @@
 .modal .popup .exit{display:block;background-color:inherit;position:absolute;top:-22px;right:-18px;border-radius:50%;padding:0;border:3px solid #3c3c3c;color:#3c3c3c;cursor:pointer;width:40px;height:40px}
 .modal .popup .exit:after{content:'x';position:absolute;width:100%;height:100%;top:10px;right:0;font:30px/10px FuturalPT}
 .modal .popup h5{font:28px FuturalPT;color:#1f1f1f;margin:0 0 41px}
+.look-screen .look-text,.main-screen .get-it-btn .cta-btn,.main-screen .header,.nav-container .nav li a,.poll-screen .poll-text .poll-header{font-family:FuturalPT}
 .modal .popup form{padding:0 67px}
 .modal .popup form input{margin-top:16px;border-color:#ff9d00}
 .modal .popup form button{margin-top:44px}
@@ -17,30 +18,29 @@
 .nav-container .nav{float:left;position:relative;left:-50%}
 .nav-container .nav li{margin-left:40px}
 .nav-container .nav li.active a{background-color:transparent;color:#b9343e}
-.nav-container .nav li a{font-family:FuturalPT;color:#434343;font-size:1.6em;font-weight:400}
-.look-screen .look-text,.main-screen .get-it-btn .cta-btn,.main-screen .header,.poll-screen .poll-text{font-family:FuturalPT;font-weight:300}
+.nav-container .nav li a{color:#434343;font-size:1.6em;font-weight:400}
 .navbar{position:absolute;z-index:100;width:100%;background-color:#fff;border:none}
 .main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
-.main-screen .header{text-transform:uppercase;color:#400001;font-size:5em;text-align:center;margin-bottom:30px}
+.main-screen .header{text-transform:uppercase;color:#400001;font-size:5em;font-weight:300;text-align:center;margin-bottom:30px}
 .main-screen .header.sub{text-align:right}
 .main-screen .header-logo{height:100px}
 .main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
 .main-screen .get-it-btn:hover{animation:Fly 1s 0s infinite linear alternate}
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
-.main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
+.main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;font-weight:300;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen{background-color:#b0343e}
-.poll-screen .poll-text{position:absolute;height:650px;width:650px;top:50%;margin-top:-325px;color:#FFF;text-align:center}
-.poll-screen .poll-text h1{font-size:4.375em;line-height:80px;margin-bottom:30px}
-.poll-screen .poll-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
-.poll-screen .poll-text h3{font-size:2em;padding:0 20%;line-height:48px}
-.poll-screen .poll-text .try-it{width:670px;text-align:right;display:inline-block;margin-top:100px}
-.poll-screen .poll-text .try-it h3{padding:0;font-size:2.625em}
-.poll-screen .poll-text .try-it img{float:right;margin:15px 0 0 35px}
+.poll-screen .poll-text{position:absolute;height:450px;width:650px;top:50%;margin-top:-225px;color:#FFF}
+.poll-screen .poll-text .poll-header{margin-bottom:30px;text-align:center}
+.poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px;font-weight:300}
+.poll-screen .poll-text .poll-header h3{font-size:2em;padding:0 20%;line-height:48px;font-weight:300}
+.poll-screen .poll-text .try-it{width:650px;text-align:right;display:inline-block;margin-top:160px}
+.poll-screen .poll-text .try-it p{padding:0;font-size:2.625em;font-weight:300}
+.poll-screen .poll-text .try-it img{float:right;margin-left:35px}
 .poll-screen .iphone{float:right}
 .look-screen .iphone,.look-screen .look-text .try-it-look img{float:left}
 .poll-screen .iphone img{height:100%;width:100%}
 .look-screen{background-color:#e6cfc9}
-.look-screen .look-text{position:relative;text-align:center;padding:0;height:100vh}
+.look-screen .look-text{position:relative;text-align:center;font-weight:300;padding:0;height:100vh}
 .look-screen .look-text .low{position:absolute;top:50%;margin-top:-325px}
 .look-screen .look-text h1{color:#b0343e;font-size:4.375em;line-height:80px;margin-bottom:30px}
 .look-screen .look-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
