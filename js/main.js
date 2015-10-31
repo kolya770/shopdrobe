@@ -3,13 +3,13 @@ $(document).ready(function() {
         //Navigation
         menu: false,
         lockAnchors: false,
-        anchors:['firstPage', 'secondPage'],
+        anchors:['main', 'poll', 'look', 'explore', 'choose-wisely'],
         navigation: false,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
+        navigationTooltips: ['main', 'poll', 'look', 'explore', 'choose-wisely'],
         showActiveTooltip: false,
         slidesNavigation: true,
-        slidesNavPosition: 'bottom',
+        slidesNavPosition: 'left',
 
         //Scrolling
         css3: true,

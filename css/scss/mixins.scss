@@ -1,0 +1,16 @@
+
+@mixin button-centered($width, $height, $color) {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+
+  position: relative;
+  margin-left: - ($width / 2);
+  left: 50%;
+
+  background-color:  $color;
+  width: $width;
+  height: $height;
+}

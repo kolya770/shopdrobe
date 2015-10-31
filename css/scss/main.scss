@@ -1,14 +1,32 @@
+@import "mixins";
+
+@keyframes Fly {
+  to {
+    margin-top: -15px;
+  }
+}
+@keyframes Rotate {
+  75% {
+    transform: rotate(290deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @font-face {
-  font-family: FuturalPT; /* Имя шрифта */
-  src: url(../fonts/FuturaPTBook.otf); /* Путь к файлу со шрифтом */
+  font-family: FuturalPT;
+  src: url(../fonts/FuturaPTBook.otf);
 }
 $font: "FuturalPT";
 
+@import "popup";
+
 .nav-container {
+
   float: left;
   position: relative;
   left: 50%;
-
 
   .nav {
     float: left;
@@ -35,12 +53,13 @@ $font: "FuturalPT";
   z-index: 100;
   width: 100%;
 
-  background-color: transparent;
+  //background-color: transparent;
+  background-color: #fff;
   border: none;
 }
 
 .main-screen {
-  background: url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,0.65);
+  background: url(../img/main-bg.jpg) 50% 50%, rgba(176,52,61,0.65);
   background-size: cover;
 
   .header {
@@ -49,30 +68,23 @@ $font: "FuturalPT";
     color:  #400001;
     font-size: 5em;
     font-weight: 300;
-    text-align: right;
+    text-align: center;
     margin-bottom: 30px;
+    &.sub {
+      text-align: right;
+    }
     &-logo {
       height: 100px;
     }
   }
 
   .get-it-btn {
-    $width: 348px;
 
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    outline: none;
+    @include button-centered(348px, 86px, #b9343e);
 
-    position: relative;
-    margin-left: - ($width / 2)-50px;
-    left: 50%;
-
-    background-color:  #b9343e;
-    width: $width;
-    height: 86px;
-    border:none;
-
+    &:hover {
+      animation: Fly 1s 0s infinite linear alternate;
+    }
 
     .shirt {
       $size: 49px;
@@ -157,7 +169,7 @@ $font: "FuturalPT";
     font-weight: 300;
     padding: 0;
     height: 100vh;
-    .low{
+    .low {
       position: absolute;
       top:50%;
       margin-top:-325px;
@@ -174,7 +186,7 @@ $font: "FuturalPT";
       line-height: 48px;
       margin-bottom: 30px;
     }
-    h3{
+    h3 {
       font-size: 2em;
       padding: 0 20% 0 20%;
       line-height: 48px;
@@ -229,7 +241,7 @@ $font: "FuturalPT";
       line-height: 48px;
       margin-bottom: 30px;
     }
-    h3{
+    h3 {
       font-size: 2em;
       padding: 0 20% 0 20%;
       line-height: 48px;
@@ -266,20 +278,84 @@ $font: "FuturalPT";
     }
   }
 }
-.footer-screen {
+.choose-wisely {
   background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
   background-size: cover;
-  h1 {
+  h2 {
+    margin-top: -15vh;
     text-align: center;
-    color:#FFFFFF;
-    font-size: 4.375em;
+    color: #fff;
+    font-family: $font;
+    font-size: 4.3em;
     font-weight: 300;
   }
   .get-it-btn {
-    background-color:  #ffffff;
-    width: 349px;
-    height: 86px;
+    margin-top: 5vh;
+    @include button-centered(348px, 86px, #fff);
   }
+  footer {
+    margin-left: -15px;
+    color: #fff;
+    position: absolute;
+    bottom: 5vh;
+
+    .copyright {
+
+      small {
+        font-family: $font;
+        font-size: 1.3em;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+
+    a {
+      color: #fff;
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .icons {
+
+      &:first-child {
+        text-align: center;
+      }
+    }
+    .fa {
+      font-size: 2em;
+
+      padding: 15px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+
+      display: inline-block;
+      text-align: center;
+
+      &:hover {
+        animation: Rotate 0.8s 0.1s 1 linear alternate;
+      }
+    }
+    .fa-twitter:before {
+      padding: 1px;
+    }
+    .fa-facebook:before {
+      padding: 8px;
+    }
+    .fa-instagram:before {
+      padding: 2px;
+    }
+    .links {
+      margin-top: 25px;
+    }
+  }
+}
+
+pre {
+  width: 90%;
+  position: relative;
+  left: -50%;
+  margin-left: 55%;
+  font-size: 1.5em;
+  line-height: 35px;
 }
 
 @media only screen and (max-height : 980px) and (min-height:780px) {
