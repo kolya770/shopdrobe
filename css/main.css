@@ -10,12 +10,13 @@
 .modal .popup .exit{display:block;background-color:inherit;position:absolute;top:-22px;right:-18px;border-radius:50%;padding:0;border:3px solid #3c3c3c;color:#3c3c3c;cursor:pointer;width:40px;height:40px}
 .modal .popup .exit:after{content:'x';position:absolute;width:100%;height:100%;top:10px;right:0;font:30px/10px FuturalPT}
 .modal .popup h5{font:28px FuturalPT;color:#1f1f1f;margin:0 0 41px}
-.look-screen .look-text,.main-screen .get-it-btn .cta-btn,.main-screen .header,.nav-container .nav li a,.poll-screen .poll-text .poll-header{font-family:FuturalPT}
+.choose-wisely footer .copyright small,.choose-wisely h2,.explore-screen .explore-text,.look-screen .look-text .look-header,.main-screen .get-it-btn .cta-btn,.main-screen .header,.nav-container .nav li a,.poll-screen .poll-text .poll-header{font-family:FuturalPT}
 .modal .popup form{padding:0 67px}
 .modal .popup form input{margin-top:16px;border-color:#ff9d00}
 .modal .popup form button{margin-top:44px}
 .nav-container{float:left;position:relative;left:50%}
 .nav-container .nav{float:left;position:relative;left:-50%}
+.explore-screen .try-it-explore img,.poll-screen .iphone,.poll-screen .try-it img{float:right}
 .nav-container .nav li{margin-left:40px}
 .nav-container .nav li.active a{background-color:transparent;color:#b9343e}
 .nav-container .nav li a{color:#434343;font-size:1.6em;font-weight:400}
@@ -33,38 +34,34 @@
 .poll-screen .poll-text .poll-header{margin-bottom:30px;text-align:center}
 .poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px;font-weight:300}
 .poll-screen .poll-text .poll-header h3{font-size:2em;padding:0 20%;line-height:48px;font-weight:300}
-.poll-screen .poll-text .try-it{width:650px;text-align:right;display:inline-block;margin-top:160px}
-.poll-screen .poll-text .try-it p{padding:0;font-size:2.625em;font-weight:300}
-.poll-screen .poll-text .try-it img{float:right;margin-left:35px}
-.poll-screen .iphone{float:right}
-.look-screen .iphone,.look-screen .look-text .try-it-look img{float:left}
-.poll-screen .iphone img{height:100%;width:100%}
+.poll-screen .try-it{width:190px;position:absolute;top:83%;left:44%}
+.poll-screen .try-it p{padding:0;font-size:2.625em;font-weight:300;color:#FFF}
+.poll-screen .iphone{text-align:center;max-width:422px;margin:0 auto}
+.poll-screen .iphone img{height:auto;width:100%}
 .look-screen{background-color:#e6cfc9}
-.look-screen .look-text{position:relative;text-align:center;font-weight:300;padding:0;height:100vh}
-.look-screen .look-text .low{position:absolute;top:50%;margin-top:-325px}
-.look-screen .look-text h1{color:#b0343e;font-size:4.375em;line-height:80px;margin-bottom:30px}
-.look-screen .look-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
-.look-screen .look-text h3{font-size:2em;padding:0 20%;line-height:48px}
-.look-screen .look-text .try-it-look{width:670px;padding:0;margin-top:130px}
-.look-screen .look-text .try-it-look h3{text-align:left;padding:0;color:#b0343e;font-weight:700;font-size:2.625em;transform:rotate(7.811deg);margin-top:0}
-.choose-wisely footer .copyright small,.choose-wisely h2,.explore-screen .explore-text{font-family:FuturalPT;font-weight:300}
-.look-screen .iphone img{height:100%;width:100%}
+.look-screen .look-text{position:absolute;height:450px;width:650px;top:50%;margin-top:-225px;left:45%}
+.look-screen .look-text .look-header{margin-bottom:30px;text-align:center}
+.look-screen .look-text .look-header h2{font-size:4.375em;line-height:80px;font-weight:300;color:#b0343e}
+.look-screen .look-text .look-header h3{font-size:2em;padding:0 20%;line-height:48px;font-weight:300;color:#404142}
+.look-screen .try-it-look{width:190px;position:absolute;top:75%;left:43%}
+.look-screen .try-it-look .text{margin-left:60px}
+.look-screen .try-it-look p{padding:0;font-size:2.625em;color:#b9343e;font-weight:700;transform:rotate(7.811deg)}
+.look-screen .iphone{text-align:center;max-width:422px;margin:0 auto}
+.look-screen .iphone img{height:auto;width:100%}
 .explore-screen{background-color:#f8f2f0}
-.explore-screen .explore-text{color:#404142;text-align:center;position:absolute;height:650px;width:650px;top:50%;margin-top:-325px}
-.explore-screen .explore-text h1{font-size:4.375em;line-height:80px;margin-bottom:30px;color:#b0343e}
-.explore-screen .explore-text h2{font-size:2em;padding:0 12%;line-height:48px;margin-bottom:30px}
-.explore-screen .explore-text h3{font-size:2em;padding:0 20%;line-height:48px}
-.explore-screen .explore-text .try-it-explore{width:650px;text-align:right;display:inline-block;margin-top:70px}
-.explore-screen .explore-text .try-it-explore h3{display:inline-block;padding:0;font-size:2.625em;transform:rotate(-9.974deg);color:#b9343e}
-.explore-screen .explore-text .try-it-explore img{float:right;margin:15px 0 0 35px}
-.explore-screen .explore-text .explore-image{width:670px}
-.explore-screen .explore-text .explore-image img,.explore-screen .iphone{float:right}
-.explore-screen .iphone img{height:100%;width:100%}
+.explore-screen .explore-text{text-align:center;font-weight:300;position:absolute;height:380px;width:650px;top:50%;margin-top:-190px}
+.explore-screen .explore-text .explore-header{margin-bottom:30px;text-align:center;font-family:FuturalPT}
+.explore-screen .explore-text .explore-header h2{font-size:4.375em;line-height:80px;font-weight:300;color:#b0343e}
+.explore-screen .explore-text .explore-header h3{font-size:2em;padding:0 20%;line-height:48px;font-weight:300;color:#404142}
+.explore-screen .try-it-explore{width:100px;position:absolute;top:75%;left:49%}
+.explore-screen .try-it-explore p{padding:0;font-size:2.625em;font-weight:300;transform:rotate(-9.974deg);color:#b9343e}
+.explore-screen .iphone{text-align:center;float:right;max-width:422px;margin:0 auto}
+.explore-screen .iphone img{height:auto;width:100%}
 .choose-wisely{background:url(../img/footerslide.png) 50% 50%,rgba(176,52,62,.99);background-size:cover}
-.choose-wisely h2{margin-top:-15vh;text-align:center;color:#fff;font-size:4.3em}
+.choose-wisely h2{margin-top:-15vh;text-align:center;color:#fff;font-size:4.3em;font-weight:300}
 .choose-wisely .get-it-btn{margin-top:5vh;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
 .choose-wisely footer{margin-left:-15px;color:#fff;position:absolute;bottom:5vh}
-.choose-wisely footer .copyright small{font-size:1.3em;text-align:center}
+.choose-wisely footer .copyright small{font-size:1.3em;font-weight:300;text-align:center}
 .choose-wisely footer a{color:#fff;font-size:1.3em;text-align:center}
 .choose-wisely footer .icons:first-child{text-align:center}
 .choose-wisely footer .fa{font-size:2em;padding:15px;border:1px solid #fff;border-radius:50%;display:inline-block;text-align:center}
@@ -74,9 +71,37 @@
 .choose-wisely footer .fa-instagram:before{padding:2px}
 .choose-wisely footer .links{margin-top:25px}
 pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-height:35px}
-@media only screen and (max-height:980px) and (min-height:780px){.poll-screen .iphone img{width:80%}
+@media only screen and (max-width:1400px) and (min-width:1200px){.explore-screen .explore-text,.look-screen .look-text,.poll-screen .poll-text{height:330px;margin-top:-165px}
+.explore-screen .iphone img,.look-screen .iphone img,.poll-screen .iphone img{width:85%}
+.poll-screen .poll-text .poll-header h2{font-size:3.75em;line-height:65px}
+.poll-screen .poll-text .poll-header h3{font-size:1.8em;padding:0 23%;line-height:35px}
+.poll-screen .try-it p{font-size:1.8em}
+.look-screen .look-text .look-header h2{font-size:3.75em;line-height:65px}
+.look-screen .look-text .look-header h3{font-size:1.8em;padding:0 23%;line-height:35px}
+.look-screen .try-it-look p{font-size:1.8em}
+.explore-screen .explore-text .explore-header h2{font-size:3.75em;line-height:65px}
+.explore-screen .explore-text .explore-header h3{font-size:1.8em;padding:0 23%;line-height:35px}
+.explore-screen .try-it-explore p{font-size:1.8em}
 }
-@media only screen and (max-height:779px){.poll-screen .poll-text{height:600px;margin-top:-300px}
-.poll-screen .poll-text .try-it{margin-top:50px}
-.poll-screen .iphone img{width:65%}
+@media only screen and (max-width:1200px) and (min-width:1000px){.poll-screen .poll-text{width:500px;height:330px;margin-top:-165px}
+.poll-screen .poll-text .poll-header h2{font-size:3.35em;line-height:60px}
+.poll-screen .poll-text .poll-header h3{font-size:1.4em;padding:0 22%;line-height:30px}
+.poll-screen .try-it{width:120px}
+.poll-screen .try-it p{font-size:1.4em}
+.poll-screen .try-it img{width:40%}
+.poll-screen .iphone img{width:80%}
+.look-screen .look-text{width:500px;height:330px;margin-top:-165px}
+.look-screen .look-text .look-header h2{font-size:3.35em;line-height:60px}
+.look-screen .look-text .look-header h3{font-size:1.4em;padding:0 22%;line-height:30px}
+.look-screen .try-it-look{width:120px}
+.look-screen .try-it-look p{font-size:1.4em}
+.look-screen .try-it-look img{width:40%}
+.look-screen .iphone img{width:80%}
+.explore-screen .explore-text{width:500px;height:330px;margin-top:-165px}
+.explore-screen .explore-text .explore-header h2{font-size:3.35em;line-height:60px}
+.explore-screen .explore-text .explore-header h3{font-size:1.4em;padding:0 22%;line-height:30px}
+.explore-screen .try-it-explore{width:120px}
+.explore-screen .try-it-explore p{font-size:1.4em}
+.explore-screen .try-it-explore img{width:40%}
+.explore-screen .iphone img{width:80%}
 }

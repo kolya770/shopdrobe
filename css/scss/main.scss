@@ -110,7 +110,9 @@ $font: "FuturalPT";
   }
 }
 .poll-screen {
+
   background-color:  rgb(176, 52, 62);
+
   .poll-text {
     $size-width: 650px;
     $size-height: 450px;
@@ -120,6 +122,7 @@ $font: "FuturalPT";
     top:50%;
     margin-top: -225px;
     color: #FFFFFF;
+
     .poll-header {
       margin-bottom: 30px;
       text-align: center;
@@ -130,155 +133,189 @@ $font: "FuturalPT";
         line-height: 80px;
         font-weight: 300;
       }
+
       h3 {
         font-size: 2em;
         padding: 0 20%;
         line-height: 48px;
         font-weight: 300;
       }
-    }
-    .try-it {
-      width: 650px;
-      text-align: right;
-      display: inline-block;
-      margin-top: 160px;
-      p {
-        padding: 0;
-        font-size: 2.625em;
-        font-weight: 300;
-      }
-      img {
-        float: right;
-        margin-left: 35px;
-      }
+
     }
   }
-  .iphone {
-    float: right;
+
+  .try-it {
+    width: 190px;
+    position: absolute;
+    top:83%;
+    left:44%;
+
+    p {
+      padding: 0;
+      font-size: 2.625em;
+      font-weight: 300;
+      color: #FFFFFF;
+    }
+
     img {
-      height: 100%;
+      float: right;
+    }
+
+  }
+  .iphone {
+    text-align: center;
+    float: right;
+    max-width: 422px;
+    margin: 0 auto;
+
+    img {
+      height: auto;
       width: 100%;
     }
+
   }
 }
 .look-screen {
+
   background-color: rgb(230, 207, 201);
+
   .look-text {
-    position: relative;
-    text-align: center;
-    font-family: $font;
-    font-weight: 300;
-    padding: 0;
-    height: 100vh;
-    .low {
-      position: absolute;
-      top:50%;
-      margin-top:-325px;
-    }
-    h1 {
-      color:rgb(176, 52, 62);
-      font-size: 4.375em;
-      line-height: 80px;
+    $size-width: 650px;
+    $size-height: 450px;
+    position: absolute;
+    height: $size-height;
+    width: $size-width;
+    top: 50%;
+    margin-top: -225px;
+    left: 45%;
+
+    .look-header {
       margin-bottom: 30px;
-    }
-    h2 {
-      font-size: 2em;
-      padding: 0 12% 0 12%;
-      line-height: 48px;
-      margin-bottom: 30px;
-    }
-    h3 {
-      font-size: 2em;
-      padding: 0 20% 0 20%;
-      line-height: 48px;
-    }
-    .try-it-look {
-      width: 670px;
-      padding: 0;
-      margin-top: 130px;
-      img {
-        float: left;
+      text-align: center;
+      font-family: $font;
+
+      h2 {
+        font-size: 4.375em;
+        line-height: 80px;
+        font-weight: 300;
+        color: rgb(176, 52, 62);
       }
+
       h3 {
-        text-align: left;
-        padding: 0;
-        color:rgb(176, 52, 62);
-        font-weight: 700;
-        font-size: 2.625em;
-        transform: rotate(7.811deg);
-        margin-top: 0;
+        font-size: 2em;
+        padding: 0 20%;
+        line-height: 48px;
+        font-weight: 300;
+        color: rgb(64, 65, 66);
       }
+
     }
   }
+
+  .try-it-look {
+    width: 190px;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+
+    .text {
+      margin-left: 60px;
+    }
+
+    p {
+      padding: 0;
+      font-size: 2.625em;
+      color: #b9343e;
+      font-weight: 700;
+      transform: rotate(7.811deg)
+    }
+
+  }
+
   .iphone {
-    float: left;
+    text-align: center;
+    max-width: 422px;
+    margin: 0 auto;
+
     img {
-      height: 100%;
+      height: auto;
       width: 100%;
     }
+
   }
 }
 .explore-screen {
+
   background-color:  rgb(248, 242, 240);
+
   .explore-text {
-    color: rgb(64, 65, 66);
     text-align: center;
     font-family: $font;
     font-weight: 300;
+    $size-width: 650px;
+    $size-height: 380px;
     position: absolute;
-    height: 650px;
-    width: 650px;
-    top:50%;
-    margin-top: -325px;
-    h1 {
-      font-size: 4.375em;
-      line-height: 80px;
+    height: $size-height;
+    width: $size-width;
+    top: 50%;
+    margin-top: -190px;
+
+    .explore-header {
       margin-bottom: 30px;
-      color: rgb(176, 52, 62);
-    }
-    h2 {
-      font-size: 2em;
-      padding: 0 12% 0 12%;
-      line-height: 48px;
-      margin-bottom: 30px;
-    }
-    h3 {
-      font-size: 2em;
-      padding: 0 20% 0 20%;
-      line-height: 48px;
-    }
-    .try-it-explore {
-      width: 650px;
-      text-align: right;
-      display: inline-block;
-      margin-top: 70px;
+      text-align: center;
+      font-family: $font;
+
+      h2 {
+        font-size: 4.375em;
+        line-height: 80px;
+        font-weight: 300;
+        color: rgb(176, 52, 62);
+      }
+
       h3 {
-        display: inline-block;
-        padding: 0;
-        font-size: 2.625em;
-        transform: rotate(-9.974deg);
-        color:rgb(185, 52, 62);
-      }
-      img {
-        float: right;
-        margin: 15px 0 0 35px;
-      }
-    }
-    .explore-image {
-      width: 670px;
-      img {
-        float: right;
+        font-size: 2em;
+        padding: 0 20%;
+        line-height: 48px;
+        font-weight: 300;
+        color: rgb(64, 65, 66);
       }
     }
   }
-  .iphone {
-    float: right;
+
+  .try-it-explore {
+    width: 100px;
+    position: absolute;
+    top:75%;
+    left:49%;
+
+    p {
+      padding: 0;
+      font-size: 2.625em;
+      font-weight: 300;
+      transform: rotate(-9.974deg);
+      color:rgb(185, 52, 62);
+    }
+
     img {
-      height: 100%;
+      float: right;
+    }
+
+  }
+
+  .iphone {
+    text-align: center;
+    float: right;
+    max-width: 422px;
+    margin: 0 auto;
+
+    img {
+      height: auto;
       width: 100%;
     }
+
   }
 }
+
 .choose-wisely {
   background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
   background-size: cover;
@@ -359,31 +396,247 @@ pre {
   line-height: 35px;
 }
 
-@media only screen and (max-height : 980px) and (min-height:780px) {
+@media only screen and (max-width : 1400px) and (min-width: 1200px) {
+  .poll-screen {
 
-    .poll-screen {
-      .iphone {
-        img {
-          width: 80%;
+    .poll-text {
+
+      height: 330px;
+      margin-top: -165px;
+
+      .poll-header {
+
+        h2 {
+          font-size: 3.750em;
+          line-height: 65px;
+        }
+
+        h3 {
+          font-size: 1.80em;
+          padding: 0 23%;
+          line-height: 35px;
         }
       }
     }
+
+    .try-it {
+
+      p {
+        font-size: 1.80em;
+
+      }
+    }
+
+    .iphone {
+
+      img {
+        width: 85%;
+      }
+
+    }
+
+  }
+
+  .look-screen {
+
+    .look-text {
+
+      height: 330px;
+      margin-top: -165px;
+
+      .look-header {
+
+        h2 {
+          font-size: 3.750em;
+          line-height: 65px;
+        }
+
+        h3 {
+          font-size: 1.80em;
+          padding: 0 23%;
+          line-height: 35px;
+        }
+      }
+    }
+
+    .try-it-look {
+
+      p {
+        font-size: 1.80em;
+
+      }
+    }
+
+    .iphone {
+
+      img {
+        width: 85%;
+      }
+
+    }
+
+  }
+
+  .explore-screen {
+
+    .explore-text {
+
+      height: 330px;
+      margin-top: -165px;
+
+      .explore-header {
+
+        h2 {
+          font-size: 3.750em;
+          line-height: 65px;
+        }
+
+        h3 {
+          font-size: 1.80em;
+          padding: 0 23%;
+          line-height: 35px;
+        }
+      }
+    }
+
+    .try-it-explore {
+
+      p {
+        font-size: 1.80em;
+
+      }
+    }
+
+    .iphone {
+
+      img {
+        width: 85%;
+      }
+
+    }
+  }
 }
-@media only screen and (max-height : 779px) {
+
+@media only screen and (max-width : 1200px) and (min-width: 1000px) {
 
   .poll-screen {
+
     .poll-text {
-      height: 600px;
-      margin-top: -300px;
-      
-      .try-it {
-        margin-top: 50px;
+      width: 500px;
+      height: 330px;
+      margin-top: -165px;
+
+      .poll-header {
+
+        h2 {
+          font-size: 3.350em;
+          line-height: 60px;
+        }
+
+        h3 {
+          font-size: 1.40em;
+          padding: 0 22%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .try-it {
+      width: 120px;
+      p {
+        font-size: 1.40em;
+      }
+      img {
+        width: 40%;
       }
     }
     .iphone {
+
       img {
-        width: 65%;
+        width: 80%;
       }
+
+    }
+  }
+
+  .look-screen {
+
+    .look-text {
+      width: 500px;
+      height: 330px;
+      margin-top: -165px;
+
+      .look-header {
+
+        h2 {
+          font-size: 3.350em;
+          line-height: 60px;
+        }
+
+        h3 {
+          font-size: 1.40em;
+          padding: 0 22%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .try-it-look {
+      width: 120px;
+      p {
+        font-size: 1.40em;
+      }
+      img {
+        width: 40%;
+      }
+    }
+    .iphone {
+
+      img {
+        width: 80%;
+      }
+
+    }
+
+  }
+
+  .explore-screen {
+
+    .explore-text {
+      width: 500px;
+      height: 330px;
+      margin-top: -165px;
+
+      .explore-header {
+
+        h2 {
+          font-size: 3.350em;
+          line-height: 60px;
+        }
+
+        h3 {
+          font-size: 1.40em;
+          padding: 0 22%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .try-it-explore {
+      width: 120px;
+      p {
+        font-size: 1.40em;
+      }
+      img {
+        width: 40%;
+      }
+    }
+    .iphone {
+
+      img {
+        width: 80%;
+      }
+
     }
   }
 }
