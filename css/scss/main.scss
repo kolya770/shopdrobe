@@ -110,17 +110,12 @@ $font: "FuturalPT";
   }
 }
 .poll-screen {
+  background: url(../img/photopollbg.png) no-repeat 0 50%, rgb(176, 52, 62);
+  background-size: 17%;
 
-  background-color:  rgb(176, 52, 62);
 
   .poll-text {
-    $size-width: 650px;
-    $size-height: 450px;
-    position: absolute;
-    height: $size-height;
-    width: $size-width;
-    top:50%;
-    margin-top: -225px;
+    margin-top: 25%;
     color: #FFFFFF;
 
     .poll-header {
@@ -246,19 +241,11 @@ $font: "FuturalPT";
 }
 .explore-screen {
 
-  background-color:  rgb(248, 242, 240);
+  background: url(../img/question.png) no-repeat 5% 87%, rgb(248, 242, 240);
+  background-size: 17%;
 
   .explore-text {
-    text-align: center;
-    font-family: $font;
-    font-weight: 300;
-    $size-width: 650px;
-    $size-height: 380px;
-    position: absolute;
-    height: $size-height;
-    width: $size-width;
-    top: 50%;
-    margin-top: -190px;
+    margin-top: 25%;
 
     .explore-header {
       margin-bottom: 30px;
@@ -274,7 +261,7 @@ $font: "FuturalPT";
 
       h3 {
         font-size: 2em;
-        padding: 0 20%;
+        padding: 0 16%;
         line-height: 48px;
         font-weight: 300;
         color: rgb(64, 65, 66);
@@ -401,9 +388,6 @@ pre {
 
     .poll-text {
 
-      height: 330px;
-      margin-top: -165px;
-
       .poll-header {
 
         h2 {
@@ -481,29 +465,15 @@ pre {
 
     .explore-text {
 
-      height: 330px;
-      margin-top: -165px;
-
       .explore-header {
 
         h2 {
-          font-size: 3.750em;
           line-height: 65px;
         }
 
         h3 {
-          font-size: 1.80em;
-          padding: 0 23%;
           line-height: 35px;
         }
-      }
-    }
-
-    .try-it-explore {
-
-      p {
-        font-size: 1.80em;
-
       }
     }
 
@@ -522,9 +492,6 @@ pre {
   .poll-screen {
 
     .poll-text {
-      width: 500px;
-      height: 330px;
-      margin-top: -165px;
 
       .poll-header {
 
@@ -575,7 +542,7 @@ pre {
 
         h3 {
           font-size: 1.40em;
-          padding: 0 22%;
+          padding: 0 19.5%;
           line-height: 30px;
         }
       }
@@ -603,20 +570,16 @@ pre {
   .explore-screen {
 
     .explore-text {
-      width: 500px;
-      height: 330px;
-      margin-top: -165px;
 
       .explore-header {
 
         h2 {
-          font-size: 3.350em;
+
           line-height: 60px;
         }
 
         h3 {
-          font-size: 1.40em;
-          padding: 0 22%;
+
           line-height: 30px;
         }
       }
@@ -624,12 +587,7 @@ pre {
 
     .try-it-explore {
       width: 120px;
-      p {
-        font-size: 1.40em;
-      }
-      img {
-        width: 40%;
-      }
+
     }
     .iphone {
 
