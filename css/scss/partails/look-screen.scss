@@ -1,0 +1,181 @@
+.look-screen {
+
+  background-color: rgb(230, 207, 201);
+
+  .bg-look-shirt {
+    position: absolute;
+    right: -9%;
+    top: 8%;
+    width: 30%;
+  }
+
+  .bg-look-coat {
+    position: absolute;
+    left: -16%;
+    top: 10%;
+    width: 30%;
+  }
+
+  .bg-look-pants {
+    position: absolute;
+    right: -15%;
+    bottom: -45%;
+    width: 30%;
+  }
+
+  .bg-look-shoes {
+    position: absolute;
+    bottom: -28%;
+    width: 20%;
+    right: 15%;
+  }
+
+  .look-text {
+    position: absolute;
+    max-width: 650px;
+    height: 450px;
+    top: 50%;
+    margin-top: -225px;
+    left: 45%;
+
+    .look-header {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: $font;
+
+      h2 {
+        font-size: 4.375em;
+        line-height: 80px;
+        font-weight: 300;
+        color: rgb(176, 52, 62);
+      }
+
+      h3 {
+        font-size: 2em;
+        padding: 0 20%;
+        line-height: 48px;
+        font-weight: 300;
+        color: rgb(64, 65, 66);
+      }
+
+    }
+  }
+
+  .try-it-look {
+    width: 190px;
+    position: absolute;
+    top: 75%;
+    left: 48%;
+
+    .text {
+      margin-left: 60px;
+    }
+
+    p {
+      padding: 0;
+      font-size: 2.625em;
+      color: #b9343e;
+      font-weight: 700;
+      transform: rotate(7.811deg)
+    }
+
+  }
+
+  .iphone {
+    text-align: center;
+    max-width: 422px;
+
+    img {
+      margin-top: 25px;
+      height: auto;
+      width: 100%;
+    }
+
+  }
+}
+
+@media (min-width: 1201px) and (max-width : 1400px) {
+
+  .look-screen {
+
+    .look-text {
+
+      height: 376px;
+      margin-top: -188px;
+      max-width: 450px;
+      .look-header {
+
+        h2 {
+          font-size: 3.750em;
+          line-height: 65px;
+        }
+
+        h3 {
+          font-size: 1.80em;
+          padding: 0 10%;
+          line-height: 35px;
+        }
+      }
+    }
+
+    .try-it-look {
+
+      p {
+        font-size: 1.80em;
+
+      }
+    }
+
+    .iphone {
+
+      img {
+        width: 85%;
+      }
+
+    }
+
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+
+  .look-screen {
+
+    .look-text {
+      max-width: 450px;
+      height: 340px;
+      margin-top: -170px;
+      .look-header {
+
+        h2 {
+          font-size: 3.350em;
+          line-height: 60px;
+        }
+
+        h3 {
+          font-size: 1.45em;
+          padding: 0 17.5%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .try-it-look {
+      width: 120px;
+      p {
+        font-size: 1.40em;
+      }
+      img {
+        width: 40%;
+      }
+    }
+    .iphone {
+
+      img {
+        width: 70%;
+      }
+
+    }
+
+  }
+}

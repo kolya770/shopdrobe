@@ -1,0 +1,163 @@
+$font: "FuturalPT";
+
+.explore-screen {
+
+  background: url(../img/question.png) no-repeat 5% 85%, rgb(248, 242, 240);
+  background-size: 13%;
+
+  .explore-text {
+    position: absolute;
+    top:50%;
+    max-width: 590px;
+    height: 450px;
+    margin-top: -225px;
+
+    .explore-header {
+      margin-bottom: 30px;
+      text-align: center;
+
+      h2 {
+        font-size: 4.375em;
+        line-height: 80px;
+        font-weight: 300;
+        color: rgb(176, 52, 62);
+        font-family: $font;
+      }
+
+      h3 {
+        font-size: 2em;
+        padding: 0 16%;
+        line-height: 48px;
+        font-weight: 300;
+        color: rgb(64, 65, 66);
+        font-family: $font;
+      }
+    }
+  }
+
+  .try-it-explore {
+    width: 100px;
+    position: absolute;
+    top:76%;
+    left: 51.5%;
+
+    p {
+      padding: 0;
+      font-size: 2.625em;
+      font-weight: 300;
+      transform: rotate(-9.974deg);
+      color:rgb(185, 52, 62);
+      font-family: $font;
+    }
+
+    img {
+      float: right;
+    }
+
+  }
+
+  .iphone {
+    text-align: center;
+    float: right;
+    max-width: 422px;
+    margin: 0 auto;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+
+  }
+}
+
+@media (min-width: 1201px) and  (max-width : 1400px) {
+
+  .explore-screen {
+    background-size: 13%;
+    .explore-text {
+      height: 376px;
+      margin-top: -188px;
+      left: 22%;
+      max-width: 450px;
+      .explore-header {
+
+        h2 {
+          font-size: 3.750em;
+          line-height: 65px;
+        }
+
+        h3 {
+          font-size: 1.80em;
+          padding: 0 10%;
+          line-height: 35px;
+        }
+      }
+    }
+
+    .try-it-explore {
+      width: 80px;
+      left: 57%;
+      p {
+        font-size: 2.5em;
+      }
+
+      img {
+        width: 80%;
+      }
+
+    }
+
+    .iphone {
+
+      img {
+        width: 85%;
+      }
+
+    }
+
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+
+  .explore-screen {
+    background-size: 15%;
+    .explore-text {
+      max-width: 450px;
+      left:18%;
+      height: 340px;
+      margin-top: -170px;
+      .explore-header {
+
+        h2 {
+          font-size: 3.350em;
+          line-height: 60px;
+        }
+
+        h3 {
+          font-size: 1.45em;
+          padding: 0 17.5%;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .try-it-explore {
+      width: 60px;
+      left: 54%;
+      p {
+        font-size: 1.90em;
+      }
+      img {
+        width: 75%;
+      }
+    }
+    .iphone {
+
+      img {
+        width: 70%;
+      }
+
+    }
+  }
+}
