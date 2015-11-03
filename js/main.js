@@ -59,4 +59,70 @@ $(document).ready(function() {
         },
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
+
+    // TAGS
+    var options = {
+
+        // Aligning the text popups
+        align: {
+            x: 'center', // left, center or right
+            y: 'center'  // top,  center or bottom
+        },
+
+
+        // The (relative) offset of the popups in pixels
+        offset: {
+            left: 0, // horizontal offset
+            top: 30  // vertical offset
+        },
+
+
+        // event handlers of the tags
+        handlers: {
+
+            // Any vanilla JavaScript event is a valid key
+            click: function(e) {
+                //alert('You clicked a button');
+
+                this; // the DOM Node
+                e;    // the Event
+            },
+
+
+            // For convenience, you can use strings to
+            // show, hide and toggle the popups
+            mouseenter: 'show',
+            mouseleave: 'hide'
+        }
+
+    };
+
+    var data = [
+        // x and y values can be decimals (0-1)
+        {
+            x: 250,
+            y: 290,
+
+            // (Optional) Set the text of the popup.
+            // If omitted, no popup window will appear.
+            text: 'Rubaha',
+
+            // (Optional) Set the element’s attributes.
+            attributes: {
+                id:    'my-id',
+                class: 'my-class'
+            }
+        },
+
+        // x and y values can be in pixels too
+        // Don’t you worry, they will scale perfectly
+        {
+            x: 1052,
+            y: 356,
+            text: 'Duwey'
+        }
+    ];
+
+    // The magic comes together here
+    $('.taggd').taggd( options, data );
 });

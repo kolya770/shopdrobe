@@ -39,6 +39,10 @@ $font: "FuturalPT";
     position: absolute;
     top:83%;
     left:47%;
+    
+    @media #{$bootstrap-sm} {
+      top: 88%;
+    }
 
     p {
       padding: 0;
@@ -60,7 +64,7 @@ $font: "FuturalPT";
     //margin: 0 auto;
 
     img {
-      margin-top: 25px;
+      margin-top: -15px;
       height: auto;
       width: 100%;
     }

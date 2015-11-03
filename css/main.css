@@ -1,5 +1,4 @@
-@keyframes Fly{to{margin-top:-15px}
-}
+.explore-screen .try-it-explore img,.poll-screen .iphone,.poll-screen .try-it img{float:right}
 @keyframes Rotate{75%{transform:rotate(290deg)}
 100%{transform:rotate(360deg)}
 }
@@ -10,24 +9,16 @@
 .modal .popup .exit{display:block;background-color:inherit;position:absolute;top:-22px;right:-18px;border-radius:50%;padding:0;border:3px solid #3c3c3c;color:#3c3c3c;cursor:pointer;width:40px;height:40px}
 .modal .popup .exit:after{content:'x';position:absolute;width:100%;height:100%;top:10px;right:0;font:30px/10px FuturalPT}
 .modal .popup h5{font:28px FuturalPT;color:#1f1f1f;margin:0 0 41px}
-.look-screen .look-text .look-header,.main-screen .get-it-btn .cta-btn,.main-screen .header,.nav-container .nav li a,.poll-screen .poll-text .poll-header h2,.poll-screen .poll-text .poll-header h3,.poll-screen .try-it p{font-family:FuturalPT}
+.look-screen .look-text .look-header,.main-screen .get-it-btn .cta-btn,.main-screen .header,.poll-screen .poll-text .poll-header h2,.poll-screen .poll-text .poll-header h3,.poll-screen .try-it p{font-family:FuturalPT}
 .modal .popup form{padding:0 67px}
 .modal .popup form input{margin-top:16px;border-color:#ff9d00}
 .modal .popup form button{margin-top:44px}
 pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-height:35px}
-.nav-container{float:left;position:relative;left:50%}
-.nav-container .nav{float:left;position:relative;left:-50%}
-.explore-screen .try-it-explore img,.poll-screen .iphone,.poll-screen .try-it img{float:right}
-.nav-container .nav li{margin-left:40px}
-.nav-container .nav li.active a{background-color:transparent;color:#b9343e}
-.nav-container .nav li a{color:#434343;font-size:1.6em;font-weight:400}
-.navbar{position:absolute;z-index:100;width:100%;background-color:#fff;border:none}
 .main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
 .main-screen .header{text-transform:uppercase;color:#400001;font-size:5em;font-weight:300;text-align:center;margin-bottom:30px}
 .main-screen .header.sub{text-align:right}
 .main-screen .header-logo{height:100px}
 .main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
-.main-screen .get-it-btn:hover{animation:Fly 1s 0s infinite linear alternate}
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
 .main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;font-weight:300;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen{background:url(../img/photopollbg.png) 0 50% no-repeat,#b0343e;background-size:17%}
@@ -36,9 +27,11 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px;font-weight:300}
 .poll-screen .poll-text .poll-header h3{font-size:2em;padding:0 20%;line-height:48px;font-weight:300}
 .poll-screen .try-it{width:190px;position:absolute;top:83%;left:47%}
+@media (min-width:768px){.poll-screen .try-it{top:88%}
+}
 .poll-screen .try-it p{padding:0;font-size:2.625em;font-weight:300;color:#FFF}
 .poll-screen .iphone{text-align:center;max-width:422px}
-.poll-screen .iphone img{margin-top:25px;height:auto;width:100%}
+.poll-screen .iphone img{margin-top:-15px;height:auto;width:100%}
 @media (min-width:1201px) and (max-width:1400px){.poll-screen{background-size:17%}
 .poll-screen .poll-text{height:376px;margin-top:-188px;left:22%;max-width:450px}
 .poll-screen .poll-text .poll-header h2{font-size:3.75em;line-height:65px}

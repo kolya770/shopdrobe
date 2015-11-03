@@ -1,3 +1,7 @@
+<?php
+    require_once 'Mobile_Detect.php';
+    $detect = new Mobile_Detect();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <?php if ( ! $detect->isMobile() ): ?>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <?php endif ?>
+
+    <link rel="stylesheet" type="text/css" href="css/taggd.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,23 +56,6 @@
             </div>
         </div>
     </div>
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="nav-container collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#main">Main page</a></li>
-                    <li><a href="#poll">Poll</a></li>
-                    <li><a href="#look">Look</a></li>
-                    <li><a href="#explore">Explore</a></li>
-                    <li><a href="#choose-wisely">Social</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
 
     <div id="fullpage">
 
@@ -119,7 +110,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5 col-md-5 col-md-offset-1  iphone">
-                        <img src="img/iphonegrey.png">
+                        <img class="taggd" src="img/iphonegrey.png">
                     </div>
                     <div class="col-sm-7 look-text">
                         <div class="look-header">
@@ -218,8 +209,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/isMobile.min.js"></script>
+    <script src="js/jquery.taggd.min.js"></script>
+
+    <?php if ( ! $detect->isMobile() ): ?>
+        <script src="js/jquery.fullPage.min.js"></script>
+    <?php endif ?>
+
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -14,3 +14,8 @@
   width: $width;
   height: $height;
 }
+
+$bootstrap-xs: "(max-width:767px)";
+$bootstrap-sm: "(min-width:768px)";
+$bootstrap-md: "(min-width:992px)";
+$bootstrap-lg: "(min-width:1200px)";

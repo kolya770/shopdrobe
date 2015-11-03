@@ -22,10 +22,6 @@
 
     @include button-centered(348px, 86px, #b9343e);
 
-    &:hover {
-      animation: Fly 1s 0s infinite linear alternate;
-    }
-
     .shirt {
       $size: 49px;
       background: url(../img/shirt-btn.png);
