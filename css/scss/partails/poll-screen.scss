@@ -20,11 +20,16 @@ $font: "FuturalPT";
       color: #FFFFFF;
 
       @media #{$bootstrap-md} {
-      height: 330px;
+        height: 330px;
       }
 
       @media #{$bootstrap-lg} {
-      height: 450px;
+        height: 450px;
+        margin-top: 8%;
+      }
+      @media #{$screen-xl} {
+        height: 450px;
+        margin-top: 12%;
       }
 
       .poll-header {
@@ -46,6 +51,10 @@ $font: "FuturalPT";
           }
 
           @media #{$bootstrap-lg} {
+            font-size: 4em;
+            line-height: 75px;
+          }
+          @media #{$screen-xl} {
             font-size: 4.375em;
             line-height: 80px;
           }
@@ -66,6 +75,13 @@ $font: "FuturalPT";
           }
 
           @media #{$bootstrap-lg} {
+            font-size: 1.8em;
+            line-height: 43px;
+            padding: 0 19.5%;
+          }
+
+          @media #{$screen-xl} {
+            padding: 0 16%;
             font-size: 2em;
             line-height: 48px;
           }
@@ -91,6 +107,11 @@ $font: "FuturalPT";
         left: 51%;
       }
       @media #{$bootstrap-lg} {
+        top: 84%;
+        width: 140px;
+        left: 54%;
+      }
+      @media #{$screen-xl} {
         top: 83%;
         width: 190px;
         left: 47%;
@@ -112,6 +133,9 @@ $font: "FuturalPT";
         }
 
         @media #{$bootstrap-lg} {
+          font-size: 2.375em;
+        }
+        @media #{$screen-xl} {
           font-size: 2.625em;
         }
       }
@@ -125,6 +149,9 @@ $font: "FuturalPT";
 
         @media #{$bootstrap-md} {
           width: 42%;
+        }
+        @media #{$bootstrap-lg} {
+          width: 37%;
         }
       }
 
@@ -144,6 +171,9 @@ $font: "FuturalPT";
       }
 
       @media #{$bootstrap-lg} {
+        max-width: 370px;
+      }
+      @media #{$screen-xl} {
         max-width: 422px;
       }
 
