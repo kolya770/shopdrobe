@@ -1,3 +1,5 @@
+$font: "FuturalPT";
+
 .look-screen {
 
   background-color: rgb(230, 207, 201);
@@ -31,52 +33,126 @@
   }
 
   .look-text {
-    position: absolute;
-    max-width: 650px;
-    height: 450px;
-    top: 50%;
-    margin-top: -225px;
-    left: 45%;
+
+    //max-width: 650px;
+    margin-top: 12%;
+
+    @media #{$bootstrap-md} {
+      height: 330px;
+    }
+
+    @media #{$bootstrap-lg} {
+      height: 450px;
+    }
 
     .look-header {
       margin-bottom: 30px;
       text-align: center;
-      font-family: $font;
 
       h2 {
-        font-size: 4.375em;
-        line-height: 80px;
+        font-family: $font;
         font-weight: 300;
         color: rgb(176, 52, 62);
+
+        @media #{$bootstrap-sm} {
+          font-size: 2.6em;
+          line-height: 43px;
+        }
+
+        @media #{$bootstrap-md} {
+          font-size: 3.375em;
+          line-height: 50px;
+        }
+
+        @media #{$bootstrap-lg} {
+          font-size: 4.375em;
+          line-height: 80px;
+        }
       }
 
       h3 {
-        font-size: 2em;
-        padding: 0 20%;
-        line-height: 48px;
+        padding: 0 16%;
         font-weight: 300;
+        font-family: $font;
         color: rgb(64, 65, 66);
-      }
 
+        @media #{$bootstrap-sm} {
+          font-size: 1.25em;
+          line-height: 25px;
+        }
+        @media #{$bootstrap-md} {
+          font-size: 1.65em;
+          line-height: 30px;
+        }
+
+        @media #{$bootstrap-lg} {
+          font-size: 2em;
+          line-height: 48px;
+        }
+      }
     }
   }
 
   .try-it-look {
-    width: 190px;
     position: absolute;
-    top: 75%;
-    left: 48%;
+
+    @media #{$bootstrap-sm} {
+      top: 75%;
+      left: 47%;
+      width: 130px;
+    }
+
+    @media #{$bootstrap-md} {
+      top: 75%;
+      left: 43%;
+      width: 130px;
+    }
+
+    @media #{$bootstrap-lg} {
+      top: 75%;
+      left: 48%;
+      width: 190px;
+    }
 
     .text {
-      margin-left: 60px;
+
+      @media #{$bootstrap-md} {
+        margin-left: 30px;
+      }
+      @media #{$bootstrap-lg} {
+        margin-left: 60px;
+      }
     }
 
     p {
       padding: 0;
-      font-size: 2.625em;
       color: #b9343e;
-      font-weight: 700;
-      transform: rotate(7.811deg)
+      font-weight: 300;
+      transform: rotate(7.811deg);
+      font-size: $font;
+
+      @media #{$bootstrap-sm} {
+        font-size: 1.9em;
+      }
+
+      @media #{$bootstrap-md} {
+        font-size: 2.225em;
+      }
+
+      @media #{$bootstrap-lg} {
+        font-size: 2.625em;
+      }
+    }
+
+    img {
+
+      @media #{$bootstrap-sm} {
+        width: 34%;
+      }
+
+      @media #{$bootstrap-md} {
+        width: 37%;
+      }
     }
 
   }
@@ -85,96 +161,21 @@
     text-align: center;
     max-width: 422px;
 
+    @media #{$bootstrap-sm} {
+      max-width: 280px;
+    }
+
+    @media #{$bootstrap-md} {
+      max-width: 320px;
+    }
+
+    @media #{$bootstrap-lg} {
+      max-width: 422px;
+    }
+
     img {
-      margin-top: 25px;
       height: auto;
       width: 100%;
-    }
-
-  }
-}
-
-@media (min-width: 1201px) and (max-width : 1400px) {
-
-  .look-screen {
-
-    .look-text {
-
-      height: 376px;
-      margin-top: -188px;
-      max-width: 450px;
-      .look-header {
-
-        h2 {
-          font-size: 3.750em;
-          line-height: 65px;
-        }
-
-        h3 {
-          font-size: 1.80em;
-          padding: 0 10%;
-          line-height: 35px;
-        }
-      }
-    }
-
-    .try-it-look {
-
-      p {
-        font-size: 1.80em;
-
-      }
-    }
-
-    .iphone {
-
-      img {
-        width: 85%;
-      }
-
-    }
-
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-
-  .look-screen {
-
-    .look-text {
-      max-width: 450px;
-      height: 340px;
-      margin-top: -170px;
-      .look-header {
-
-        h2 {
-          font-size: 3.350em;
-          line-height: 60px;
-        }
-
-        h3 {
-          font-size: 1.45em;
-          padding: 0 17.5%;
-          line-height: 30px;
-        }
-      }
-    }
-
-    .try-it-look {
-      width: 120px;
-      p {
-        font-size: 1.40em;
-      }
-      img {
-        width: 40%;
-      }
-    }
-    .iphone {
-
-      img {
-        width: 70%;
-      }
-
     }
 
   }

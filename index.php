@@ -81,7 +81,7 @@
         <div class="poll-screen section">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 poll-text">
+                    <div class="col-sm-6 col-sm-offset-1 poll-text">
                         <div class="poll-header">
                             <h2>POLL IS OUR MAIN FUNCTION</h2>
                         </div>
@@ -109,10 +109,10 @@
             <img src="img/shoes.png" class="bg-look-shoes">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5 col-md-5 col-md-offset-1  iphone">
+                    <div class="col-sm-5  col-sm-offset-1 iphone">
                         <img class="taggd" src="img/iphonegrey.png">
                     </div>
-                    <div class="col-sm-7 look-text">
+                    <div class="col-sm-6 look-text">
                         <div class="look-header">
                             <h2>LOOK ON FASHIONGEEKS</h2>
                         </div>
@@ -135,9 +135,9 @@
         <div class="explore-screen section">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 explore-text">
+                    <div class="col-sm-6 col-sm-offset-1 explore-text">
                         <div class="explore-header">
-                            <h2>EXPLORE AND INSPIRE</h2>
+                            <h2>EXPLORE AND<br/>INSPIRE</h2>
                         </div>
                         <div class="explore-header">
                             <h3>Now you don't need to waste tans on time to upload two photos.</h3>

@@ -2,56 +2,121 @@ $font: "FuturalPT";
 
 .explore-screen {
 
-  background: url(../img/question.png) no-repeat 5% 85%, rgb(248, 242, 240);
-  background-size: 13%;
+  background: url(../img/question.png) no-repeat 5% 88%, rgb(248, 242, 240);
+  background-size: 15%;
 
   .explore-text {
-    position: absolute;
-    top:50%;
-    max-width: 590px;
-    height: 450px;
-    margin-top: -225px;
+    margin-top: 12%;
+
+    @media #{$bootstrap-md} {
+      height: 330px;
+      max-width: 570px;
+    }
+
+    @media #{$bootstrap-lg} {
+      height: 450px;
+    }
 
     .explore-header {
       margin-bottom: 30px;
       text-align: center;
 
       h2 {
-        font-size: 4.375em;
-        line-height: 80px;
+        font-family: $font;
         font-weight: 300;
         color: rgb(176, 52, 62);
-        font-family: $font;
+
+        @media #{$bootstrap-sm} {
+          font-size: 2.6em;
+          line-height: 43px;
+        }
+
+        @media #{$bootstrap-md} {
+          font-size: 3.375em;
+          line-height: 50px;
+        }
+
+        @media #{$bootstrap-lg} {
+          font-size: 4.375em;
+          line-height: 80px;
+        }
       }
 
       h3 {
-        font-size: 2em;
         padding: 0 16%;
-        line-height: 48px;
         font-weight: 300;
-        color: rgb(64, 65, 66);
         font-family: $font;
+        color: rgb(64, 65, 66);
+
+        @media #{$bootstrap-sm} {
+          font-size: 1.25em;
+          line-height: 25px;
+        }
+        @media #{$bootstrap-md} {
+          font-size: 1.65em;
+          line-height: 30px;
+        }
+
+        @media #{$bootstrap-lg} {
+          font-size: 2em;
+          line-height: 48px;
+        }
       }
     }
   }
 
   .try-it-explore {
-    width: 100px;
+
     position: absolute;
-    top:76%;
-    left: 51.5%;
+
+    @media #{$bootstrap-sm} {
+      top:78%;
+      left: 51.5%;
+      width: 55px;
+    }
+
+    @media #{$bootstrap-md} {
+      top:78%;
+      left: 51.5%;
+      width: 80px;
+    }
+
+    @media #{$bootstrap-lg} {
+      top:78%;
+      left: 51.5%;
+      width: 100px;
+    }
 
     p {
       padding: 0;
-      font-size: 2.625em;
       font-weight: 300;
       transform: rotate(-9.974deg);
       color:rgb(185, 52, 62);
       font-family: $font;
+
+      @media #{$bootstrap-sm} {
+        font-size: 1.9em;
+      }
+
+      @media #{$bootstrap-md} {
+        font-size: 2.225em;
+      }
+
+      @media #{$bootstrap-lg} {
+        font-size: 2.625em;
+      }
     }
 
     img {
       float: right;
+
+      @media #{$bootstrap-sm} {
+        width: 70%;
+      }
+
+      @media #{$bootstrap-md} {
+        width: 70%;
+      }
     }
 
   }
@@ -59,105 +124,22 @@ $font: "FuturalPT";
   .iphone {
     text-align: center;
     float: right;
-    max-width: 422px;
-    margin: 0 auto;
 
+    @media #{$bootstrap-sm} {
+      max-width: 280px;
+    }
+
+    @media #{$bootstrap-md} {
+      max-width: 320px;
+    }
+
+    @media #{$bootstrap-lg} {
+      max-width: 422px;
+    }
     img {
       height: auto;
       width: 100%;
     }
 
-  }
-}
-
-@media (min-width: 1201px) and  (max-width : 1400px) {
-
-  .explore-screen {
-    background-size: 13%;
-    .explore-text {
-      height: 376px;
-      margin-top: -188px;
-      left: 22%;
-      max-width: 450px;
-      .explore-header {
-
-        h2 {
-          font-size: 3.750em;
-          line-height: 65px;
-        }
-
-        h3 {
-          font-size: 1.80em;
-          padding: 0 10%;
-          line-height: 35px;
-        }
-      }
-    }
-
-    .try-it-explore {
-      width: 80px;
-      left: 57%;
-      p {
-        font-size: 2.5em;
-      }
-
-      img {
-        width: 80%;
-      }
-
-    }
-
-    .iphone {
-
-      img {
-        width: 85%;
-      }
-
-    }
-
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-
-  .explore-screen {
-    background-size: 15%;
-    .explore-text {
-      max-width: 450px;
-      left:18%;
-      height: 340px;
-      margin-top: -170px;
-      .explore-header {
-
-        h2 {
-          font-size: 3.350em;
-          line-height: 60px;
-        }
-
-        h3 {
-          font-size: 1.45em;
-          padding: 0 17.5%;
-          line-height: 30px;
-        }
-      }
-    }
-
-    .try-it-explore {
-      width: 60px;
-      left: 54%;
-      p {
-        font-size: 1.90em;
-      }
-      img {
-        width: 75%;
-      }
-    }
-    .iphone {
-
-      img {
-        width: 70%;
-      }
-
-    }
   }
 }

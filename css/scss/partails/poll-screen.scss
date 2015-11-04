@@ -2,164 +2,156 @@ $font: "FuturalPT";
 
 .poll-screen {
   background: url(../img/photopollbg.png) no-repeat 0 50%, rgb(176, 52, 62);
-  background-size: 17%;
 
-  .poll-text {
-    position: absolute;
-    top:50%;
-    max-width: 650px;
-    height: 450px;
-    margin-top: -225px;
-    color: #FFFFFF;
-
-    .poll-header {
-      margin-bottom: 30px;
-      text-align: center;
-
-      h2 {
-        font-size: 4.375em;
-        line-height: 80px;
-        font-weight: 300;
-        font-family: $font;
-      }
-
-      h3 {
-        font-size: 2em;
-        padding: 0 20%;
-        line-height: 48px;
-        font-weight: 300;
-        font-family: $font;
-      }
-
-    }
-  }
-
-  .try-it {
-    width: 190px;
-    position: absolute;
-    top:83%;
-    left:47%;
-    
-    @media #{$bootstrap-sm} {
-      top: 88%;
-    }
-
-    p {
-      padding: 0;
-      font-size: 2.625em;
-      font-weight: 300;
-      color: #FFFFFF;
-      font-family: $font;
-    }
-
-    img {
-      float: right;
-    }
-
-  }
-  .iphone {
-    text-align: center;
-    float: right;
-    max-width: 422px;
-    //margin: 0 auto;
-
-    img {
-      margin-top: -15px;
-      height: auto;
-      width: 100%;
-    }
-
-  }
-}
-
-@media (min-width: 1201px) and (max-width : 1400px) {
-  .poll-screen {
-    background-size: 17%;
-    .poll-text {
-      height: 376px;
-      margin-top: -188px;
-      left: 22%;
-      max-width: 450px;
-      .poll-header {
-
-        h2 {
-          font-size: 3.750em;
-          line-height: 65px;
-        }
-
-        h3 {
-          font-size: 1.80em;
-          padding: 0 10%;
-          line-height: 35px;
-        }
-      }
-    }
-
-    .try-it {
-      width: 150px;
-      top: 85%;
-      left: 51%;
-      p {
-        font-size: 2.5em;
-      }
-
-      img {
-        width: 40%;
-      }
-
-    }
-
-    .iphone {
-
-      img {
-        width: 85%;
-      }
-
-    }
-
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-
-  .poll-screen {
+  @media #{$bootstrap-sm} {
     background-size: 15%;
+  }
+
+  @media #{$bootstrap-md} {
+    background-size: 15%;
+  }
+
+  @media #{$bootstrap-lg} {
+    background-size: 18%;
+  }
+
     .poll-text {
-      max-width: 450px;
-      left:18%;
-      height: 340px;
-      margin-top: -170px;
+      margin-top: 12%;
+      color: #FFFFFF;
+
+      @media #{$bootstrap-md} {
+      height: 330px;
+      }
+
+      @media #{$bootstrap-lg} {
+      height: 450px;
+      }
+
       .poll-header {
+        margin-bottom: 30px;
+        text-align: center;
 
         h2 {
-          font-size: 3.350em;
-          line-height: 60px;
+          font-family: $font;
+          font-weight: 300;
+
+          @media #{$bootstrap-sm} {
+            font-size: 2.6em;
+            line-height: 43px;
+          }
+
+          @media #{$bootstrap-md} {
+            font-size: 3.375em;
+            line-height: 50px;
+          }
+
+          @media #{$bootstrap-lg} {
+            font-size: 4.375em;
+            line-height: 80px;
+          }
         }
 
         h3 {
-          font-size: 1.45em;
-          padding: 0 17.5%;
-          line-height: 30px;
+          padding: 0 16%;
+          font-weight: 300;
+          font-family: $font;
+
+          @media #{$bootstrap-sm} {
+            font-size: 1.25em;
+            line-height: 25px;
+          }
+          @media #{$bootstrap-md} {
+            font-size: 1.65em;
+            line-height: 30px;
+          }
+
+          @media #{$bootstrap-lg} {
+            font-size: 2em;
+            line-height: 48px;
+          }
         }
+
       }
+
     }
 
     .try-it {
-      width: 120px;
-      left: 48.5%;
+
+      position: absolute;
+
+      @media #{$bootstrap-sm} {
+        top: 83%;
+        width: 110px;
+        left: 47%;
+      }
+
+      @media #{$bootstrap-md} {
+        top: 83%;
+        width: 130px;
+        left: 51%;
+      }
+      @media #{$bootstrap-lg} {
+        top: 83%;
+        width: 190px;
+        left: 47%;
+      }
+
       p {
-        font-size: 1.90em;
+        padding: 0;
+        font-size: 2.625em;
+        font-weight: 300;
+        color: #FFFFFF;
+        font-family: $font;
+
+        @media #{$bootstrap-sm} {
+          font-size: 1.9em;
+        }
+
+        @media #{$bootstrap-md} {
+          font-size: 2.225em;
+        }
+
+        @media #{$bootstrap-lg} {
+          font-size: 2.625em;
+        }
       }
-      img {
-        width: 40%;
-      }
-    }
-    .iphone {
 
       img {
-        width: 70%;
+        float: right;
+
+        @media #{$bootstrap-sm} {
+          width: 42%;
+        }
+
+        @media #{$bootstrap-md} {
+          width: 42%;
+        }
+      }
+
+    }
+
+    .iphone {
+      text-align: center;
+      float: right;
+      max-width: 422px;
+
+      @media #{$bootstrap-sm} {
+        max-width: 280px;
+      }
+
+      @media #{$bootstrap-md} {
+        max-width: 320px;
+      }
+
+      @media #{$bootstrap-lg} {
+        max-width: 422px;
+      }
+
+      img {
+        margin-top: -15px;
+        height: auto;
+        width: 100%;
       }
 
     }
   }
-}
