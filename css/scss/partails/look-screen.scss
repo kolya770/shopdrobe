@@ -6,28 +6,28 @@ $font: "FuturalPT";
 
   .bg-look-shirt {
     position: absolute;
-    right: -9%;
-    top: 8%;
-    width: 30%;
+    right: -12%;
+    top: 5%;
+    width: 29%;
   }
 
   .bg-look-coat {
     position: absolute;
-    left: -16%;
+    left: -26%;
     top: 10%;
     width: 30%;
   }
 
   .bg-look-pants {
     position: absolute;
-    right: -15%;
-    bottom: -45%;
+    right: -27%;
+    bottom: -59%;
     width: 30%;
   }
 
   .bg-look-shoes {
     position: absolute;
-    bottom: -28%;
+    bottom: -46%;
     width: 20%;
     right: 15%;
   }
@@ -201,6 +201,7 @@ $font: "FuturalPT";
     }
 
     @media #{$bootstrap-lg} {
+      margin-top: -2%;
       max-width: 370px;
     }
     @media #{$screen-xl} {

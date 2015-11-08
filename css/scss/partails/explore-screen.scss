@@ -2,8 +2,14 @@ $font: "FuturalPT";
 
 .explore-screen {
 
-  background: url(../img/question.png) no-repeat 5% 88%, rgb(248, 242, 240);
-  background-size: 15%;
+  background-color: rgb(248, 242, 240);
+
+  .question {
+    position: absolute;
+    top: 67%;
+    left: -7%;
+    width: 230px;
+  }
 
   .explore-text {
     margin-top: 12%;
@@ -159,6 +165,7 @@ $font: "FuturalPT";
 
     @media #{$bootstrap-lg} {
       max-width: 370px;
+      margin-top: -2%
     }
     @media #{$screen-xl} {
       max-width: 422px;

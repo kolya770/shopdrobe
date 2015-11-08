@@ -50,8 +50,71 @@ $(document).ready(function() {
         slideSelector: '.slide',
 
         //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
+        onLeave: function(index, nextIndex, direction){
+            console.log('leave' + index);
+            if (index == 3) {
+                $("#coat").animate({
+                    left: "-=7%"
+                }, 1200 );
+
+                $("#shoes").animate({
+                    bottom: "-=8%"
+                }, 1200 );
+
+                $("#shirt").animate({
+                    right: "-=7%",
+                    top: "-=-5%"
+                }, 1200 );
+
+                $("#pants").animate({
+                    right: "-=10%",
+                    bottom: "-=8%"
+                }, 1200 );
+            }
+
+            if (index == 4) {
+                $('.question').animate({
+                    left: "-=10%",
+                    top: "-=-8%"
+                }, 1200 );
+            }
+        },
+        afterLoad: function(anchorLink, index){
+            if (anchorLink == 'look') {
+                $("#coat").animate({
+                    left: "-=-7%"
+                }, 1200 );
+
+                $("#shoes").animate({
+                    bottom: "-=-8%"
+                }, 1200 );
+
+                $("#shirt").animate({
+                    right: "-=-7%",
+                    top: "-=5%"
+                }, 1200 );
+
+                $("#pants").animate({
+                    right: "-=-10%",
+                    bottom: "-=-8%"
+                }, 1200 );
+            }
+
+            if (anchorLink == 'explore') {
+                $('.question').animate({
+                    left: "-=-10%",
+                    top: "-=8%"
+                }, 1200 );
+            }
+
+            if (anchorLink == 'poll') {
+                $('.question').animate({
+                    left: "-=-10%",
+                    top: "-=8%"
+                }, 1200 );
+            }
+
+        },
         afterRender: function(){},
         afterResize: function(){},
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
@@ -73,7 +136,7 @@ $(document).ready(function() {
         // The (relative) offset of the popups in pixels
         offset: {
             left: 0, // horizontal offset
-            top: 30  // vertical offset
+            top: 22  // vertical offset
         },
 
 
@@ -100,29 +163,57 @@ $(document).ready(function() {
     var data = [
         // x and y values can be decimals (0-1)
         {
-            x: 250,
-            y: 290,
+            x: 245,
+            y: 255,
 
             // (Optional) Set the text of the popup.
             // If omitted, no popup window will appear.
-            text: 'Rubaha',
+            text: 'Charles Tyrwhitt',
 
             // (Optional) Set the element’s attributes.
             attributes: {
-                id:    'my-id',
-                class: 'my-class'
+                //id:    'my-id',
+                //class: 'my-class'
             }
         },
 
-        // x and y values can be in pixels too
-        // Don’t you worry, they will scale perfectly
         {
-            x: 1052,
-            y: 356,
-            text: 'Duwey'
-        }
+            x: 217,
+            y: 312,
+
+            text: 'House of Cashmere'
+        },
+
+        {
+            x: 232,
+            y: 460,
+
+            text: 'New & Lingwood'
+        },
+
+        {
+            x: 192,
+            y: 540,
+
+            text: 'Barker'
+        },
+
     ];
 
     // The magic comes together here
-    $('.taggd').taggd( options, data );
+    var tagAncor = $('.taggd');
+    var tag = tagAncor.taggd( options, data);
+
+
+    var isShowed = false;
+    tagAncor.click(function(e) {
+        if ( ! isShowed) {
+            tag.show();
+            isShowed = true;
+        } else {
+            tag.hide();
+            isShowed = false;
+        }
+
+    })
 });

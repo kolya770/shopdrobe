@@ -83,10 +83,10 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-1 poll-text">
                         <div class="poll-header">
-                            <h2>POLL IS OUR MAIN FUNCTION</h2>
+                            <h2>WHICH ONE IS BETTER?</h2>
                         </div>
                         <div class="poll-header">
-                            <h3>Now you don't need to waste tans on time to upload two photos.</h3>
+                            <h3>Swipe photos and vote for the best one!</h3>
                         </div>
                         <div class="poll-header">
                             <h3>With us you can dive into shopping in seconds!</h3>
@@ -103,10 +103,10 @@
             </div>
         </div>
         <div class="look-screen section">
-            <img src="img/shirt.png" class="bg-look-shirt">
-            <img src="img/coat.png" class="bg-look-coat">
-            <img src="img/pants.png" class="bg-look-pants">
-            <img src="img/shoes.png" class="bg-look-shoes">
+            <img id="shirt" src="img/shirt.png" class="bg-look-shirt">
+            <img id="coat" src="img/coat.png" class="bg-look-coat">
+            <img id="pants" src="img/pants.png" class="bg-look-pants">
+            <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5  col-sm-offset-1 iphone">
@@ -114,13 +114,13 @@
                     </div>
                     <div class="col-sm-6 look-text">
                         <div class="look-header">
-                            <h2>LOOK ON FASHIONGEEKS</h2>
+                            <h2>TAG THE BRAND</h2>
                         </div>
                         <div class="look-header">
-                            <h3>Now you don't need to waste tans on time to upload two photos.</h3>
+                            <h3>Let us know what you wear!</h3>
                         </div>
                         <div class="look-header">
-                            <h3>With us you can dive into shopping in seconds!</h3>
+                            <h3>Provide us details and receive related content</h3>
                         </div>
                     </div>
                     <div class="try-it-look">
@@ -133,6 +133,7 @@
             </div>
         </div>
         <div class="explore-screen section">
+            <img class="question" style="display: none" src="img/question.png">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-1 explore-text">
@@ -140,10 +141,10 @@
                             <h2>EXPLORE AND<br/>INSPIRE</h2>
                         </div>
                         <div class="explore-header">
-                            <h3>Now you don't need to waste tans on time to upload two photos.</h3>
+                            <h3>Join our fashion community!</h3>
                         </div>
                         <div class="explore-header">
-                            <h3>With us you can dive into shopping in seconds!</h3>
+                            <h3>Exchange ideas with other fashionistas</h3>
                         </div>
                     </div>
                     <div class="col-sm-5 iphone">
