@@ -186,3 +186,6 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely footer .fa-facebook:before{padding:8px}
 .choose-wisely footer .fa-instagram:before{padding:2px}
 .choose-wisely footer .links{margin-top:25px}
+.before_after_slider{position:relative;margin:60px;width:640px;height:400px}
+.before_after_slider>*{position:absolute}
+.black_white{overflow:hidden}

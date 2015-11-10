@@ -24,3 +24,17 @@ $font: "FuturalPT";
 @import "partails/explore-screen";
 @import "partails/choose-wisely";
 
+
+.before_after_slider {
+  position: relative;
+  margin: 60px;
+  width: 640px;
+  height: 400px;
+  & > * {
+    position: absolute;
+  }
+}
+
+.black_white {
+  overflow: hidden;
+}

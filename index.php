@@ -79,6 +79,16 @@
             </div>
         </div>
         <div class="poll-screen section">
+            <div style="position: absolute; z-index: 10">
+                <div class="before_after_slider">
+                    <div class="color">
+                        <img src="img/poll%20in%20phone.png" width="320"  alt="" />
+                    </div>
+                    <div class="black_white">
+                        <img src="img/poll%20in%20phone%202.png" width="320"   alt="black_white" />
+                    </div>
+                </div>
+            </div>
             <img id="photo2" class="bg-poll-photo2" src="img/photo-poll2.png">
             <img id="photo1" class="bg-poll-photo1" src="img/photo-poll1.png">
             <div class="container">
@@ -217,7 +227,7 @@
     <?php if ( ! $detect->isMobile() ): ?>
         <script src="js/jquery.fullPage.min.js"></script>
     <?php endif ?>
-
+    <script src="js/test.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
