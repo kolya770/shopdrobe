@@ -1,20 +1,39 @@
 $font: "FuturalPT";
 
 .poll-screen {
-  background: url(../img/photopollbg.png) no-repeat 0 50%, rgb(176, 52, 62);
 
-  @media #{$bootstrap-sm} {
-    background-size: 15%;
+  background: rgb(176, 52, 62);
+
+  .bg-poll-photo1 {
+    position: absolute;
+    left: -10%;
+    top:33%;
+    width: 30%;
+
   }
 
-  @media #{$bootstrap-md} {
-    background-size: 15%;
+  .bg-poll-photo2 {
+    position: absolute;
+    left: -10%;
+    width: 28%;
   }
 
-  @media #{$bootstrap-lg} {
-    background-size: 18%;
+  .iphone-poll-photo1 {
+    position: absolute;
+    width: 21%;
+    top:26%;
+    right: 9%;
+    z-index: 2;
+
   }
 
+  .iphone-poll-photo2 {
+    position: absolute;
+    width: 21%;
+    top:26%;
+    right: 9%;
+    z-index: 1;
+  }
     .poll-text {
       margin-top: 12%;
       color: #FFFFFF;
@@ -178,11 +197,10 @@ $font: "FuturalPT";
         max-width: 422px;
       }
 
-      img {
+      .iphone-phone {
         margin-top: -15px;
         height: auto;
         width: 100%;
       }
-
     }
   }
