@@ -4,6 +4,19 @@ $font: "FuturalPT";
 
   background: rgb(176, 52, 62);
 
+  .iphone-photo {
+    position: absolute;
+    z-index: 10;
+    left: 67%;
+    top:8%;
+    .iphone-photo1 {
+      width: 260px;
+    }
+    .iphone-photo2 {
+      width: 260px;
+    }
+  }
+
   .bg-poll-photo1 {
     position: absolute;
     left: -17%;

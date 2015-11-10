@@ -79,13 +79,15 @@
             </div>
         </div>
         <div class="poll-screen section">
-            <div style="position: absolute; z-index: 10">
-                <div class="before_after_slider">
-                    <div class="color">
-                        <img src="img/poll%20in%20phone.png" width="320"  alt="" />
-                    </div>
-                    <div class="black_white">
-                        <img src="img/poll%20in%20phone%202.png" width="320"   alt="black_white" />
+            <div>
+                <div class="iphone-photo">
+                    <div class="before_after_slider">
+                        <div class="color">
+                            <img src="img/iphone-poll1.png" class="iphone-photo1" alt="" />
+                        </div>
+                        <div class="black_white">
+                            <img src="img/iphone-poll2.png" class="iphone-photo2" alt="black_white" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,7 +147,7 @@
             </div>
         </div>
         <div class="explore-screen section">
-            <img class="question" src="img/question1.png">
+            <img class="question" src="img/question.png">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-1 explore-text">
