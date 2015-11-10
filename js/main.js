@@ -52,7 +52,7 @@ $(document).ready(function() {
         //events
         onLeave: function(index, nextIndex, direction){
             console.log('leave' + index);
-            
+
             if (index == 2) {
                 $('#photo1').animate({
                     left: "-=10%",
@@ -235,5 +235,5 @@ $(document).ready(function() {
             isShowed = false;
         }
 
-    })
+    });
 });

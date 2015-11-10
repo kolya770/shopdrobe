@@ -6,33 +6,18 @@ $font: "FuturalPT";
 
   .bg-poll-photo1 {
     position: absolute;
-    left: -20%;
+    left: -17%;
     top:33%;
-    width: 30%;
+    width: 26%;
   }
 
   .bg-poll-photo2 {
     position: absolute;
-    left: -20%;
-    width: 28%;
+    left: -17%;
+    width: 24%;
     top: 24%;
   }
 
-  .iphone-poll-photo1 {
-    position: absolute;
-    width: 21%;
-    top:6%;
-    right: 9%;
-    z-index: 2;
-  }
-
-  .iphone-poll-photo2 {
-    position: absolute;
-    width: 21%;
-    top:26%;
-    right: 9%;
-    z-index: 1;
-  }
     .poll-text {
       margin-top: 12%;
       color: #FFFFFF;
@@ -190,7 +175,7 @@ $font: "FuturalPT";
       }
 
       @media #{$bootstrap-lg} {
-        max-width: 370px;
+        max-width: 330px;
       }
       @media #{$screen-xl} {
         max-width: 422px;

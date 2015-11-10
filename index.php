@@ -81,8 +81,6 @@
         <div class="poll-screen section">
             <img id="photo2" class="bg-poll-photo2" src="img/photo-poll2.png">
             <img id="photo1" class="bg-poll-photo1" src="img/photo-poll1.png">
-            <img class="iphone-poll-photo1" src="img/poll%20in%20phone.png">
-            <img class="iphone-poll-photo2" src="img/poll%20in%20phone%202.png">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-1 poll-text">
