@@ -52,6 +52,20 @@ $(document).ready(function() {
         //events
         onLeave: function(index, nextIndex, direction){
             console.log('leave' + index);
+            
+            if (index == 2) {
+                $('#photo1').animate({
+                    left: "-=10%",
+                    top: "-=10%"
+
+                }, 1200 );
+                $('#photo2').animate({
+                    left: "-=10%",
+                    top: "-=-10%"
+
+                }, 1200 );
+            }
+
             if (index == 3) {
                 $("#coat").animate({
                     left: "-=7%"
@@ -108,9 +122,15 @@ $(document).ready(function() {
             }
 
             if (anchorLink == 'poll') {
-                $('.question').animate({
+                $('#photo1').animate({
                     left: "-=-10%",
-                    top: "-=8%"
+                    top: "-=-10%"
+
+                }, 1200 );
+                $('#photo2').animate({
+                    left: "-=-10%",
+                    top: "-=10%"
+
                 }, 1200 );
             }
 
@@ -170,7 +190,7 @@ $(document).ready(function() {
             // If omitted, no popup window will appear.
             text: 'Charles Tyrwhitt',
 
-            // (Optional) Set the element’s attributes.
+            // (Optional) Set the elementï¿½s attributes.
             attributes: {
                 //id:    'my-id',
                 //class: 'my-class'
