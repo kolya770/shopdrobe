@@ -83,10 +83,10 @@
                 <div class="iphone-photo">
                     <div class="before_after_slider">
                         <div class="color">
-                            <img src="img/iphone-poll1.png" class="iphone-photo1" alt="" />
+                            <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
                         </div>
                         <div class="black_white">
-                            <img src="img/iphone-poll2.png" class="iphone-photo2" alt="black_white" />
+                            <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
                         </div>
                     </div>
                 </div>

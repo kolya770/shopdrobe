@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .explore-screen .try-it-explore img,.poll-screen .iphone,.poll-screen .try-it img{float:right}
+.black_white,.color{clip:rect(2em,16.08482em,22em,auto)}
 @keyframes Rotate{75%{transform:rotate(290deg)}
 100%{transform:rotate(360deg)}
 }
@@ -22,9 +23,10 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
 .main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;font-weight:300;text-align:right;vertical-align:middle;height:100%;display:inline-block}
-.poll-screen{background:url(../img/iphone6gold.png) 87% 50% no-repeat,#b0343e;background-size:20%}
-.poll-screen .iphone-photo{position:absolute;z-index:10;left:71.6%;top:19%}
-.poll-screen .iphone-photo .iphone-photo1,.poll-screen .iphone-photo .iphone-photo2{width:220px}
+.poll-screen{background:url(../img/iphone6gold.png) 87% 50% no-repeat,#b0343e}
+.poll-screen .iphone-photo{position:absolute;z-index:10;left:71.4%;top:20%}
+.poll-screen .iphone-photo .poll-photo-1{width:228px;margin-top:-1.542%}
+.poll-screen .iphone-photo .poll-photo-2{width:225.39px;margin-left:1.5%}
 .poll-screen .bg-poll-photo1{position:absolute;left:-17%;top:33%;width:26%}
 .poll-screen .bg-poll-photo2{position:absolute;left:-17%;width:24%;top:24%}
 .poll-screen .poll-text{margin-top:12%;color:#FFF}
@@ -35,7 +37,8 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:992px){.poll-screen .poll-text{height:330px}
 .poll-screen .poll-text .poll-header h2{font-size:3.375em;line-height:50px}
 }
-@media (min-width:1200px){.poll-screen .poll-text{height:450px;margin-top:8%}
+@media (min-width:1200px){.poll-screen{background-size:276px}
+.poll-screen .poll-text{height:450px;margin-top:8%}
 .poll-screen .poll-text .poll-header h2{font-size:4em;line-height:75px}
 }
 @media (min-width:1400px){.poll-screen .poll-text{height:450px;margin-top:12%}
@@ -191,5 +194,4 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely footer .links{margin-top:25px}
 .before_after_slider{position:relative}
 .before_after_slider>*,.color{position:absolute}
-.black_white{overflow:hidden;clip:rect(2em,17.45em,23.7em,auto)}
-.color{clip:rect(2em,17.44em,23.7em,auto)}
+.black_white{overflow:hidden}
