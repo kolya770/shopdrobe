@@ -17,7 +17,6 @@ $font: "FuturalPT";
 
 @import "popup";
 @import "partails/policy";
-//@import "partails/navbar";
 @import "partails/main-screen";
 @import "partails/poll-screen";
 @import "partails/look-screen";
@@ -25,12 +24,3 @@ $font: "FuturalPT";
 @import "partails/choose-wisely";
 
 
-.black_white {
-  overflow: hidden;
-  clip: rect(2em, 16.084825em, 21.3em, auto);
-}
-
-.color {
-  position: absolute;
-  clip: rect(2em, 16.084825em, 21.3em, auto);
-}

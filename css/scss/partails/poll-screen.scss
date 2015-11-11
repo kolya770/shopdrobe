@@ -3,28 +3,32 @@ $font: "FuturalPT";
 .poll-screen {
 
   background: rgb(176, 52, 62);
-  @media #{$bootstrap-lg} {
-
-  }
-
-  @media #{$bootstrap-md} {
-
-  }
 
   .iphone {
-    background: url(../img/iphonegrey.png) no-repeat, -15% -65%;
+    background: url(../img/iphone-poll.png) no-repeat;
     background-size: 100%;
-    left: 71.4%;
     position: absolute;
-    padding: 72px 0 0 25px;
-    height: 570px;
-    width: 270px;
 
+    @media #{$bootstrap-md} {
+      width: 250px;
+      height: 550px;
+      left:71%;
+      top: 13%;
+      padding: 65px 0 0 25px;
+    }
     @media #{$bootstrap-lg} {
       width: 270px;
+      height: 570px;
+      left: 71%;
+      padding: 72px 0 0 27px;
+
     }
     @media #{$screen-xl} {
-      width: 300px;
+      width: 422px;
+      height: 846px;
+      left: 65%;
+      top: 9%;
+      padding: 114px 0 0 42px;
     }
 
     & > * {
@@ -33,13 +37,40 @@ $font: "FuturalPT";
     }
 
     .poll-photo-1 {
-      width: 221px;
-      margin-top: -1.6%;
+      
+      @media #{$bootstrap-md} {
+        width: 205px;
+        margin-top: -1.62342%;
+      }
+      
+      @media #{$bootstrap-lg} {
+        width: 221px;
+        margin-top: -1.6%;
+      }
+
+      @media #{$screen-xl} {
+        width: 350px;
+        margin-top: -1.73%;
+        margin-left: 0.2%;
+      }
 
     }
     .poll-photo-2 {
-      width: 218px;
-      margin-left: 1.5%;
+      
+      @media #{$bootstrap-md} {
+        width: 202px;
+        margin-left: 1.7%;
+      }
+      @media #{$bootstrap-lg} {
+        width: 218px;
+        margin-left: 1.7%;
+      }
+
+      @media #{$screen-xl} {
+        width: 347px;
+        margin-left: 3%;
+      }
+
     }
   }
 
@@ -58,11 +89,12 @@ $font: "FuturalPT";
   }
 
     .poll-text {
-      margin-top: 12%;
+
       color: #FFFFFF;
 
       @media #{$bootstrap-md} {
         height: 330px;
+        margin-left: 16%;
       }
 
       @media #{$bootstrap-lg} {
@@ -72,7 +104,8 @@ $font: "FuturalPT";
       }
       @media #{$screen-xl} {
         height: 450px;
-        margin-top: 12%;
+        margin-top: 0;
+        margin-left: 10%;
       }
 
       .poll-header {
@@ -145,19 +178,19 @@ $font: "FuturalPT";
       }
 
       @media #{$bootstrap-md} {
-        top: 83%;
+        top: 77%;
         width: 130px;
-        left: 51%;
+        left: 54%;
       }
       @media #{$bootstrap-lg} {
-        top: 84%;
+        top: 80%;
         width: 140px;
         left: 57%;
       }
       @media #{$screen-xl} {
-        top: 83%;
-        width: 190px;
-        left: 47%;
+        top: 88%;
+        width: 170px;
+        left: 51%;
       }
 
       p {
@@ -199,3 +232,33 @@ $font: "FuturalPT";
       }
     }
   }
+
+.black_white {
+  overflow: hidden;
+
+  @media #{$bootstrap-md} {
+    clip: rect(2em, 14.5em, 20em, auto);
+  }
+
+  @media #{$bootstrap-lg} {
+    clip: rect(2em, 15.7em, 21.3em, auto);
+  }
+  @media #{$screen-xl} {
+    clip: rect(3em, 24.6em, 33.5em, auto);
+  }
+}
+
+.color {
+  position: absolute;
+
+  @media #{$bootstrap-md} {
+    clip: rect(2em, 14.5em, 20em, auto);
+  }
+
+  @media #{$bootstrap-lg} {
+    clip: rect(2em, 15.7em, 21.3em, auto);
+  }
+  @media #{$screen-xl} {
+    clip: rect(3em, 24.6em, 33.5em, auto);
+  }
+}

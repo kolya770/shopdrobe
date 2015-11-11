@@ -1,5 +1,4 @@
 .explore-screen .try-it-explore img,.poll-screen .try-it img{float:right}
-.black_white,.color{clip:rect(2em,16.08482em,21.3em,auto)}
 @keyframes Rotate{75%{transform:rotate(290deg)}
 100%{transform:rotate(360deg)}
 }
@@ -23,28 +22,40 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
 .main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;font-weight:300;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen{background:#b0343e}
-.poll-screen .iphone{background:url(../img/iphonegrey.png) no-repeat,-15% -65%;background-size:100%;left:71.4%;position:absolute;padding:72px 0 0 25px;height:570px;width:270px}
-@media (min-width:1200px){.poll-screen .iphone{width:270px}
+.poll-screen .iphone{background:url(../img/iphone-poll.png) no-repeat;background-size:100%;position:absolute}
+@media (min-width:992px){.poll-screen .iphone{width:250px;height:550px;left:71%;top:13%;padding:65px 0 0 25px}
 }
-@media (min-width:1400px){.poll-screen .iphone{width:300px}
+@media (min-width:1200px){.poll-screen .iphone{width:270px;height:570px;left:71%;padding:72px 0 0 27px}
+}
+@media (min-width:1400px){.poll-screen .iphone{width:422px;height:846px;left:65%;top:9%;padding:114px 0 0 42px}
 }
 .poll-screen .iphone>*{position:absolute;z-index:1}
-.poll-screen .iphone .poll-photo-1{width:221px;margin-top:-1.6%}
-.poll-screen .iphone .poll-photo-2{width:218px;margin-left:1.5%}
+@media (min-width:992px){.poll-screen .iphone .poll-photo-1{width:205px;margin-top:-1.62342%}
+}
+@media (min-width:1200px){.poll-screen .iphone .poll-photo-1{width:221px;margin-top:-1.6%}
+}
+@media (min-width:1400px){.poll-screen .iphone .poll-photo-1{width:350px;margin-top:-1.73%;margin-left:.2%}
+}
+@media (min-width:992px){.poll-screen .iphone .poll-photo-2{width:202px;margin-left:1.7%}
+}
+@media (min-width:1200px){.poll-screen .iphone .poll-photo-2{width:218px;margin-left:1.7%}
+}
+@media (min-width:1400px){.poll-screen .iphone .poll-photo-2{width:347px;margin-left:3%}
+}
 .poll-screen .bg-poll-photo1{position:absolute;left:-17%;top:29%;width:26%}
 .poll-screen .bg-poll-photo2{position:absolute;left:-17%;width:24%;top:20%}
-.poll-screen .poll-text{margin-top:12%;color:#FFF}
+.poll-screen .poll-text{color:#FFF}
 .poll-screen .poll-text .poll-header{margin-bottom:30px;text-align:center}
 .poll-screen .poll-text .poll-header h2{font-weight:300}
 @media (min-width:768px){.poll-screen .poll-text .poll-header h2{font-size:2.6em;line-height:43px}
 }
-@media (min-width:992px){.poll-screen .poll-text{height:330px}
+@media (min-width:992px){.poll-screen .poll-text{height:330px;margin-left:16%}
 .poll-screen .poll-text .poll-header h2{font-size:3.375em;line-height:50px}
 }
 @media (min-width:1200px){.poll-screen .poll-text{height:450px;margin-top:8%;margin-left:16%}
 .poll-screen .poll-text .poll-header h2{font-size:3.7em;line-height:55px}
 }
-@media (min-width:1400px){.poll-screen .poll-text{height:450px;margin-top:12%}
+@media (min-width:1400px){.poll-screen .poll-text{height:450px;margin-top:0;margin-left:10%}
 .poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px}
 }
 .poll-screen .poll-text .poll-header h3{padding:0 16%;font-weight:300}
@@ -53,45 +64,52 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .poll-screen .try-it{top:83%;width:110px;left:47%}
 }
 @media (min-width:992px){.poll-screen .poll-text .poll-header h3{font-size:1.65em;line-height:30px}
-.poll-screen .try-it{top:83%;width:130px;left:51%}
+.poll-screen .try-it{top:77%;width:130px;left:54%}
 }
 @media (min-width:1200px){.poll-screen .poll-text .poll-header h3{font-size:1.8em;line-height:35px;padding:0 19.5%}
-.poll-screen .try-it{top:84%;width:140px;left:57%}
+.poll-screen .try-it{top:80%;width:140px;left:57%}
 }
 @media (min-width:1400px){.poll-screen .poll-text .poll-header h3{padding:0 16%;font-size:2em;line-height:48px}
-.poll-screen .try-it{top:83%;width:190px;left:47%}
+.poll-screen .try-it{top:88%;width:170px;left:51%}
 }
 .poll-screen .try-it p{padding:0;font-size:2.625em;font-weight:300;color:#FFF}
 @media (min-width:768px){.poll-screen .try-it p{font-size:1.9em}
 .poll-screen .try-it img{width:42%}
 }
+.black_white{overflow:hidden}
 @media (min-width:992px){.poll-screen .try-it p{font-size:2.225em}
 .poll-screen .try-it img{width:42%}
-.look-screen .look-text{height:330px}
+.black_white{clip:rect(2em,14.5em,20em,auto)}
 }
 @media (min-width:1200px){.poll-screen .try-it p{font-size:2.375em}
 .poll-screen .try-it img{width:37%}
+.black_white{clip:rect(2em,15.7em,21.3em,auto)}
 }
+@media (min-width:1400px){.poll-screen .try-it p{font-size:2.625em}
+.black_white{clip:rect(3em,24.6em,33.5em,auto)}
+}
+.color{position:absolute}
 .look-screen{background-color:#e6cfc9}
 .look-screen .bg-look-shirt{position:absolute;right:-12%;top:5%;width:29%}
 .look-screen .bg-look-coat{position:absolute;left:-26%;top:10%;width:30%}
 .look-screen .bg-look-pants{position:absolute;right:-27%;bottom:-59%;width:30%}
 .look-screen .bg-look-shoes{position:absolute;bottom:-46%;width:20%;right:15%}
 .look-screen .look-text{margin-top:12%}
-@media (min-width:1200px){.look-screen .look-text{height:450px;margin-top:8%}
-}
-@media (min-width:1400px){.poll-screen .try-it p{font-size:2.625em}
-.look-screen .look-text{height:450px;margin-top:12%}
-}
 .look-screen .look-text .look-header{margin-bottom:30px;text-align:center}
 .look-screen .look-text .look-header h2{font-family:FuturalPT;font-weight:300;color:#b0343e}
 @media (min-width:768px){.look-screen .look-text .look-header h2{font-size:2.6em;line-height:43px}
 }
-@media (min-width:992px){.look-screen .look-text .look-header h2{font-size:3.375em;line-height:50px}
+@media (min-width:992px){.color{clip:rect(2em,14.5em,20em,auto)}
+.look-screen .look-text{height:330px}
+.look-screen .look-text .look-header h2{font-size:3.375em;line-height:50px}
 }
-@media (min-width:1200px){.look-screen .look-text .look-header h2{font-size:4em;line-height:75px}
+@media (min-width:1200px){.color{clip:rect(2em,15.7em,21.3em,auto)}
+.look-screen .look-text{height:450px;margin-top:8%}
+.look-screen .look-text .look-header h2{font-size:4em;line-height:75px}
 }
-@media (min-width:1400px){.look-screen .look-text .look-header h2{font-size:4.375em;line-height:80px}
+@media (min-width:1400px){.color{clip:rect(3em,24.6em,33.5em,auto)}
+.look-screen .look-text{height:450px;margin-top:12%}
+.look-screen .look-text .look-header h2{font-size:4.375em;line-height:80px}
 }
 .look-screen .look-text .look-header h3{padding:0 16%;font-weight:300;color:#404142}
 .look-screen .try-it-look{position:absolute}
@@ -188,5 +206,3 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely footer .fa-facebook:before{padding:8px}
 .choose-wisely footer .fa-instagram:before{padding:2px}
 .choose-wisely footer .links{margin-top:25px}
-.black_white{overflow:hidden}
-.color{position:absolute}
