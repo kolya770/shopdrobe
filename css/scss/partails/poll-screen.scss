@@ -2,7 +2,7 @@ $font: "FuturalPT";
 
 .poll-screen {
 
-  background: url(../img/iphone6gold.png) 87% 50% no-repeat, rgb(176, 52, 62);
+  background: rgb(176, 52, 62);
   @media #{$bootstrap-lg} {
     background-size: 276px;
   }
@@ -11,18 +11,27 @@ $font: "FuturalPT";
 
   }
 
-  .iphone-photo {
-    position: absolute;
-    z-index: 10;
+  .iphone {
+    background: url(../img/iphone6gold.png), -15%, -65%, no-repeat;
+    background-size: 100%;
     left: 71.4%;
-    top: 20%;
+    position: absolute;
+    padding: 83px 0 0 31px;
+    height: 570px;
+    width: 300px;
+
+    & > * {
+      position: absolute;
+      z-index: 1;
+    }
+
     .poll-photo-1 {
-      width: 228px;
+      width: 248px;
       margin-top: -1.542%;
 
     }
     .poll-photo-2 {
-      width: 225.39px;
+      width: 245.39px;
       margin-left: 1.5%;
     }
   }

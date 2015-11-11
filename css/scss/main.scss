@@ -26,11 +26,7 @@ $font: "FuturalPT";
 
 
 .before_after_slider {
-  position: relative;
 
-  & > * {
-    position: absolute;
-  }
 }
 
 .black_white {
@@ -40,5 +36,5 @@ $font: "FuturalPT";
 
 .color {
   position: absolute;
-  clip: rect(2em, 16.084825em, 22em, auto); /* rect(вверх, вправо, вниз, влево); при auto сторона остаётся без изменений, но вылезающий текст обрезается */
+  clip: rect(2em, 16.084825em, 22em, auto);
 }

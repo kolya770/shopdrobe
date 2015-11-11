@@ -80,14 +80,12 @@
         </div>
         <div class="poll-screen section">
             <div>
-                <div class="iphone-photo">
-                    <div class="before_after_slider">
-                        <div class="color">
-                            <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
-                        </div>
-                        <div class="black_white">
-                            <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
-                        </div>
+                <div class="before_after_slider iphone">
+                    <div class="color">
+                        <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
+                    </div>
+                    <div class="black_white">
+                        <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
                     </div>
                 </div>
             </div>
