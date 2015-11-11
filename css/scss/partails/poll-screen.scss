@@ -4,7 +4,7 @@ $font: "FuturalPT";
 
   background: rgb(176, 52, 62);
   @media #{$bootstrap-lg} {
-    background-size: 276px;
+
   }
 
   @media #{$bootstrap-md} {
@@ -12,13 +12,20 @@ $font: "FuturalPT";
   }
 
   .iphone {
-    background: url(../img/iphone6gold.png), -15%, -65%, no-repeat;
+    background: url(../img/iphonegrey.png) no-repeat, -15% -65%;
     background-size: 100%;
     left: 71.4%;
     position: absolute;
-    padding: 83px 0 0 31px;
+    padding: 72px 0 0 25px;
     height: 570px;
-    width: 300px;
+    width: 270px;
+
+    @media #{$bootstrap-lg} {
+      width: 270px;
+    }
+    @media #{$screen-xl} {
+      width: 300px;
+    }
 
     & > * {
       position: absolute;
@@ -26,12 +33,12 @@ $font: "FuturalPT";
     }
 
     .poll-photo-1 {
-      width: 248px;
-      margin-top: -1.542%;
+      width: 221px;
+      margin-top: -1.6%;
 
     }
     .poll-photo-2 {
-      width: 245.39px;
+      width: 218px;
       margin-left: 1.5%;
     }
   }
@@ -39,7 +46,7 @@ $font: "FuturalPT";
   .bg-poll-photo1 {
     position: absolute;
     left: -17%;
-    top:33%;
+    top:29%;
     width: 26%;
   }
 
@@ -47,7 +54,7 @@ $font: "FuturalPT";
     position: absolute;
     left: -17%;
     width: 24%;
-    top: 24%;
+    top: 20%;
   }
 
     .poll-text {
@@ -61,6 +68,7 @@ $font: "FuturalPT";
       @media #{$bootstrap-lg} {
         height: 450px;
         margin-top: 8%;
+        margin-left: 16%;
       }
       @media #{$screen-xl} {
         height: 450px;
@@ -86,8 +94,8 @@ $font: "FuturalPT";
           }
 
           @media #{$bootstrap-lg} {
-            font-size: 4em;
-            line-height: 75px;
+            font-size: 3.7em;
+            line-height: 55px;
           }
           @media #{$screen-xl} {
             font-size: 4.375em;
@@ -111,7 +119,7 @@ $font: "FuturalPT";
 
           @media #{$bootstrap-lg} {
             font-size: 1.8em;
-            line-height: 43px;
+            line-height: 35px;
             padding: 0 19.5%;
           }
 
@@ -144,7 +152,7 @@ $font: "FuturalPT";
       @media #{$bootstrap-lg} {
         top: 84%;
         width: 140px;
-        left: 54%;
+        left: 57%;
       }
       @media #{$screen-xl} {
         top: 83%;
@@ -188,35 +196,6 @@ $font: "FuturalPT";
         @media #{$bootstrap-lg} {
           width: 37%;
         }
-      }
-
-    }
-
-    .iphone {
-      text-align: center;
-      margin-top: -1%;
-      float: right;
-      max-width: 422px;
-
-      @media #{$bootstrap-sm} {
-        max-width: 280px;
-      }
-
-      @media #{$bootstrap-md} {
-        max-width: 320px;
-      }
-
-      @media #{$bootstrap-lg} {
-        max-width: 330px;
-      }
-      @media #{$screen-xl} {
-        max-width: 422px;
-      }
-
-      .iphone-phone {
-        margin-top: -15px;
-        height: auto;
-        width: 100%;
       }
     }
   }

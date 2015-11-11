@@ -25,16 +25,12 @@ $font: "FuturalPT";
 @import "partails/choose-wisely";
 
 
-.before_after_slider {
-
-}
-
 .black_white {
   overflow: hidden;
-  clip: rect(2em, 16.084825em, 22em, auto);
+  clip: rect(2em, 16.084825em, 21.3em, auto);
 }
 
 .color {
   position: absolute;
-  clip: rect(2em, 16.084825em, 22em, auto);
+  clip: rect(2em, 16.084825em, 21.3em, auto);
 }

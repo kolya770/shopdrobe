@@ -93,19 +93,16 @@
             <img id="photo1" class="bg-poll-photo1" src="img/photo-poll1.png">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-1 poll-text">
+                    <div class="col-sm-5 poll-text">
                         <div class="poll-header">
                             <h2>WHICH ONE IS BETTER?</h2>
                         </div>
                         <div class="poll-header">
-                            <h3>Swipe photos and vote for the best one!</h3>
+                            <h3>Swipe photos and vote <br/>for the best one!</h3>
                         </div>
                         <div class="poll-header">
                             <h3>With us you can dive into shopping in seconds!</h3>
                         </div>
-                    </div>
-                    <div class="col-sm-5 iphone">
-<!--                        <img src="img/iphone6gold.png" class="iphone-phone">-->
                     </div>
                     <div class="try-it">
                         <img src="img/arrow.png">
