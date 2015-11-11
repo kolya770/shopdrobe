@@ -2,18 +2,22 @@ $font: "FuturalPT";
 
 .poll-screen {
 
-  background: rgb(176, 52, 62);
-
+  background: url(../img/iphone6gold.png) 87% 50% no-repeat, rgb(176, 52, 62);
+  background-size: 20%;
   .iphone-photo {
     position: absolute;
     z-index: 10;
-    left: 67%;
-    top:8%;
+    left: 71.6%;
+    top:19%;
     .iphone-photo1 {
-      width: 260px;
+      width: 220px;
+
+
     }
     .iphone-photo2 {
-      width: 260px;
+      width: 220px;
+
+
     }
   }
 

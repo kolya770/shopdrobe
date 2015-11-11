@@ -107,7 +107,7 @@
                         </div>
                     </div>
                     <div class="col-sm-5 iphone">
-                        <img src="img/iphone6gold.png" class="iphone-phone">
+<!--                        <img src="img/iphone6gold.png" class="iphone-phone">-->
                     </div>
                     <div class="try-it">
                         <img src="img/arrow.png">
