@@ -224,7 +224,7 @@
     <?php if ( ! $detect->isMobile() ): ?>
         <script src="js/jquery.fullPage.min.js"></script>
     <?php endif ?>
-    <script src="js/test.js"></script>
+    
     <script src="js/main.js"></script>
 </body>
 </html>

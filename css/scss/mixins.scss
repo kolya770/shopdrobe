@@ -32,7 +32,15 @@ $screen-xl: "(min-width:1400px)";
     padding-top: $padding-top;
     padding-left: $padding-left;
     margin-top: - ($height / 2);
+  }
+}
 
+@mixin poll-image($width, $margin-top, $margin-left, $media) {
+
+  @media #{$media} {
+    width: $width;
+    margin-top: $margin-top;
+    margin-left: $margin-left;
   }
 
 }
