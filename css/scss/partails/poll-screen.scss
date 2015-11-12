@@ -16,6 +16,7 @@ $font: "FuturalPT";
       top: 13%;
       padding: 65px 0 0 25px;
     }
+
     @media #{$bootstrap-lg} {
       width: 270px;
       height: 570px;
@@ -23,6 +24,7 @@ $font: "FuturalPT";
       padding: 72px 0 0 27px;
 
     }
+
     @media #{$screen-xl} {
       width: 422px;
       height: 846px;
@@ -37,7 +39,7 @@ $font: "FuturalPT";
     }
 
     .poll-photo-1 {
-      
+
       @media #{$bootstrap-md} {
         width: 205px;
         margin-top: -1.62342%;
@@ -55,6 +57,7 @@ $font: "FuturalPT";
       }
 
     }
+
     .poll-photo-2 {
       
       @media #{$bootstrap-md} {
@@ -75,6 +78,7 @@ $font: "FuturalPT";
   }
 
   .bg-poll-photo1 {
+
     position: absolute;
     left: -17%;
     top:29%;
@@ -82,6 +86,7 @@ $font: "FuturalPT";
   }
 
   .bg-poll-photo2 {
+
     position: absolute;
     left: -17%;
     width: 24%;
@@ -102,6 +107,7 @@ $font: "FuturalPT";
         margin-top: 8%;
         margin-left: 16%;
       }
+
       @media #{$screen-xl} {
         height: 450px;
         margin-top: 0;
@@ -109,10 +115,12 @@ $font: "FuturalPT";
       }
 
       .poll-header {
+
         margin-bottom: 30px;
         text-align: center;
 
         h2 {
+
           font-family: $font;
           font-weight: 300;
 
@@ -130,41 +138,52 @@ $font: "FuturalPT";
             font-size: 3.7em;
             line-height: 55px;
           }
+
           @media #{$screen-xl} {
             font-size: 4.375em;
             line-height: 80px;
           }
+
         }
 
         h3 {
+
           padding: 0 16%;
           font-weight: 300;
           font-family: $font;
 
           @media #{$bootstrap-sm} {
+
             font-size: 1.25em;
             line-height: 25px;
+
           }
+
           @media #{$bootstrap-md} {
+
             font-size: 1.65em;
             line-height: 30px;
+
           }
 
           @media #{$bootstrap-lg} {
+
             font-size: 1.8em;
             line-height: 35px;
             padding: 0 19.5%;
+
           }
 
           @media #{$screen-xl} {
+
             padding: 0 16%;
             font-size: 2em;
             line-height: 48px;
+
           }
+
         }
-
       }
-
     }
 
     .try-it {
@@ -172,28 +191,39 @@ $font: "FuturalPT";
       position: absolute;
 
       @media #{$bootstrap-sm} {
+
         top: 83%;
         width: 110px;
         left: 47%;
+
       }
 
       @media #{$bootstrap-md} {
+
         top: 77%;
         width: 130px;
         left: 54%;
+
       }
+
       @media #{$bootstrap-lg} {
+
         top: 80%;
         width: 140px;
         left: 57%;
+
       }
+
       @media #{$screen-xl} {
+
         top: 88%;
         width: 170px;
         left: 51%;
+
       }
 
       p {
+
         padding: 0;
         font-size: 2.625em;
         font-weight: 300;
@@ -201,64 +231,101 @@ $font: "FuturalPT";
         font-family: $font;
 
         @media #{$bootstrap-sm} {
+
           font-size: 1.9em;
+
         }
 
         @media #{$bootstrap-md} {
+
           font-size: 2.225em;
+
         }
 
         @media #{$bootstrap-lg} {
+
           font-size: 2.375em;
+
         }
+
         @media #{$screen-xl} {
+
           font-size: 2.625em;
+
         }
+
       }
 
       img {
+
         float: right;
 
         @media #{$bootstrap-sm} {
+
           width: 42%;
+
         }
 
         @media #{$bootstrap-md} {
+
           width: 42%;
+
         }
+
         @media #{$bootstrap-lg} {
+
           width: 37%;
+
         }
+
       }
     }
   }
 
 .black_white {
+
   overflow: hidden;
+  border-right: 3px solid rgb(23, 205, 236);
 
   @media #{$bootstrap-md} {
+
     clip: rect(2em, 14.5em, 20em, auto);
+
   }
 
   @media #{$bootstrap-lg} {
-    clip: rect(2em, 15.7em, 21.3em, auto);
+
+    clip: rect(2em, 15.7em, 21.4em, auto);
+
   }
+
   @media #{$screen-xl} {
+
     clip: rect(3em, 24.6em, 33.5em, auto);
+    border-right: 4px solid rgb(23, 205, 236);
+
   }
 }
 
 .color {
+
   position: absolute;
 
   @media #{$bootstrap-md} {
+
     clip: rect(2em, 14.5em, 20em, auto);
+
   }
 
   @media #{$bootstrap-lg} {
-    clip: rect(2em, 15.7em, 21.3em, auto);
+
+    clip: rect(2em, 15.7em, 21.4em, auto);
+
   }
+
   @media #{$screen-xl} {
+
     clip: rect(3em, 24.6em, 33.5em, auto);
+
   }
 }
