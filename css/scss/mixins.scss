@@ -21,3 +21,23 @@ $bootstrap-md: "(min-width:992px)";
 $bootstrap-lg: "(min-width:1200px)";
 $screen-xl: "(min-width:1400px)";
 
+@mixin iphone-size($width, $height, $left, $top, $padding-top, $padding-left, $media) {
+
+  @media #{$media} {
+
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+    padding-top: $padding-top;
+    padding-left: $padding-left;
+    margin-top: - ($height / 2);
+
+  }
+
+}
+
+
+
+
+

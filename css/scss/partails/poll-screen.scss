@@ -9,29 +9,12 @@ $font: "FuturalPT";
     background-size: 100%;
     position: absolute;
 
-    @media #{$bootstrap-md} {
-      width: 250px;
-      height: 550px;
-      left:71%;
-      top: 13%;
-      padding: 65px 0 0 25px;
-    }
 
-    @media #{$bootstrap-lg} {
-      width: 270px;
-      height: 570px;
-      left: 71%;
-      padding: 72px 0 0 27px;
+    @include iphone-size(270px, 525px, 64%, 50%, 65px, 25px, $bootstrap-md);
 
-    }
+    @include iphone-size(310px, 600px, 64%, 50%, 72px, 27px, $bootstrap-lg);
 
-    @media #{$screen-xl} {
-      width: 422px;
-      height: 846px;
-      left: 65%;
-      top: 9%;
-      padding: 114px 0 0 42px;
-    }
+    @include iphone-size(422px, 820px, 64%, 50%, 114px, 42px, $screen-xl);
 
     & > * {
       position: absolute;
@@ -210,7 +193,7 @@ $font: "FuturalPT";
 
         top: 80%;
         width: 140px;
-        left: 57%;
+        left: 53%;
 
       }
 
