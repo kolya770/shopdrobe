@@ -10,14 +10,14 @@ $font: "FuturalPT";
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 3;
-  .popup {
+  .modal-content  {
     position: relative;
     padding-top: 53px;
     padding-bottom: 50px;
     width: 415px;
-    margin: 30vh auto;
+    margin: 20vh auto;
     z-index: 10;
-    background-color: #ffd500;
+    background-color: #fbf8f7;;
     .exit {
       display: block;
       background-color: inherit;
@@ -45,7 +45,7 @@ $font: "FuturalPT";
     h5 {
       font: 28px $font;
       color: #1f1f1f;
-      //.text-center;
+      text-align: center;
       margin: 0 0 41px;
     }
     form {

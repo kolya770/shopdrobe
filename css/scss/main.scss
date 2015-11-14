@@ -8,11 +8,18 @@
     transform: rotate(360deg);
   }
 }
-
 @font-face {
-  font-family: FuturalPT;
-  src: url(../fonts/FuturaPTBook.otf);
+  font-family: "FuturalPT";
+  src: url('../fonts/Futura-Medium.eot');
+  src: url("../fonts/Futura-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/FuturaPTBook.otf") format("opentype"),
+  url("../fonts/Futura-Medium.woff") format("woff"),
+  url("../fonts/Futura-Medium.ttf") format("truetype"),
+  url("../fonts/Futura-Medium.svg#FururalPT") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
+
 $font: "FuturalPT";
 
 @import "popup";

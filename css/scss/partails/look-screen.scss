@@ -4,6 +4,17 @@ $font: "FuturalPT";
 
   background-color: rgb(230, 207, 201);
 
+  .iphone {
+    background: url(../img/iphonegrey.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+
+    @include iphone-size(270px, 525px, 20%, 50%, 0, 0, $bootstrap-md);
+
+    @include iphone-size(310px, 600px, 15%, 50%, 0, 0, $bootstrap-lg);
+
+    @include iphone-size(422px, 820px, 20%, 50%, 0, 0, $screen-xl);
+  }
   .bg-look-shirt {
     position: absolute;
     right: -12%;
@@ -188,30 +199,30 @@ $font: "FuturalPT";
 
   }
 
-  .iphone {
-    text-align: center;
-    max-width: 422px;
-
-    @media #{$bootstrap-sm} {
-      max-width: 280px;
-    }
-
-    @media #{$bootstrap-md} {
-      max-width: 320px;
-    }
-
-    @media #{$bootstrap-lg} {
-      margin-top: -2%;
-      max-width: 370px;
-    }
-    @media #{$screen-xl} {
-      max-width: 422px;
-    }
-
-    img {
-      height: auto;
-      width: 100%;
-    }
-
-  }
+  //.iphone {
+  //  text-align: center;
+  //  max-width: 422px;
+  //
+  //  @media #{$bootstrap-sm} {
+  //    max-width: 280px;
+  //  }
+  //
+  //  @media #{$bootstrap-md} {
+  //    max-width: 320px;
+  //  }
+  //
+  //  @media #{$bootstrap-lg} {
+  //    margin-top: -2%;
+  //    max-width: 370px;
+  //  }
+  //  @media #{$screen-xl} {
+  //    max-width: 422px;
+  //  }
+  //
+  //  img {
+  //    height: auto;
+  //    width: 100%;
+  //  }
+  //
+  //}
 }

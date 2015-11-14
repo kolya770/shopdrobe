@@ -13,7 +13,7 @@ $font: "FuturalPT";
 
     @include iphone-size(310px, 600px, 64%, 50%, 87px, 31px, $bootstrap-lg);
 
-    @include iphone-size(422px, 820px, 64%, 50%, 114px, 42px, $screen-xl);
+    @include iphone-size(422px, 820px, 62%, 50%, 114px, 42px, $screen-xl);
 
     & > * {
       position: absolute;
@@ -259,7 +259,7 @@ $font: "FuturalPT";
 
   @media #{$bootstrap-lg} {
 
-    clip: rect(2em, 18em, 24.5em, auto);
+    clip: rect(2em, 18em, 24.4em, auto);
 
   }
 

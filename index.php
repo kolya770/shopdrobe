@@ -39,7 +39,7 @@
                     <form id="contForm" method="post" action="mail.php" name="contact">
                         <label>
                             *Email address:
-                            <input type="email" name="email" required="required" placeholder="example@gmail.com" id="mail" >
+                            <input type="email" name="email" required="required" placeholder="example@gmail.com" id="mail">
                         </label>
                         <label>
                             Subject:
@@ -47,11 +47,11 @@
                         </label>
                         <label>
                             *Message:
-                            <textarea class="animated" name="message" placeholder="Put your message here"></textarea>
+                            <textarea class="animated" name="message" placeholder="Put your message here" style="overflow: hidden; word-wrap: break-word; resize: horizontal;"></textarea>
                         </label>
                         <button type="submit">Send</button>
                     </form>
-                    <!-- <div class="text-center"><span>Fields marked with* are mandatory</span></div> -->
+                        <!-- <div class="text-center"><span>Fields marked with* are mandatory</span></div> -->
                 </div>
             </div>
         </div>
@@ -79,14 +79,12 @@
             </div>
         </div>
         <div class="poll-screen section">
-            <div>
-                <div class="before_after_slider iphone">
-                    <div class="color">
-                        <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
-                    </div>
-                    <div class="black_white">
-                        <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
-                    </div>
+            <div class="before_after_slider iphone">
+                <div class="color">
+                    <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
+                </div>
+                <div class="black_white">
+                    <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
                 </div>
             </div>
             <img id="photo2" class="bg-poll-photo2" src="img/photo-poll2.png">
@@ -112,18 +110,16 @@
             </div>
         </div>
         <div class="look-screen section">
+            <div class="iphone"></div>
             <img id="shirt" src="img/shirt.png" class="bg-look-shirt">
             <img id="coat" src="img/coat.png" class="bg-look-coat">
             <img id="pants" src="img/pants.png" class="bg-look-pants">
             <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5  col-sm-offset-1 iphone">
-                        <img class="taggd" src="img/iphonegrey.png">
-                    </div>
-                    <div class="col-sm-6 look-text">
+                    <div class="col-sm-6 col-sm-offset-5 look-text">
                         <div class="look-header">
-                            <h2>TAG THE BRAND</h2>
+                            <h2>TAG THE <br />BRAND</h2>
                         </div>
                         <div class="look-header">
                             <h3>Let us know what you wear!</h3>
@@ -142,6 +138,7 @@
             </div>
         </div>
         <div class="explore-screen section">
+            <div class="iphone"></div>
             <img class="question" src="img/question.png">
             <div class="container">
                 <div class="row">
@@ -155,9 +152,6 @@
                         <div class="explore-header">
                             <h3>Exchange ideas with other fashionistas</h3>
                         </div>
-                    </div>
-                    <div class="col-sm-5 iphone">
-                        <img src="img/iphonegold2.png">
                     </div>
                     <div class="try-it-explore">
                         <div class="text">
@@ -224,7 +218,7 @@
     <?php if ( ! $detect->isMobile() ): ?>
         <script src="js/jquery.fullPage.min.js"></script>
     <?php endif ?>
-    
+
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -4,6 +4,19 @@ $font: "FuturalPT";
 
   background-color: rgb(248, 242, 240);
 
+  .iphone {
+    background: url(../img/iphonegold2.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+
+    @include iphone-size(270px, 525px, 64%, 50%, 72px, 27px, $bootstrap-md);
+
+    @include iphone-size(310px, 600px, 64%, 50%, 87px, 31px, $bootstrap-lg);
+
+    @include iphone-size(422px, 820px, 62%, 50%, 114px, 42px, $screen-xl);
+
+  }
+
   .question {
     position: absolute;
     top: 67%;
@@ -147,32 +160,6 @@ $font: "FuturalPT";
       @media #{$bootstrap-md} {
         width: 70%;
       }
-    }
-
-  }
-
-  .iphone {
-    text-align: center;
-    float: right;
-
-    @media #{$bootstrap-sm} {
-      max-width: 280px;
-    }
-
-    @media #{$bootstrap-md} {
-      max-width: 320px;
-    }
-
-    @media #{$bootstrap-lg} {
-      max-width: 370px;
-      margin-top: -2%
-    }
-    @media #{$screen-xl} {
-      max-width: 422px;
-    }
-    img {
-      height: auto;
-      width: 100%;
     }
 
   }
