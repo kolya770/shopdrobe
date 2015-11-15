@@ -1,62 +1,69 @@
-$font: "FuturalPT";
-
-.modal {
-  &.active {
-    display: block;
+.modal-dialog {
+  width: 600px;
+}
+.modal.contact {
+  h5 {
+    color: rgb(146, 146, 146);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
   }
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 3;
-  .modal-content  {
-    position: relative;
-    padding-top: 53px;
-    padding-bottom: 50px;
-    width: 415px;
-    margin: 20vh auto;
-    z-index: 10;
-    background-color: #fbf8f7;;
-    .exit {
-      display: block;
-      background-color: inherit;
-      position: absolute;
-      top: -22px;
-      right: -18px;
-      border-radius: 50%;
-      padding: 0;
-      border: 3px solid #3c3c3c;
-      //.text-center;
-      color: #3c3c3c;
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-      &:after {
-        content: 'x';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 10px;
-        right: 0;
-        font: 30px/10px $font;
-      }
-    }
-    h5 {
-      font: 28px $font;
-      color: #1f1f1f;
-      text-align: center;
-      margin: 0 0 41px;
-    }
+  .modal-content {
+    background: rgb(251, 248, 247);
+    font-family: 'FuturalPT', arial, sans-serif;
+    border-radius: 3px;
+    width: 600px;
+    margin: auto;
     form {
-      padding: 0 67px;
-      input {
-        margin-top: 16px;
-        border-color: #ff9d00;
+      width: 93%;
+      margin: auto;
+      & > label {
+        font-family: inherit;
+        width: 100%;
+        color: rgba(76, 80, 93, 0.7);
+        display: block;
+        font-size: 16px;
       }
       button {
-        margin-top: 44px;
+        display: block;
+        font-family: inherit;
+        border: none;
+        color: #fff;
+        outline: none;
+        box-shadow: inset 0 0 6px rgba(249, 175, 162, 0.75);
+        background: rgb(176, 52, 61);
+        width: 100%;
+        transition: .3s ease;
+        font-size: 22px;
+        margin-top: 17px;
+        padding: 10px 0;
+        line-height: 20px;
+        margin-bottom: 10px;
+        &:active {
+          box-shadow: inset 0 0 6px rgba(52, 78, 134, 0.75);
+        }
       }
+    }
+    input {
+      height: 33px;
+    }
+    textarea {
+      min-height: 115px;
+    }
+    input, textarea {
+      width: 100%;
+      font-family: inherit;
+      padding: 0 10px 0;
+      outline: none;
+      min-width: 100%;
+      margin: 2px 0 0 0;
+      font-size: 16px;
+      display: block;
+      max-width: 100%;
+      border: 1px solid #d8d8d8;
     }
   }
 }

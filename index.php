@@ -31,10 +31,10 @@
 </head>
 <body>
 
-    <div class="modal fade contact" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade contact popup-wrapper" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
             <div class="modal-content">
-                <div class="modal-body">
+                <div class="modal-body ">
                     <h5>Have questions? Contact with us!</h5>
                     <form id="contForm" method="post" action="mail.php" name="contact">
                         <label>
