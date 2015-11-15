@@ -46,4 +46,11 @@ $screen-xl: "(min-width:1400px)";
 
 }
 
+@mixin first-block-centred ($height){
+  height: $height;
+  margin-top: - ($height / 2);
+  top:50%;
+  position: absolute;
+}
+
 

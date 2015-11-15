@@ -10,16 +10,17 @@
 .modal.contact .modal-content form>label{font-family:inherit;width:100%;color:rgba(76,80,93,.7);display:block;font-size:16px}
 .modal.contact .modal-content form button{display:block;font-family:inherit;border:none;color:#fff;outline:0;box-shadow:inset 0 0 6px rgba(249,175,162,.75);background:#b0343d;width:100%;transition:.3s ease;font-size:22px;margin-top:17px;padding:10px 0;line-height:20px;margin-bottom:10px}
 .modal.contact .modal-content form button:active{box-shadow:inset 0 0 6px rgba(52,78,134,.75)}
+.choose-wisely .get-it-btn,.main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;outline:0}
 .modal.contact .modal-content input{height:33px}
 .modal.contact .modal-content textarea{min-height:115px}
 .modal.contact .modal-content input,.modal.contact .modal-content textarea{width:100%;font-family:inherit;padding:0 10px;outline:0;min-width:100%;margin:2px 0 0;font-size:16px;display:block;max-width:100%;border:1px solid #d8d8d8}
-.choose-wisely footer .copyright small,.choose-wisely h2,.explore-screen .explore-text .explore-header h2,.explore-screen .explore-text .explore-header h3,.explore-screen .try-it-explore p,.look-screen .look-text .look-header h3,.main-screen .get-it-btn .cta-btn,.main-screen .header,.poll-screen .poll-text .poll-header h2,.poll-screen .poll-text .poll-header h3,.poll-screen .try-it p{font-family:FuturalPT;font-weight:300}
+.choose-wisely footer .copyright small,.choose-wisely h2,.explore-screen .explore-text .explore-header h2,.explore-screen .try-it-explore p,.look-screen .look-text .look-header h2,.look-screen .look-text .look-header h3,.main-screen .get-it-btn .cta-btn,.main-screen .header,.main-screen-mobile .center-block-mobile .get-it-btn .cta-btn,.main-screen-mobile .center-block-mobile .header,.poll-screen .poll-text .poll-header h2,.poll-screen .poll-text .poll-header h3,.poll-screen .try-it p,.poll-screen-mobile .poll-text .poll-header h2,.poll-screen-mobile .poll-text .poll-header h3,.poll-screen-mobile .try-it p{font-weight:300;font-family:FuturalPT}
 pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-height:35px}
 .main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
 .main-screen .header{text-transform:uppercase;color:#400001;font-size:5em;text-align:center;margin-bottom:30px}
 .main-screen .header.sub{text-align:right}
 .main-screen .header-logo{height:100px}
-.main-screen .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
+.main-screen .get-it-btn{box-shadow:none;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
 .main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen{background:#b0343e}
@@ -111,7 +112,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:992px){.look-screen .look-text{height:330px}
 }
 .look-screen .look-text .look-header{margin-bottom:30px;text-align:center}
-.look-screen .look-text .look-header h2{font-family:FuturalPT;font-weight:300;color:#b0343e}
+.look-screen .look-text .look-header h2{color:#b0343e}
 @media (min-width:768px){.look-screen .look-text .look-header h2{font-size:2.6em;line-height:43px}
 }
 @media (min-width:992px){.look-screen .look-text .look-header h2{font-size:3.375em;line-height:50px}
@@ -176,7 +177,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:1400px){.explore-screen .explore-text{height:450px;margin-top:12%}
 .explore-screen .explore-text .explore-header h2{font-size:4.375em;line-height:80px}
 }
-.explore-screen .explore-text .explore-header h3{padding:0 16%;color:#404142}
+.explore-screen .explore-text .explore-header h3{padding:0 16%;font-weight:300;font-family:FuturalPT;color:#404142}
 @media (min-width:768px){.explore-screen .explore-text .explore-header h3{font-size:1.25em;line-height:25px}
 .explore-screen .try-it-explore{top:78%;left:51.5%;width:55px}
 }
@@ -204,7 +205,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 }
 .choose-wisely{background:url(../img/footerslide.png) 50% 50%,rgba(176,52,62,.99);background-size:cover}
 .choose-wisely h2{margin-top:-15vh;text-align:center;color:#fff;font-size:4.3em}
-.choose-wisely .get-it-btn{margin-top:5vh;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
+.choose-wisely .get-it-btn{margin-top:5vh;box-shadow:none;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
 .choose-wisely footer{margin-left:-15px;color:#fff;position:absolute;bottom:5vh}
 .choose-wisely footer .copyright small{font-size:1.3em;text-align:center}
 .choose-wisely footer a{color:#fff;font-size:1.3em;text-align:center}
@@ -215,3 +216,18 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely footer .fa-facebook:before{padding:8px}
 .choose-wisely footer .fa-instagram:before{padding:2px}
 .choose-wisely footer .links{margin-top:25px}
+.main-screen-mobile{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover;height:100vh}
+.main-screen-mobile .center-block-mobile{height:350px;margin-top:-175px;top:50%;position:absolute}
+.main-screen-mobile .center-block-mobile .header{text-transform:uppercase;color:#400001;font-size:3.3em;text-align:center;margin-bottom:30px}
+.main-screen-mobile .center-block-mobile .header-logo{height:250px;text-align:center}
+.main-screen-mobile .center-block-mobile .header-logo img{width:50%}
+.main-screen-mobile .center-block-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
+.main-screen-mobile .center-block-mobile .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
+.main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
+.poll-screen-mobile .iphone,.poll-screen-mobile .try-it{text-align:center}
+.poll-screen-mobile{background:#b0343e}
+.poll-screen-mobile .iphone img{width:40%}
+.poll-screen-mobile .poll-text{color:#FFF}
+.poll-screen-mobile .poll-text .poll-header{margin-bottom:30px;text-align:center}
+.poll-screen-mobile .poll-text .poll-header h3{padding:0 16%}
+.poll-screen-mobile .try-it p{padding:0;font-size:2.625em;color:#FFF}
