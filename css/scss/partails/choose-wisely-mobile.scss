@@ -1,0 +1,75 @@
+.choose-wisely-mobile {
+  background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
+  background-size: cover;
+  height: 100vh;
+
+  .center-block-choose-mobile {
+    margin-top: 30vh;
+    h2 {
+
+      text-align: center;
+      color: #fff;
+      font-family: $font;
+      font-size: 3.3em;
+      font-weight: 300;
+    }
+    .get-it-btn {
+      margin-top: 5vh;
+      @include button-centered(348px, 86px, #fff);
+    }
+  }
+  footer {
+    margin-top: 30vh;
+    color: #fff;
+
+    bottom: 1vh;
+
+    .copyright {
+
+      small {
+        font-family: $font;
+        font-size: 1.3em;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+
+    a {
+      color: #fff;
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .icons {
+
+      &:first-child {
+        text-align: center;
+      }
+    }
+    .fa {
+      font-size: 2em;
+
+      padding: 15px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+
+      display: inline-block;
+      text-align: center;
+
+      &:hover {
+        animation: Rotate 0.8s 0.1s 1 linear alternate;
+      }
+    }
+    .fa-twitter:before {
+      padding: 1px;
+    }
+    .fa-facebook:before {
+      padding: 8px;
+    }
+    .fa-instagram:before {
+      padding: 2px;
+    }
+    .links {
+      margin-top: 25px;
+    }
+  }
+}

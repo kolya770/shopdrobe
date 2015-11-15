@@ -1,0 +1,54 @@
+$font: "FuturalPT";
+
+.explore-screen-mobile {
+
+  background: rgb(248, 242, 240);
+
+  .iphone {
+    text-align: center;
+    img {
+      width: 40%;
+    }
+  }
+
+  .explore-text {
+
+    .explore-header {
+
+      margin-bottom: 30px;
+      text-align: center;
+
+      h2 {
+        font-family: $font;
+        font-weight: 300;
+        color:  #b0343e;
+      }
+
+      h3 {
+        padding: 0 16%;
+        font-weight: 300;
+        font-family: $font;
+        color:  #404142;
+      }
+    }
+  }
+
+  .try-it-explore {
+    text-align: center;
+    .text {
+
+      p {
+        padding: 0;
+        margin: 0;
+        color: #b9343e;
+        font-weight: 300;
+        transform: rotate(7.811deg);
+        font-family: $font;
+        font-size: 2em;
+      }
+    }
+    img {
+      width: 7%;
+    }
+  }
+}

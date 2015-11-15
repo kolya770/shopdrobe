@@ -62,16 +62,16 @@ $detect = new Mobile_Detect();
         <div class="container">
             <div class="row">
                 <div class="center-block-mobile">
-                <div class="col-xs-12 header-logo">
-                    <h1 class="header">bring fashion into your life  with</h1>
-                    <img src="img/shopdrobe.png">
-                </div>
-                <div class="col-xs-12">
-                    <button class="get-it-btn">
-                        <div class="shirt"></div>
-                        <div class="cta-btn">Get it now!</div>
-                    </button>
-                </div>
+                    <div class="col-xs-12 header-logo">
+                        <h1 class="header">bring fashion into your life  with</h1>
+                        <img src="img/shopdrobe.png">
+                    </div>
+                    <div class="col-xs-12">
+                        <button class="get-it-btn">
+                            <div class="shirt"></div>
+                            <div class="cta-btn">Get it now!</div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,103 +105,108 @@ $detect = new Mobile_Detect();
                     <img src="img/arrow.png">
                     <p>Try it</p>
                 </div>
-
             </div>
         </div>
     </div>
-<!--    <div class="look-screen section">-->
-<!--        <div class="iphone"></div>-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-sm-6 col-sm-offset-5 look-text">-->
-<!--                    <div class="look-header">-->
-<!--                        <h2>TAG THE <br />BRAND</h2>-->
-<!--                    </div>-->
-<!--                    <div class="look-header">-->
-<!--                        <h3>Let us know what you wear!</h3>-->
-<!--                    </div>-->
-<!--                    <div class="look-header">-->
-<!--                        <h3>Provide us details and receive related content</h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="try-it-look">-->
-<!--                    <div class="text">-->
-<!--                        <p>Try it</p>-->
-<!--                    </div>-->
-<!--                    <img src="img/arrowlook.png">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="explore-screen section">-->
-<!--        <div class="iphone"></div>-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-sm-6 col-sm-offset-1 explore-text">-->
-<!--                    <div class="explore-header">-->
-<!--                        <h2>EXPLORE AND<br/>INSPIRE</h2>-->
-<!--                    </div>-->
-<!--                    <div class="explore-header">-->
-<!--                        <h3>Join our fashion community!</h3>-->
-<!--                    </div>-->
-<!--                    <div class="explore-header">-->
-<!--                        <h3>Exchange ideas with other fashionistas</h3>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="try-it-explore">-->
-<!--                    <div class="text">-->
-<!--                        <p>Try it</p>-->
-<!--                    </div>-->
-<!--                    <img src="img/arrowexplore.png">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="choose-wisely section">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <h2 class="header">CHOOSE WISELY, DRESS NICELY!</h2>-->
-<!--                <button class="get-it-btn">-->
-<!--                    <img src="img/footerbutton.png">-->
-<!--                </button>-->
-<!--            </div>-->
-<!--            <footer class="container">-->
-<!--                <div class="row">-->
-<!--                    <div class="copyright col-sm-4">-->
-<!--                        <div class="row links">-->
-<!--                            <small class="col-sm-6">© 2015 Shopdrobe</small>-->
-<!--                            <a class="col-sm-6" data-toggle="modal" data-target="#contactUs">Contact us</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4">-->
-<!--                        <div class="row icons">-->
-<!--                            <div class="col-sm-4">-->
-<!--                                <a href="https://twitter.com/shopdrobe" target="_blank">-->
-<!--                                    <i class="fa fa-twitter"></i>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-4">-->
-<!--                                <a href="https://www.facebook.com/shopdrobe" target="_blank">-->
-<!--                                    <i class="fa fa-facebook"></i>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-4">-->
-<!--                                <a href="https://instagram.com/shopdrobe/" target="_blank">-->
-<!--                                    <i class="fa fa-instagram"></i>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-sm-4">-->
-<!--                        <div class="row links">-->
-<!--                            <a href="policy.html" target="_blank" class="col-sm-6">Privacy Policy</a>-->
-<!--                            <a href="terms.html" target="_blank" class="col-sm-6">Terms & Conditions</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </footer>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="look-screen-mobile section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 look-text">
+                    <div class="look-header">
+                        <h2>TAG THE <br />BRAND</h2>
+                    </div>
+                    <div class="look-header">
+                        <h3>Let us know what you wear!</h3>
+                    </div>
+                    <div class="look-header">
+                        <h3>Provide us details and receive related content</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 iphone">
+                    <img src="img/iphonegrey.png">
+                </div>
+                <div class="col-xs-12 try-it-look">
+                    <div class="text">
+                        <p>Try it</p>
+                    </div>
+                    <img src="img/arrowlook.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-screen-mobile section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 explore-text">
+                    <div class="explore-header">
+                        <h2>EXPLORE AND<br/>INSPIRE</h2>
+                    </div>
+                    <div class="explore-header">
+                        <h3>Join our fashion community!</h3>
+                    </div>
+                    <div class="explore-header">
+                        <h3>Exchange ideas with other fashionistas</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 iphone">
+                    <img src="img/iphonegold2.png">
+                </div>
+                <div class="col-xs-12 try-it-explore">
+                    <div class="text">
+                        <p>Try it</p>
+                    </div>
+                    <img src="img/arrowexplore.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="choose-wisely-mobile section">
+        <div class="container">
+            <div class="row">
+                <div class="center-block-choose-mobile">
+                    <h2 class="header">CHOOSE WISELY, DRESS NICELY!</h2>
+                    <button class="get-it-btn">
+                        <img src="img/footerbutton.png">
+                    </button>
+                </div>
+            </div>
+            <footer class="container">
+                <div class="row">
+                    <div class="copyright col-xs-4">
+                        <div class="row links">
+                            <small class="col-xs-6">© 2015 Shopdrobe</small>
+                            <a class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row icons">
+                            <div class="col-xs-4">
+                                <a href="https://twitter.com/shopdrobe" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://www.facebook.com/shopdrobe" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://instagram.com/shopdrobe/" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row links">
+                            <a href="policy.html" target="_blank" class="col-sm-6">Privacy Policy</a>
+                            <a href="terms.html" target="_blank" class="col-sm-6">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
