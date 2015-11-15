@@ -24,6 +24,8 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
 .main-screen .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen{background:#b0343e}
+.poll-screen ::-webkit-selection{background:rgba(176,52,62,.8);color:#FFF}
+.poll-screen ::selection{background:rgba(176,52,62,.8);color:#fff}
 .poll-screen .iphone{background:url(../img/iphone-poll.png) no-repeat;background-size:100%;position:absolute}
 @media (min-width:992px){.poll-screen .iphone{width:270px;height:525px;left:64%;top:50%;padding-top:72px;padding-left:27px;margin-top:-262.5px}
 }
@@ -39,45 +41,43 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:1400px){.poll-screen .iphone .poll-photo-1{width:345px;margin-top:-.2%;margin-left:-.2%}
 }
 @media (min-width:992px){.poll-screen .iphone .poll-photo-2{width:220px;margin-top:1.7%;margin-left:-1%}
+.poll-screen .bg-poll-photo1{top:32%}
 }
 @media (min-width:1200px){.poll-screen .iphone .poll-photo-2{width:255px;margin-top:1.7%;margin-left:0}
+.poll-screen .bg-poll-photo1{top:30%}
 }
 @media (min-width:1400px){.poll-screen .iphone .poll-photo-2{width:342px;margin-top:3%;margin-left:1.3%}
 }
-.poll-screen .bg-poll-photo1{position:absolute;left:-17%;top:29%;width:26%}
-.poll-screen .bg-poll-photo2{position:absolute;left:-17%;width:24%;top:20%}
-.poll-screen .poll-text{color:#FFF}
-@media (min-width:992px){.poll-screen .poll-text{height:330px;margin-left:16%}
+.poll-screen .bg-poll-photo1{position:absolute;left:-17%;width:26%}
+@media (min-width:1400px){.poll-screen .bg-poll-photo1{top:29%}
 }
+.poll-screen .bg-poll-photo2{position:absolute;left:-17%;width:24%}
+@media (min-width:992px){.poll-screen .bg-poll-photo2{top:25%}
+.poll-screen .poll-text{height:330px;margin-left:16%}
+}
+.poll-screen .poll-text{color:#FFF}
 .poll-screen .poll-text .poll-header{margin-bottom:30px;text-align:center}
 @media (min-width:768px){.poll-screen .poll-text .poll-header h2{font-size:2.6em;line-height:43px}
 }
 @media (min-width:992px){.poll-screen .poll-text .poll-header h2{font-size:3.375em;line-height:50px}
 }
-@media (min-width:1200px){.poll-screen .poll-text{height:450px;margin-top:8%;margin-left:16%}
+@media (min-width:1200px){.poll-screen .bg-poll-photo2{top:22%}
+.poll-screen .poll-text{height:450px;margin-top:8%;margin-left:16%}
 .poll-screen .poll-text .poll-header h2{font-size:3.7em;line-height:55px}
 }
-@media (min-width:1400px){.poll-screen .poll-text{height:450px;margin-top:0;margin-left:10%}
+@media (min-width:1400px){.poll-screen .bg-poll-photo2{top:20%}
+.poll-screen .poll-text{height:450px;margin-top:0;margin-left:10%}
 .poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px}
 }
-.poll-screen .poll-text .poll-header h2::-webkit-selection{background:#b0343e;color:#FFF}
-.poll-screen .poll-text .poll-header h2::selection{background:#b0343e;color:#fff}
 .poll-screen .poll-text .poll-header h3{padding:0 16%}
-@media (min-width:768px){.poll-screen .poll-text .poll-header h3{font-size:1.25em;line-height:25px}
-.poll-screen .try-it{top:83%;width:110px;left:47%}
-}
 @media (min-width:992px){.poll-screen .poll-text .poll-header h3{font-size:1.65em;line-height:30px}
-}
-.poll-screen .poll-text .poll-header h3::-webkit-selection{background:rgba(176,52,62,.8);color:#FFF}
-.poll-screen .poll-text .poll-header h3::selection{background:rgba(176,52,62,.8);color:#fff}
-.poll-screen .try-it{position:absolute}
-@media (min-width:992px){.poll-screen .try-it{top:77%;width:130px;left:54%}
+.poll-screen .try-it{position:absolute;width:130px;top:82%;left:50%}
 }
 @media (min-width:1200px){.poll-screen .poll-text .poll-header h3{font-size:1.8em;line-height:35px;padding:0 19.5%}
-.poll-screen .try-it{top:80%;width:140px;left:53%}
+.poll-screen .try-it{position:absolute;width:140px;top:85%;left:51%}
 }
 @media (min-width:1400px){.poll-screen .poll-text .poll-header h3{padding:0 16%;font-size:2em;line-height:48px}
-.poll-screen .try-it{top:88%;width:170px;left:51%}
+.poll-screen .try-it{position:absolute;width:170px;top:88%;left:51%}
 }
 .poll-screen .try-it p{padding:0;font-size:2.625em;color:#FFF}
 @media (min-width:768px){.poll-screen .try-it p{font-size:1.9em}

@@ -46,6 +46,18 @@ $screen-xl: "(min-width:1400px)";
 
 }
 
+@mixin poll-try($width, $top, $left, $media) {
+
+  @media #{$media} {
+    position: absolute;
+    width: $width;
+    top: $top;
+    left: $left;
+  }
+
+
+}
+
 @mixin first-block-centred ($height){
   height: $height;
   margin-top: - ($height / 2);

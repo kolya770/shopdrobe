@@ -4,6 +4,16 @@ $font: "FuturalPT";
 
   background: rgb(176, 52, 62);
 
+  *::-webkit-selection {
+    background: rgba(176, 52, 62, 0.8);
+    color: #FFFFFF;
+  }
+
+  *::selection {
+    background: rgba(176, 52, 62, 0.8);
+    color: #ffffff;
+  }
+
   .iphone {
     background: url(../img/iphone-poll.png) no-repeat;
     background-size: 100%;
@@ -44,8 +54,17 @@ $font: "FuturalPT";
 
     position: absolute;
     left: -17%;
-    top:29%;
     width: 26%;
+
+    @media #{$bootstrap-md} {
+      top: 32%;
+    }
+    @media #{$bootstrap-lg} {
+      top: 30%;
+    }
+    @media #{$screen-xl} {
+      top: 29%;
+    }
   }
 
   .bg-poll-photo2 {
@@ -53,7 +72,18 @@ $font: "FuturalPT";
     position: absolute;
     left: -17%;
     width: 24%;
-    top: 20%;
+
+    @media #{$bootstrap-md} {
+      top: 25%;
+    }
+
+    @media #{$bootstrap-lg} {
+      top: 22%;
+    }
+
+    @media #{$screen-xl}{
+      top: 20%;
+    }
   }
 
     .poll-text {
@@ -83,10 +113,8 @@ $font: "FuturalPT";
         text-align: center;
 
         h2 {
-
           font-family: $font;
           font-weight: 300;
-
 
           @media #{$bootstrap-sm} {
             font-size: 2.6em;
@@ -110,15 +138,6 @@ $font: "FuturalPT";
 
         }
 
-        h2::-webkit-selection {
-          background: rgb(176, 52, 62);
-          color: #FFFFFF;
-        }
-
-        h2::selection {
-          background: rgb(176, 52, 62);
-          color: #ffffff;
-        }
 
         h3 {
 
@@ -126,89 +145,37 @@ $font: "FuturalPT";
           font-weight: 300;
           font-family: $font;
 
-          @media #{$bootstrap-sm} {
-
-            font-size: 1.25em;
-            line-height: 25px;
-
-          }
-
           @media #{$bootstrap-md} {
-
             font-size: 1.65em;
             line-height: 30px;
-
           }
 
           @media #{$bootstrap-lg} {
-
             font-size: 1.8em;
             line-height: 35px;
             padding: 0 19.5%;
-
           }
 
           @media #{$screen-xl} {
-
             padding: 0 16%;
             font-size: 2em;
             line-height: 48px;
-
           }
 
         }
-
-        h3::-webkit-selection {
-          background: rgba(176, 52, 62, 0.8);
-          color: #FFFFFF;
-        }
-
-        h3::selection {
-          background: rgba(176, 52, 62, 0.8);
-          color: #ffffff;
-        }
-
       }
     }
 
     .try-it {
 
-      position: absolute;
 
-      @media #{$bootstrap-sm} {
+      @include poll-try(130px, 82%, 50%, $bootstrap-md);
 
-        top: 83%;
-        width: 110px;
-        left: 47%;
+      @include poll-try(140px, 85%, 51%, $bootstrap-lg);
 
-      }
-
-      @media #{$bootstrap-md} {
-
-        top: 77%;
-        width: 130px;
-        left: 54%;
-
-      }
-
-      @media #{$bootstrap-lg} {
-
-        top: 80%;
-        width: 140px;
-        left: 53%;
-
-      }
-
-      @media #{$screen-xl} {
-
-        top: 88%;
-        width: 170px;
-        left: 51%;
-
-      }
+      @include poll-try(170px, 88%, 51%, $screen-xl);
 
       p {
-
         padding: 0;
         font-size: 2.625em;
         font-weight: 300;
@@ -216,27 +183,19 @@ $font: "FuturalPT";
         font-family: $font;
 
         @media #{$bootstrap-sm} {
-
           font-size: 1.9em;
-
         }
 
         @media #{$bootstrap-md} {
-
           font-size: 2.225em;
-
         }
 
         @media #{$bootstrap-lg} {
-
           font-size: 2.375em;
-
         }
 
         @media #{$screen-xl} {
-
           font-size: 2.625em;
-
         }
 
       }
@@ -246,21 +205,15 @@ $font: "FuturalPT";
         float: right;
 
         @media #{$bootstrap-sm} {
-
           width: 42%;
-
         }
 
         @media #{$bootstrap-md} {
-
           width: 42%;
-
         }
 
         @media #{$bootstrap-lg} {
-
           width: 37%;
-
         }
 
       }
@@ -273,20 +226,15 @@ $font: "FuturalPT";
   border-right: 4px solid rgb(23, 205, 236);
 
   @media #{$bootstrap-md} {
-
     clip: rect(2em, 15.7em, 21.4em, auto);
     border-right: 3px solid rgb(23, 205, 236);
-
   }
 
   @media #{$bootstrap-lg} {
-
     clip: rect(2em, 18em, 24.4em, auto);
-
   }
 
   @media #{$screen-xl} {
-
     clip: rect(3em, 24.6em, 33.5em, auto);
     width: 160px;
 
@@ -298,20 +246,14 @@ $font: "FuturalPT";
   position: absolute;
 
   @media #{$bootstrap-md} {
-
     clip: rect(2em, 15.7em, 21.5em, auto);
-
   }
 
   @media #{$bootstrap-lg} {
-
     clip: rect(2em, 18em, 24.4em, auto);
-
   }
 
   @media #{$screen-xl} {
-
     clip: rect(3em, 24.6em, 33.5em, auto);
-
   }
 }
