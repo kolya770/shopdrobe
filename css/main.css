@@ -60,12 +60,16 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:1400px){.poll-screen .poll-text{height:450px;margin-top:0;margin-left:10%}
 .poll-screen .poll-text .poll-header h2{font-size:4.375em;line-height:80px}
 }
+.poll-screen .poll-text .poll-header h2::-webkit-selection{background:#b0343e;color:#FFF}
+.poll-screen .poll-text .poll-header h2::selection{background:#b0343e;color:#fff}
 .poll-screen .poll-text .poll-header h3{padding:0 16%}
 @media (min-width:768px){.poll-screen .poll-text .poll-header h3{font-size:1.25em;line-height:25px}
 .poll-screen .try-it{top:83%;width:110px;left:47%}
 }
 @media (min-width:992px){.poll-screen .poll-text .poll-header h3{font-size:1.65em;line-height:30px}
 }
+.poll-screen .poll-text .poll-header h3::-webkit-selection{background:rgba(176,52,62,.8);color:#FFF}
+.poll-screen .poll-text .poll-header h3::selection{background:rgba(176,52,62,.8);color:#fff}
 .poll-screen .try-it{position:absolute}
 @media (min-width:992px){.poll-screen .try-it{top:77%;width:130px;left:54%}
 }
@@ -222,7 +226,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen-mobile .center-block-mobile .header-logo img{width:50%}
 .main-screen-mobile .center-block-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px}
 .main-screen-mobile .center-block-mobile .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
-.look-screen-mobile .iphone img,.poll-screen-mobile .iphone img{width:40%}
+.look-screen-mobile .iphone img,.poll-screen-mobile .iphone img{width:90%}
 .main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen-mobile{background:#b0343e}
 .poll-screen-mobile .iphone{text-align:center}
@@ -243,7 +247,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .look-screen-mobile .try-it-look img{width:7%}
 .explore-screen-mobile{background:#f8f2f0}
 .explore-screen-mobile .iphone{text-align:center}
-.explore-screen-mobile .iphone img{width:40%}
+.explore-screen-mobile .iphone img{width:90%}
 .explore-screen-mobile .explore-text .explore-header{margin-bottom:30px;text-align:center}
 .explore-screen-mobile .explore-text .explore-header h2{font-family:FuturalPT;font-weight:300;color:#b0343e}
 .explore-screen-mobile .explore-text .explore-header h3{padding:0 16%;font-weight:300;font-family:FuturalPT;color:#404142}
@@ -251,10 +255,11 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .explore-screen-mobile .try-it-explore .text p{padding:0;margin:0;color:#b9343e}
 .explore-screen-mobile .try-it-explore img{width:7%}
 .choose-wisely-mobile{background:url(../img/footerslide.png) 50% 50%,rgba(176,52,62,.99);background-size:cover;height:100vh}
-.choose-wisely-mobile .center-block-choose-mobile{margin-top:30vh}
+.choose-wisely-mobile .center-block-choose-mobile{margin-top:10vh}
 .choose-wisely-mobile .center-block-choose-mobile h2{text-align:center;color:#fff;font-family:FuturalPT;font-size:3.3em;font-weight:300}
 .choose-wisely-mobile .center-block-choose-mobile .get-it-btn{margin-top:5vh;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
-.choose-wisely-mobile footer{margin-top:30vh;color:#fff;bottom:1vh}
+.choose-wisely-mobile footer{margin-top:10vh;color:#fff;bottom:1vh}
+.choose-wisely-mobile footer .copyright{margin-top:10vh}
 .choose-wisely-mobile footer .copyright small{font-family:FuturalPT;font-size:1.3em;font-weight:300;text-align:center}
 .choose-wisely-mobile footer a{color:#fff;font-size:1.3em;text-align:center}
 .choose-wisely-mobile footer .icons:first-child{text-align:center}

@@ -87,6 +87,7 @@ $font: "FuturalPT";
           font-family: $font;
           font-weight: 300;
 
+
           @media #{$bootstrap-sm} {
             font-size: 2.6em;
             line-height: 43px;
@@ -107,6 +108,16 @@ $font: "FuturalPT";
             line-height: 80px;
           }
 
+        }
+
+        h2::-webkit-selection {
+          background: rgb(176, 52, 62);
+          color: #FFFFFF;
+        }
+
+        h2::selection {
+          background: rgb(176, 52, 62);
+          color: #ffffff;
         }
 
         h3 {
@@ -146,6 +157,17 @@ $font: "FuturalPT";
           }
 
         }
+
+        h3::-webkit-selection {
+          background: rgba(176, 52, 62, 0.8);
+          color: #FFFFFF;
+        }
+
+        h3::selection {
+          background: rgba(176, 52, 62, 0.8);
+          color: #ffffff;
+        }
+
       }
     }
 

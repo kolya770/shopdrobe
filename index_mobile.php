@@ -172,13 +172,7 @@ $detect = new Mobile_Detect();
             </div>
             <footer class="container">
                 <div class="row">
-                    <div class="copyright col-xs-4">
-                        <div class="row links">
-                            <small class="col-xs-6">© 2015 Shopdrobe</small>
-                            <a class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-12">
                         <div class="row icons">
                             <div class="col-xs-4">
                                 <a href="https://twitter.com/shopdrobe" target="_blank">
@@ -197,7 +191,13 @@ $detect = new Mobile_Detect();
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="copyright col-xs-12">
+                        <div class="row links">
+                            <small class="col-xs-6">© 2015 Shopdrobe</small>
+                            <a class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
                         <div class="row links">
                             <a href="policy.html" target="_blank" class="col-sm-6">Privacy Policy</a>
                             <a href="terms.html" target="_blank" class="col-sm-6">Terms & Conditions</a>
