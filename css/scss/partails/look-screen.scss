@@ -11,54 +11,52 @@ $font: "FuturalPT";
 
     @include iphone-size(270px, 525px, 20%, 50%, 0, 0, $bootstrap-md);
 
-    @include iphone-size(310px, 600px, 15%, 50%, 0, 0, $bootstrap-lg);
+    @include iphone-size(310px, 600px, 20%, 50%, 0, 0, $bootstrap-lg);
 
-    @include iphone-size(422px, 820px, 20%, 50%, 0, 0, $screen-xl);
+    @include iphone-size(422px, 820px, 21%, 50%, 0, 0, $screen-xl);
   }
   .bg-look-shirt {
     position: absolute;
-    right: -12%;
-    top: 5%;
-    width: 29%;
+    right: -23vh;
+    top: 6vh;
+    height: 53vh;
   }
 
   .bg-look-coat {
     position: absolute;
-    left: -26%;
-    top: 10%;
-    width: 30%;
+    left: -40vh;
+    top: 3vh;
+    height: 93vh;
   }
 
   .bg-look-pants {
     position: absolute;
-    right: -27%;
-    bottom: -59%;
-    width: 30%;
+    right: -40vh;
+    bottom: -55vh;
+    height: 93vh;
   }
 
   .bg-look-shoes {
     position: absolute;
-    bottom: -46%;
-    width: 20%;
-    right: 15%;
+    right: 30vh;
+    bottom: -32vh;
+    height: 42vh;
   }
 
   .look-text {
 
-    //max-width: 650px;
-    margin-top: 12%;
-
     @media #{$bootstrap-md} {
-      height: 330px;
+      height: 295px;
     }
 
     @media #{$bootstrap-lg} {
-      height: 450px;
-      margin-top: 8%;
+      height: 320px;
+
     }
+
     @media #{$screen-xl} {
-      height: 450px;
-      margin-top: 12%;
+      height: 410px;
+      margin-left: 50%;
     }
 
     .look-header {
@@ -70,20 +68,16 @@ $font: "FuturalPT";
         font-weight: 300;
         color: rgb(176, 52, 62);
 
-        @media #{$bootstrap-sm} {
-          font-size: 2.6em;
-          line-height: 43px;
-        }
-
         @media #{$bootstrap-md} {
           font-size: 3.375em;
           line-height: 50px;
         }
 
         @media #{$bootstrap-lg} {
-          font-size: 4em;
-          line-height: 75px;
+          font-size: 3.7em;
+          line-height: 55px;
         }
+
         @media #{$screen-xl} {
           font-size: 4.375em;
           line-height: 80px;
@@ -96,10 +90,6 @@ $font: "FuturalPT";
         font-family: $font;
         color: rgb(64, 65, 66);
 
-        @media #{$bootstrap-sm} {
-          font-size: 1.25em;
-          line-height: 25px;
-        }
         @media #{$bootstrap-md} {
           font-size: 1.65em;
           line-height: 30px;
@@ -107,7 +97,7 @@ $font: "FuturalPT";
 
         @media #{$bootstrap-lg} {
           font-size: 1.8em;
-          line-height: 43px;
+          line-height: 35px;
           padding: 0 19.5%;
         }
 
@@ -116,35 +106,20 @@ $font: "FuturalPT";
           padding: 0 16%;
           line-height: 48px;
         }
+
       }
     }
   }
 
   .try-it-look {
+    
     position: absolute;
 
-    @media #{$bootstrap-sm} {
-      top: 75%;
-      left: 47%;
-      width: 130px;
-    }
+    @include try(130px, 77%, 74vh, $bootstrap-md);
 
-    @media #{$bootstrap-md} {
-      top: 75%;
-      left: 43%;
-      width: 130px;
-    }
+    @include try(170px, 77%, 74vh, $bootstrap-lg);
 
-    @media #{$bootstrap-lg} {
-      top: 81%;
-      left: 42%;
-      width: 170px;
-    }
-    @media #{$screen-xl} {
-      top: 75%;
-      left: 48%;
-      width: 190px;
-    }
+    @include try(190px, 77%, 78vh, $screen-xl);
 
     .text {
 
@@ -155,7 +130,7 @@ $font: "FuturalPT";
         margin-left: 35px;
       }
       @media #{$screen-xl} {
-        margin-left: 60px;
+        margin-left: 50px;
       }
     }
 
@@ -165,14 +140,14 @@ $font: "FuturalPT";
       color: #b9343e;
       font-weight: 300;
       transform: rotate(7.811deg);
-      font-size: $font;
+      font: $font;
 
       @media #{$bootstrap-sm} {
         font-size: 1.9em;
       }
 
       @media #{$bootstrap-md} {
-        font-size: 2.225em;
+        font-size: 2em;
       }
 
       @media #{$bootstrap-lg} {
@@ -198,31 +173,4 @@ $font: "FuturalPT";
     }
 
   }
-
-  //.iphone {
-  //  text-align: center;
-  //  max-width: 422px;
-  //
-  //  @media #{$bootstrap-sm} {
-  //    max-width: 280px;
-  //  }
-  //
-  //  @media #{$bootstrap-md} {
-  //    max-width: 320px;
-  //  }
-  //
-  //  @media #{$bootstrap-lg} {
-  //    margin-top: -2%;
-  //    max-width: 370px;
-  //  }
-  //  @media #{$screen-xl} {
-  //    max-width: 422px;
-  //  }
-  //
-  //  img {
-  //    height: auto;
-  //    width: 100%;
-  //  }
-  //
-  //}
 }

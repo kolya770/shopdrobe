@@ -21,6 +21,14 @@ $bootstrap-sm: "(min-width:768px)";
 $bootstrap-md: "(min-width:992px)";
 $bootstrap-lg: "(min-width:1200px)";
 $screen-xl: "(min-width:1400px)";
+$screen-xxl:"(min-width:1650px)";
+
+@mixin first-block-centred ($height){
+  height: $height;
+  margin-top: - ($height / 2);
+  top:50%;
+  position: absolute;
+}
 
 @mixin iphone-size($width, $height, $left, $top, $padding-top, $padding-left, $media) {
 
@@ -46,7 +54,7 @@ $screen-xl: "(min-width:1400px)";
 
 }
 
-@mixin poll-try($width, $top, $left, $media) {
+@mixin try($width, $top, $left, $media) {
 
   @media #{$media} {
     position: absolute;
@@ -54,15 +62,9 @@ $screen-xl: "(min-width:1400px)";
     top: $top;
     left: $left;
   }
-
-
 }
 
-@mixin first-block-centred ($height){
-  height: $height;
-  margin-top: - ($height / 2);
-  top:50%;
-  position: absolute;
-}
+
+
 
 

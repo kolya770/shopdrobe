@@ -116,11 +116,6 @@ $font: "FuturalPT";
           font-family: $font;
           font-weight: 300;
 
-          @media #{$bootstrap-sm} {
-            font-size: 2.6em;
-            line-height: 43px;
-          }
-
           @media #{$bootstrap-md} {
             font-size: 3.375em;
             line-height: 50px;
@@ -137,7 +132,6 @@ $font: "FuturalPT";
           }
 
         }
-
 
         h3 {
 
@@ -169,11 +163,11 @@ $font: "FuturalPT";
     .try-it {
 
 
-      @include poll-try(130px, 82%, 50%, $bootstrap-md);
+      @include try(130px, 82%, 50%, $bootstrap-md);
 
-      @include poll-try(140px, 85%, 51%, $bootstrap-lg);
+      @include try(140px, 85%, 51%, $bootstrap-lg);
 
-      @include poll-try(170px, 88%, 51%, $screen-xl);
+      @include try(170px, 88%, 51%, $screen-xl);
 
       p {
         padding: 0;

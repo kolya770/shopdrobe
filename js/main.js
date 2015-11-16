@@ -68,21 +68,21 @@ $(document).ready(function() {
 
             if (index == 3) {
                 $("#coat").animate({
-                    left: "-=7%"
+                    left: "-=10vh"
                 }, 1200 );
 
                 $("#shoes").animate({
-                    bottom: "-=8%"
+                    bottom: "-=8vh"
                 }, 1200 );
 
                 $("#shirt").animate({
-                    right: "-=7%",
-                    top: "-=-5%"
+                    right: "-=7vh",
+                    top: "-=-5vh"
                 }, 1200 );
 
                 $("#pants").animate({
-                    right: "-=10%",
-                    bottom: "-=8%"
+                    right: "-=10vh",
+                    bottom: "-=8vh"
                 }, 1200 );
             }
 
@@ -96,21 +96,21 @@ $(document).ready(function() {
         afterLoad: function(anchorLink, index){
             if (anchorLink == 'look') {
                 $("#coat").animate({
-                    left: "-=-7%"
+                    left: "-=-10vh"
                 }, 1200 );
 
                 $("#shoes").animate({
-                    bottom: "-=-8%"
+                    bottom: "-=-8vh"
                 }, 1200 );
 
                 $("#shirt").animate({
-                    right: "-=-7%",
-                    top: "-=5%"
+                    right: "-=-7vh",
+                    top: "-=5vh"
                 }, 1200 );
 
                 $("#pants").animate({
-                    right: "-=-10%",
-                    bottom: "-=-8%"
+                    right: "-=-10vh",
+                    bottom: "-=-8vh"
                 }, 1200 );
             }
 
