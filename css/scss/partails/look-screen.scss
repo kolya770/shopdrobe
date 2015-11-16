@@ -3,17 +3,39 @@ $font: "FuturalPT";
 .look-screen {
 
   background-color: rgb(230, 207, 201);
+  *::-webkit-selection {
+    background: rgba(230, 207, 201, 0.8);
+    color: #FFFFFF;
+  }
 
+  *::selection {
+    background: rgba(230, 207, 201, 0.8);
+    color: #ffffff;
+  }
   .iphone {
-    background: url(../img/iphonegrey.png) no-repeat;
-    background-size: 100%;
-    position: absolute;
+    text-align: center;
+    max-width: 422px;
 
-    @include iphone-size(270px, 525px, 20%, 50%, 0, 0, $bootstrap-md);
 
-    @include iphone-size(310px, 600px, 20%, 50%, 0, 0, $bootstrap-lg);
+    @media #{$bootstrap-md} {
+      max-width: 320px;
+      margin-left: 13%;
 
-    @include iphone-size(422px, 820px, 21%, 50%, 0, 0, $screen-xl);
+    }
+
+    @media #{$bootstrap-lg} {
+      max-width: 310px;
+      margin-top: 2%;
+    }
+    @media #{$screen-xl} {
+      max-width: 422px;
+    }
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+
   }
   .bg-look-shirt {
     position: absolute;
@@ -47,16 +69,18 @@ $font: "FuturalPT";
 
     @media #{$bootstrap-md} {
       height: 295px;
+      margin-top: 15%;
     }
 
     @media #{$bootstrap-lg} {
       height: 320px;
+      margin-top: 11%;
 
     }
 
     @media #{$screen-xl} {
       height: 410px;
-      margin-left: 50%;
+      margin-top: 16%;
     }
 
     .look-header {
@@ -67,6 +91,16 @@ $font: "FuturalPT";
         font-family: $font;
         font-weight: 300;
         color: rgb(176, 52, 62);
+
+        *::-webkit-selection {
+          background: rgba(230, 207, 201, 0.8);
+          color: rgb(176, 52, 62);
+        }
+
+        *::selection {
+          background: rgba(230, 207, 201, 0.8);
+          color: rgb(176, 52, 62);
+        }
 
         @media #{$bootstrap-md} {
           font-size: 3.375em;
@@ -117,7 +151,7 @@ $font: "FuturalPT";
 
     @include try(130px, 77%, 74vh, $bootstrap-md);
 
-    @include try(170px, 83%, 45%, $bootstrap-lg);
+    @include try(170px, 83%, 42%, $bootstrap-lg);
 
     @include try(190px, 77%, 78vh, $screen-xl);
 

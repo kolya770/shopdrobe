@@ -94,29 +94,33 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 }
 .color{position:absolute}
 .look-screen{background-color:#e6cfc9}
-.look-screen .iphone{background:url(../img/iphonegrey.png) no-repeat;background-size:100%;position:absolute}
+.look-screen ::-webkit-selection{background:rgba(230,207,201,.8);color:#FFF}
+.look-screen ::selection{background:rgba(230,207,201,.8);color:#fff}
+.look-screen .iphone{text-align:center;max-width:422px}
 @media (min-width:992px){.color{clip:rect(2em,15.7em,21.5em,auto)}
-.look-screen .iphone{width:270px;height:525px;left:20%;top:50%;padding-top:0;padding-left:0;margin-top:-262.5px}
+.look-screen .iphone{max-width:320px;margin-left:13%}
 }
 @media (min-width:1200px){.color{clip:rect(2em,18em,24.4em,auto)}
-.look-screen .iphone{width:310px;height:600px;left:20%;top:50%;padding-top:0;padding-left:0;margin-top:-300px}
+.look-screen .iphone{max-width:310px;margin-top:2%}
 }
-@media (min-width:1400px){.color{clip:rect(3em,24.6em,33.5em,auto)}
-.look-screen .iphone{width:422px;height:820px;left:21%;top:50%;padding-top:0;padding-left:0;margin-top:-410px}
-}
+.look-screen .iphone img{height:auto;width:100%}
 .look-screen .bg-look-shirt{position:absolute;right:-23vh;top:6vh;height:53vh}
 .look-screen .bg-look-coat{position:absolute;left:-40vh;top:3vh;height:93vh}
 .look-screen .bg-look-pants{position:absolute;right:-40vh;bottom:-55vh;height:93vh}
 .look-screen .bg-look-shoes{position:absolute;right:30vh;bottom:-32vh;height:42vh}
 .look-screen .look-text .look-header{margin-bottom:30px;text-align:center}
 .look-screen .look-text .look-header h2{color:#b0343e}
-@media (min-width:992px){.look-screen .look-text{height:295px}
+.look-screen .look-text .look-header h2 ::-webkit-selection{background:rgba(230,207,201,.8);color:#b0343e}
+.look-screen .look-text .look-header h2 ::selection{background:rgba(230,207,201,.8);color:#b0343e}
+@media (min-width:992px){.look-screen .look-text{height:295px;margin-top:15%}
 .look-screen .look-text .look-header h2{font-size:3.375em;line-height:50px}
 }
-@media (min-width:1200px){.look-screen .look-text{height:320px}
+@media (min-width:1200px){.look-screen .look-text{height:320px;margin-top:11%}
 .look-screen .look-text .look-header h2{font-size:3.7em;line-height:55px}
 }
-@media (min-width:1400px){.look-screen .look-text{height:410px;margin-left:50%}
+@media (min-width:1400px){.color{clip:rect(3em,24.6em,33.5em,auto)}
+.look-screen .iphone{max-width:422px}
+.look-screen .look-text{height:410px;margin-top:16%}
 .look-screen .look-text .look-header h2{font-size:4.375em;line-height:80px}
 }
 .look-screen .look-text .look-header h3{padding:0 16%;color:#404142}
@@ -126,7 +130,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .look-screen .try-it-look .text{margin-left:30px}
 }
 @media (min-width:1200px){.look-screen .look-text .look-header h3{font-size:1.8em;line-height:35px;padding:0 19.5%}
-.look-screen .try-it-look{position:absolute;width:170px;top:83%;left:45%}
+.look-screen .try-it-look{position:absolute;width:170px;top:83%;left:42%}
 .look-screen .try-it-look .text{margin-left:35px}
 }
 @media (min-width:1400px){.look-screen .look-text .look-header h3{font-size:2em;padding:0 16%;line-height:48px}
@@ -181,7 +185,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .explore-screen .try-it-explore img{width:70%}
 }
 @media (min-width:1200px){.explore-screen .try-it-explore p{font-size:2.375em}
-.explore-screen .try-it-explore img{width:60%}
+.explore-screen .try-it-explore img{width:55%}
 }
 @media (min-width:1400px){.explore-screen .try-it-explore p{font-size:2.625em}
 .explore-screen .try-it-explore img{width:70%}

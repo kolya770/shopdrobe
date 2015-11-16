@@ -110,14 +110,16 @@
             </div>
         </div>
         <div class="look-screen section">
-            <div class="iphone"></div>
             <img id="shirt" src="img/shirt.png" class="bg-look-shirt">
             <img id="coat" src="img/coat.png" class="bg-look-coat">
             <img id="pants" src="img/pants.png" class="bg-look-pants">
             <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-5 look-text">
+                    <div class="col-sm-5  col-sm-offset-1 iphone">
+                        <img class="taggd" src="img/iphonegrey.png">
+                    </div>
+                    <div class="col-sm-6  look-text">
                         <div class="look-header">
                             <h2>TAG THE <br />BRAND</h2>
                         </div>
