@@ -18,27 +18,29 @@ $font: "FuturalPT";
   }
 
   .question {
-    position: absolute;
-    top: 67%;
-    left: -7%;
-    width: 230px;
+
+    @include try(190px, 66%, -5%, $bootstrap-md);
+
+    @include try(210px, 63%, -5%, $bootstrap-lg);
+
+    @include try(250px, 67%, -5%, $screen-xl);
   }
 
   .explore-text {
-    margin-top: 12%;
 
+    margin-left: 16%;
     @media #{$bootstrap-md} {
-      height: 330px;
+      height: 290px;
       max-width: 570px;
     }
 
     @media #{$bootstrap-lg} {
-      height: 450px;
-      margin-top: 8%;
+      height: 320px;
+      margin-left: 16%;
     }
     @media #{$screen-xl} {
       height: 450px;
-      margin-top: 12%;
+      margin-left: 10%;
     }
 
     .explore-header {
@@ -50,24 +52,21 @@ $font: "FuturalPT";
         font-weight: 300;
         color: rgb(176, 52, 62);
 
-        @media #{$bootstrap-sm} {
-          font-size: 2.6em;
-          line-height: 43px;
-        }
-
         @media #{$bootstrap-md} {
           font-size: 3.375em;
           line-height: 50px;
         }
 
         @media #{$bootstrap-lg} {
-          font-size: 4em;
-          line-height: 75px;
+          font-size: 3.7em;
+          line-height: 55px;
         }
+
         @media #{$screen-xl} {
           font-size: 4.375em;
           line-height: 80px;
         }
+
       }
 
       h3 {
@@ -76,10 +75,6 @@ $font: "FuturalPT";
         font-family: $font;
         color: rgb(64, 65, 66);
 
-        @media #{$bootstrap-sm} {
-          font-size: 1.25em;
-          line-height: 25px;
-        }
         @media #{$bootstrap-md} {
           font-size: 1.65em;
           line-height: 30px;
@@ -87,14 +82,14 @@ $font: "FuturalPT";
 
         @media #{$bootstrap-lg} {
           font-size: 1.8em;
-          line-height: 43px;
-          padding: 0 19%;
+          line-height: 35px;
+          padding: 0 19.5%;
         }
 
         @media #{$screen-xl} {
+          padding: 0 16%;
           font-size: 2em;
           line-height: 48px;
-          padding: 0 15%;
         }
       }
     }
@@ -102,30 +97,11 @@ $font: "FuturalPT";
 
   .try-it-explore {
 
-    position: absolute;
+    @include try(80px, 78%, 51.5%, $bootstrap-md);
 
-    @media #{$bootstrap-sm} {
-      top:78%;
-      left: 51.5%;
-      width: 55px;
-    }
+    @include try(100px, 79%, 54%, $bootstrap-lg);
 
-    @media #{$bootstrap-md} {
-      top:78%;
-      left: 51.5%;
-      width: 80px;
-    }
-
-    @media #{$bootstrap-lg} {
-      top:78%;
-      left: 56.5%;
-      width: 100px;
-    }
-    @media #{$screen-xl} {
-      top:78%;
-      left: 51.5%;
-      width: 100px;
-    }
+    @include try(100px, 83%, 52%, $screen-xl);
 
     p {
       padding: 0;
@@ -134,10 +110,6 @@ $font: "FuturalPT";
       color:rgb(185, 52, 62);
       font-family: $font;
 
-      @media #{$bootstrap-sm} {
-        font-size: 1.9em;
-      }
-
       @media #{$bootstrap-md} {
         font-size: 2.225em;
       }
@@ -145,6 +117,7 @@ $font: "FuturalPT";
       @media #{$bootstrap-lg} {
         font-size: 2.375em;
       }
+
       @media #{$screen-xl} {
         font-size: 2.625em;
       }
@@ -153,11 +126,13 @@ $font: "FuturalPT";
     img {
       float: right;
 
-      @media #{$bootstrap-sm} {
+      @media #{$bootstrap-md} {
         width: 70%;
       }
-
-      @media #{$bootstrap-md} {
+      @media #{$bootstrap-lg} {
+        width: 60%;
+      }
+      @media #{$screen-xl} {
         width: 70%;
       }
     }

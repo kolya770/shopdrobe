@@ -21,7 +21,6 @@ $bootstrap-sm: "(min-width:768px)";
 $bootstrap-md: "(min-width:992px)";
 $bootstrap-lg: "(min-width:1200px)";
 $screen-xl: "(min-width:1400px)";
-$screen-xxl:"(min-width:1650px)";
 
 @mixin first-block-centred ($height){
   height: $height;

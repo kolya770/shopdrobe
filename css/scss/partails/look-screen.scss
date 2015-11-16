@@ -117,7 +117,7 @@ $font: "FuturalPT";
 
     @include try(130px, 77%, 74vh, $bootstrap-md);
 
-    @include try(170px, 77%, 74vh, $bootstrap-lg);
+    @include try(170px, 83%, 45%, $bootstrap-lg);
 
     @include try(190px, 77%, 78vh, $screen-xl);
 
@@ -140,11 +140,7 @@ $font: "FuturalPT";
       color: #b9343e;
       font-weight: 300;
       transform: rotate(7.811deg);
-      font: $font;
-
-      @media #{$bootstrap-sm} {
-        font-size: 1.9em;
-      }
+      font-family: $font;
 
       @media #{$bootstrap-md} {
         font-size: 2em;

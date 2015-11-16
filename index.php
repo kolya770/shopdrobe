@@ -142,7 +142,7 @@
             <img class="question" src="img/question.png">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-1 explore-text">
+                    <div class="col-sm-5 explore-text">
                         <div class="explore-header">
                             <h2>EXPLORE AND<br/>INSPIRE</h2>
                         </div>

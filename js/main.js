@@ -137,9 +137,7 @@ $(document).ready(function() {
         },
         afterRender: function(){},
         afterResize: function(){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
-
-        },
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
 

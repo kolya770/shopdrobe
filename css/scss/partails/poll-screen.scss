@@ -91,19 +91,17 @@ $font: "FuturalPT";
       color: #FFFFFF;
 
       @media #{$bootstrap-md} {
-        height: 330px;
+        height: 320px;
         margin-left: 16%;
       }
 
       @media #{$bootstrap-lg} {
-        height: 450px;
-        margin-top: 8%;
+        height: 350px;
         margin-left: 16%;
       }
 
       @media #{$screen-xl} {
         height: 450px;
-        margin-top: 0;
         margin-left: 10%;
       }
 
@@ -175,10 +173,6 @@ $font: "FuturalPT";
         font-weight: 300;
         color: #FFFFFF;
         font-family: $font;
-
-        @media #{$bootstrap-sm} {
-          font-size: 1.9em;
-        }
 
         @media #{$bootstrap-md} {
           font-size: 2.225em;
