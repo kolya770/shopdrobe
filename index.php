@@ -79,12 +79,14 @@
             </div>
         </div>
         <div class="poll-screen section">
-            <div class="before_after_slider iphone">
-                <div class="color">
-                    <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
-                </div>
-                <div class="black_white">
-                    <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
+            <div class="">
+                <div class="before_after_slider iphone">
+                    <div class="color">
+                        <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
+                    </div>
+                    <div class="black_white">
+                        <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
+                    </div>
                 </div>
             </div>
             <img id="photo2" class="bg-poll-photo2" src="img/photo-poll2.png">
@@ -104,7 +106,7 @@
                     </div>
                     <div class="try-it">
                         <img src="img/arrow.png">
-                        <p>Try it</p>
+                        <p>Move it!</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +134,7 @@
                     </div>
                     <div class="try-it-look">
                         <div class="text">
-                            <p>Try it</p>
+                            <p>Click it!</p>
                         </div>
                         <img src="img/arrowlook.png">
                     </div>

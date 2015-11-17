@@ -13,7 +13,7 @@ $font: "FuturalPT";
   }
 
   .look-text {
-    margin-top: 12%;
+    margin-top: 60px;
 
     .look-header {
       margin-bottom: 30px;
@@ -23,6 +23,8 @@ $font: "FuturalPT";
         font-family: $font;
         font-weight: 300;
         color: rgb(176, 52, 62);
+        font-size: 3.3em;
+        //
 
       }
 
@@ -31,8 +33,11 @@ $font: "FuturalPT";
         font-weight: 300;
         font-family: $font;
         color: rgb(64, 65, 66);
-
+        font-size: 2em;
+        line-height: 34px;
       }
+
+
     }
   }
 

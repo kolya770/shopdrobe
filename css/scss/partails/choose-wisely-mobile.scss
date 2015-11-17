@@ -1,7 +1,8 @@
 .choose-wisely-mobile {
   background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 30px;
+  //height: 100vh;
 
   .center-block-choose-mobile {
     margin-top: 10vh;
@@ -25,7 +26,8 @@
     bottom: 1vh;
 
     .copyright {
-      margin-top: 10vh;
+      display: none;
+      //margin-top: 10vh;
       small {
         font-family: $font;
         font-size: 1.3em;
@@ -40,7 +42,7 @@
       text-align: center;
     }
     .icons {
-
+      margin-top: 150px;
       &:first-child {
         text-align: center;
       }

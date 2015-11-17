@@ -9,11 +9,11 @@ $font: "FuturalPT";
     background-size: 100%;
     position: absolute;
 
-    @include iphone-size(270px, 525px, 64%, 50%, 72px, 27px, $bootstrap-md);
+    @include iphone-size(270px, 525px, 64%, 10%, 72px, 27px, $bootstrap-md);
 
-    @include iphone-size(310px, 600px, 64%, 50%, 87px, 31px, $bootstrap-lg);
+    @include iphone-size(310px, 600px, 64%, 3%, 87px, 31px, $bootstrap-lg);
 
-    @include iphone-size(422px, 820px, 62%, 50%, 114px, 42px, $screen-xl);
+    @include iphone-size(422px, 820px, 62%, 10%, 114px, 42px, $screen-xl);
 
   }
 

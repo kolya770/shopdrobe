@@ -103,7 +103,7 @@ $detect = new Mobile_Detect();
                 </div>
                 <div class="col-xs-12 try-it">
                     <img src="img/arrow.png">
-                    <p>Try it</p>
+                    <p>Move it!</p>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ $detect = new Mobile_Detect();
             <div class="row">
                 <div class="col-xs-12 look-text">
                     <div class="look-header">
-                        <h2>TAG THE <br />BRAND</h2>
+                        <h2>TAG THE BRAND</h2>
                     </div>
                     <div class="look-header">
                         <h3>Let us know what you wear!</h3>
@@ -125,9 +125,9 @@ $detect = new Mobile_Detect();
                 <div class="col-xs-12 iphone">
                     <img src="img/iphonegrey.png">
                 </div>
-                <div class="col-xs-12 try-it-look">
+                <div class="col-xs-12 try-it-look" style="display: none;">
                     <div class="text">
-                        <p>Try it</p>
+                        <p>Tap it!</p>
                     </div>
                     <img src="img/arrowlook.png">
                 </div>
@@ -151,7 +151,7 @@ $detect = new Mobile_Detect();
                 <div class="col-xs-12 iphone">
                     <img src="img/iphonegold2.png">
                 </div>
-                <div class="col-xs-12 try-it-explore">
+                <div class="col-xs-12 try-it-explore" style="display: none;">
                     <div class="text">
                         <p>Try it</p>
                     </div>

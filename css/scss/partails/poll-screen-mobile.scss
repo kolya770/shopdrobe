@@ -13,7 +13,8 @@ $font: "FuturalPT";
 
   .poll-text {
 
-    color: #FFFFFF;
+    color: #fff;
+    margin-top: 60px;
 
     .poll-header {
 
@@ -23,18 +24,25 @@ $font: "FuturalPT";
       h2 {
         font-family: $font;
         font-weight: 300;
+        font-size: 3.3em;
+
       }
 
       h3 {
         padding: 0 16%;
         font-weight: 300;
         font-family: $font;
+        font-size: 2em;
+        line-height: 34px;
+
       }
     }
   }
 
   .try-it {
     text-align: center;
+    margin-bottom: 20px;
+
     p {
       padding: 0;
       font-size: 2.625em;

@@ -13,12 +13,13 @@
       font-size: 3.3em;
       font-weight: 300;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+      line-height: 50px;
       &-logo {
         height: 250px;
         text-align: center;
         img {
-          width: 50%;
+          width: 75%;
         }
       }
     }
@@ -26,6 +27,7 @@
     .get-it-btn {
 
       @include button-centered(348px, 86px, #b9343e);
+      margin-top: 8vh;
 
       .shirt {
         $size: 49px;

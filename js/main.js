@@ -144,6 +144,7 @@ $(document).ready(function() {
     // TAGS
     var options = {
 
+
         // Aligning the text popups
         align: {
             x: 'center', // left, center or right
@@ -161,14 +162,7 @@ $(document).ready(function() {
         // event handlers of the tags
         handlers: {
 
-            // Any vanilla JavaScript event is a valid key
-            click: function(e) {
-                //alert('You clicked a button');
-
-                this; // the DOM Node
-                e;    // the Event
-            },
-
+            //click: 'toggle',
 
             // For convenience, you can use strings to
             // show, hide and toggle the popups
@@ -249,7 +243,7 @@ $(document).ready(function() {
     $('.before_after_slider').mouseleave(function(e){
         $black_white.stop().animate({
             width: init_split
-        },100)
+        }, 100)
     });
 
 
