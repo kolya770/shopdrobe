@@ -36,20 +36,20 @@
             <div class="modal-content">
                 <div class="modal-body ">
                     <h5>Have questions? Contact with us!</h5>
-                    <form id="contForm" method="post" action="mail.php" name="contact">
-                        <label>
+                    <form id="contForm"  action="send.php" name="contact">
+                        <label for="email">
                             *Email address:
-                            <input type="email" name="email" required="required" placeholder="example@gmail.com" id="mail">
+                            <input type="email" name="email" required="required" spellcheck="false" placeholder="example@gmail.com" id="email">
                         </label>
                         <label>
                             Subject:
-                            <input type="text" name="subject" placeholder="Subject" id="subject">
+                            <input type="text" name="subject" spellcheck="true" placeholder="Subject" id="subject">
                         </label>
                         <label>
                             *Message:
-                            <textarea class="animated" name="message" placeholder="Put your message here" style="overflow: hidden; word-wrap: break-word; resize: horizontal;"></textarea>
+                            <textarea class="animated" name="message" spellcheck="true" required="required" id="message" placeholder="Put your message here" style="overflow: hidden; word-wrap: break-word; resize: horizontal;"></textarea>
                         </label>
-                        <button type="submit">Send</button>
+                        <button type="submit" id="sendmail">Send</button>
                     </form>
                         <!-- <div class="text-center"><span>Fields marked with* are mandatory</span></div> -->
                 </div>
@@ -224,5 +224,6 @@
     <?php endif ?>
 
     <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
 </body>
 </html>

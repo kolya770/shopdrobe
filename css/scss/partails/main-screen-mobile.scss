@@ -6,6 +6,14 @@
 
     @include first-block-centred(350px);
 
+    @media #{$bootstrap-sm} {
+      max-width: 800px;
+      width: 100%;
+      left:50%;
+      margin-left: -400px;
+    }
+
+
     .header {
       text-transform: uppercase;
       font-family: $font;

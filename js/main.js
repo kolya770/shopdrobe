@@ -175,7 +175,7 @@ $(document).ready(function() {
     var data = [
         // x and y values can be decimals (0-1)
         {
-            x: 245,
+            x: 243,
             y: 255,
 
             // (Optional) Set the text of the popup.
@@ -197,8 +197,8 @@ $(document).ready(function() {
         },
 
         {
-            x: 232,
-            y: 460,
+            x: 231,
+            y: 459,
 
             text: 'New & Lingwood'
         },

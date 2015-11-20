@@ -122,8 +122,8 @@ $detect = new Mobile_Detect();
                         <h3>Provide us details and receive related content</h3>
                     </div>
                 </div>
-                <div class="col-xs-12 iphone">
-                    <img src="img/iphonegrey.png">
+                <div class="col-xs-12 col-sm-6 iphone">
+                    <img class="taggd" src="img/iphonegrey.png">
                 </div>
                 <div class="col-xs-12 try-it-look" style="display: none;">
                     <div class="text">
@@ -193,7 +193,7 @@ $detect = new Mobile_Detect();
                     </div>
                     <div class="copyright col-xs-12">
                         <div class="row links">
-                            <small class="col-xs-6">© 2015 Shopdrobe</small>
+                            <small class="col-xs-6">ï¿½ 2015 Shopdrobe</small>
                             <a class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
                         </div>
                     </div>

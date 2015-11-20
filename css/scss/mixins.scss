@@ -22,7 +22,7 @@ $bootstrap-md: "(min-width:992px)";
 $bootstrap-lg: "(min-width:1200px)";
 $screen-xl: "(min-width:1400px)";
 
-@mixin first-block-centred ($height){
+@mixin first-block-centred ($height) {
   height: $height;
   margin-top: - ($height / 2);
   top:50%;
