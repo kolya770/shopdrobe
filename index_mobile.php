@@ -15,10 +15,6 @@ $detect = new Mobile_Detect();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <?php if ( ! $detect->isMobile() ): ?>
-        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-    <?php endif ?>
-
     <link rel="stylesheet" type="text/css" href="css/taggd.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
@@ -77,6 +73,14 @@ $detect = new Mobile_Detect();
         </div>
     </div>
     <div class="poll-screen-mobile section">
+<!--        <div class="before_after_slider ">-->
+<!--            <div class="color">-->
+<!--                <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />-->
+<!--            </div>-->
+<!--            <div class="black_white">-->
+<!--                <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 poll-text">
@@ -92,14 +96,6 @@ $detect = new Mobile_Detect();
                 </div>
                 <div class="col-xs-12 iphone">
                     <img src="img/iphone-poll.png">
-<!--                        <div class="before_after_slider iphone">-->
-<!--                    <div class="color">-->
-<!--                        <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />-->
-<!--                    </div>-->
-<!--                    <div class="black_white">-->
-<!--                        <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />-->
-<!--                    </div>-->
-<!--                        </div>-->
                 </div>
                 <div class="col-xs-12 try-it">
                     <img src="img/arrow.png">
@@ -214,10 +210,6 @@ $detect = new Mobile_Detect();
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/jquery.taggd.min.js"></script>
 
-<?php if ( ! $detect->isMobile() ): ?>
-    <script src="js/jquery.fullPage.min.js"></script>
-<?php endif ?>
-
-<script src="js/main.js"></script>
+<script src="js/main-mobile.js"></script>
 </body>
 </html>

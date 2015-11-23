@@ -3,6 +3,7 @@ $font: "FuturalPT";
 .look-screen {
 
   background-color: rgb(230, 207, 201);
+
   *::-webkit-selection {
     background: rgba(230, 207, 201, 0.8);
     color: #FFFFFF;
@@ -25,8 +26,6 @@ $font: "FuturalPT";
 
     @include iphone-position(822px, $screen-xl);
 
-
-
     img {
       position: absolute;
 
@@ -38,6 +37,7 @@ $font: "FuturalPT";
 
     }
   }
+
   .bg-look-shirt {
     position: absolute;
     right: -23vh;
@@ -143,31 +143,20 @@ $font: "FuturalPT";
   }
 
   .try-it-look {
-    
+
     position: absolute;
 
-    @include try(130px, 77%, 74vh, $bootstrap-md);
+    @include try(130px, 77%, 47%, $bootstrap-md);
 
-    @include try(170px, 83%, 42%, $bootstrap-lg);
+    @include try(170px, 79%, 47%, $bootstrap-lg);
 
-    @include try(190px, 79%, 45%, $screen-xl);
+    @include try(190px, 79%, 50%, $screen-xl);
 
-    .text {
-
-      @media #{$bootstrap-md} {
-        margin-left: 30px;
-      }
-      @media #{$bootstrap-lg} {
-        margin-left: 35px;
-      }
-      @media #{$screen-xl} {
-        margin-left: 50px;
-      }
-    }
+    @include try(190px, 79%, 45%, $screen-xxl);
 
     p {
+
       padding: 0;
-      margin: 0;
       color: #b9343e;
       font-weight: 300;
       transform: rotate(7.811deg);
@@ -175,13 +164,16 @@ $font: "FuturalPT";
 
       @media #{$bootstrap-md} {
         font-size: 2em;
+        margin: 0 0 0 25px;
       }
 
       @media #{$bootstrap-lg} {
         font-size: 2.375em;
+        margin: 0 0 0 30px;
       }
       @media #{$screen-xl} {
         font-size: 2.625em;
+        margin: 0 0 0 40px;
       }
     }
 

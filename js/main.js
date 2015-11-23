@@ -175,7 +175,7 @@ $(document).ready(function() {
     var data = [
         // x and y values can be decimals (0-1)
         {
-            x: 243,
+            x: 239,
             y: 255,
 
             // (Optional) Set the text of the popup.
@@ -204,11 +204,11 @@ $(document).ready(function() {
         },
 
         {
-            x: 192,
-            y: 540,
+            x: 191,
+            y: 541,
 
             text: 'Barker'
-        },
+        }
 
     ];
 

@@ -18,9 +18,9 @@
     <?php if ( ! $detect->isMobile() ): ?>
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <?php endif ?>
-
     <link rel="stylesheet" type="text/css" href="css/taggd.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -132,9 +132,7 @@
                         </div>
                     </div>
                     <div class="try-it-look">
-                        <div class="text">
-                            <p>Click it!</p>
-                        </div>
+                        <p>Click it!</p>
                         <img src="img/arrowlook.png">
                     </div>
                 </div>
@@ -180,7 +178,7 @@
                         <div class="copyright col-sm-4">
                             <div class="row links">
                                 <small class="col-sm-6">© 2015 Shopdrobe</small>
-                                <a class="col-sm-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
+                                <a href="" class="col-sm-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -225,6 +223,6 @@
     <?php endif ?>
 
     <script src="js/main.js"></script>
-    <script src="js/test.js"></script>
+<!--    <script src="js/test.js"></script>-->
 </body>
 </html>

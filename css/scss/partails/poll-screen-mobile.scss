@@ -53,3 +53,40 @@ $font: "FuturalPT";
     }
   }
 }
+
+.black_white {
+
+  overflow: hidden;
+  border-right: 3px solid rgb(23, 205, 236);
+
+  @media #{$bootstrap-md} {
+    clip: rect(1.8em, 15.75em, 21.15em, auto);
+  }
+
+  @media #{$bootstrap-lg} {
+    clip: rect(2em, 18.04em, 24.3em, auto);
+    border-right: 4px solid rgb(23, 205, 236);
+  }
+
+  @media #{$screen-xl} {
+    clip: rect(3em, 24.55em, 33.4em, auto);
+    border-right: 4px solid rgb(23, 205, 236);
+  }
+}
+
+.color {
+
+  position: absolute;
+
+  @media #{$bootstrap-md} {
+    clip: rect(1.8em, 15.75em, 21.15em, auto);
+  }
+
+  @media #{$bootstrap-lg} {
+    clip: rect(2em, 18.04em, 24.3em, auto);
+  }
+
+  @media #{$screen-xl} {
+    clip: rect(3em, 24.55em, 33.4em, auto);
+  }
+}
