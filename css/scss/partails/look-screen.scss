@@ -69,11 +69,11 @@ $font: "FuturalPT";
   .look-text {
 
     @media #{$bootstrap-md} {
-      height: 295px;
+      height: 270px;
     }
 
     @media #{$bootstrap-lg} {
-      height: 320px;
+      height: 290px;
     }
 
     @media #{$screen-xl} {
@@ -101,12 +101,12 @@ $font: "FuturalPT";
 
         @media #{$bootstrap-md} {
           font-size: 3.375em;
-          line-height: 50px;
+          line-height: 45px;
         }
 
         @media #{$bootstrap-lg} {
           font-size: 3.7em;
-          line-height: 55px;
+          line-height: 50px;
         }
 
         @media #{$screen-xl} {
@@ -123,12 +123,12 @@ $font: "FuturalPT";
 
         @media #{$bootstrap-md} {
           font-size: 1.65em;
-          line-height: 30px;
+          line-height: 25px;
         }
 
         @media #{$bootstrap-lg} {
           font-size: 1.8em;
-          line-height: 35px;
+          line-height: 30px;
           padding: 0 19.5%;
         }
 
