@@ -20,7 +20,7 @@ $font: "FuturalPT";
       text-align: center;
 
       h2 {
-        font-family: $font;
+        font-family: $font, "sans-serif";
         font-weight: 300;
         color:  #b0343e;
       }
@@ -28,7 +28,7 @@ $font: "FuturalPT";
       h3 {
         padding: 0 16%;
         font-weight: 300;
-        font-family: $font;
+        font-family: $font, "sans-serif";
         color:  #404142;
       }
     }
@@ -44,7 +44,7 @@ $font: "FuturalPT";
         color: #b9343e;
         font-weight: 300;
         transform: rotate(7.811deg);
-        font-family: $font;
+        font-family: $font, "sans-serif";
         font-size: 2em;
       }
     }

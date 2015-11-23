@@ -12,37 +12,31 @@ $font: "FuturalPT";
     background: rgba(230, 207, 201, 0.8);
     color: #ffffff;
   }
+
   .iphone {
     text-align: center;
     max-width: 422px;
+    top:50%;
+    left: 20%;
 
-    @media #{$screen-xl} {
-      margin-left: 7px!important;
-      margin-right: 100px;
-    }
+    @include iphone-position(525px, $bootstrap-md);
+
+    @include iphone-position(600px, $bootstrap-lg);
+
+    @include iphone-position(822px, $screen-xl);
+
+
 
     img {
+      position: absolute;
 
-      @include iphone-size(270px, auto, 0, 0, 0, 0, $bootstrap-md);
+      @include iphone-size(270px, 525px, 0, 50%, 0, 0, $bootstrap-md);
 
-      @include iphone-size(310px, auto, 0, 0, 0, 0, $bootstrap-lg);
+      @include iphone-size(310px, 600px, 0, 50%, 0, 0, $bootstrap-lg);
 
-      @include iphone-size(422px, auto, 0, 0, 0, 0, $screen-xl);
-
-
-    }
-
-    @media #{$bootstrap-md} {
-      margin-left: 13%;
+      @include iphone-size(422px, 822px, 0, 50%, 0, 0, $screen-xl);
 
     }
-
-    @media #{$bootstrap-lg} {
-      margin-top: 2%;
-    }
-
-
-
   }
   .bg-look-shirt {
     position: absolute;
@@ -76,18 +70,14 @@ $font: "FuturalPT";
 
     @media #{$bootstrap-md} {
       height: 295px;
-      margin-top: 15%;
     }
 
     @media #{$bootstrap-lg} {
       height: 320px;
-      margin-top: 11%;
-
     }
 
     @media #{$screen-xl} {
       height: 410px;
-      margin-top: 16%;
     }
 
     .look-header {
@@ -95,7 +85,7 @@ $font: "FuturalPT";
       text-align: center;
 
       h2 {
-        font-family: $font;
+        font-family: $font, "sans-serif";
         font-weight: 300;
         color: rgb(176, 52, 62);
 
@@ -128,7 +118,7 @@ $font: "FuturalPT";
       h3 {
         padding: 0 16%;
         font-weight: 300;
-        font-family: $font;
+        font-family: $font, "sans-serif";
         color: rgb(64, 65, 66);
 
         @media #{$bootstrap-md} {
@@ -160,7 +150,7 @@ $font: "FuturalPT";
 
     @include try(170px, 83%, 42%, $bootstrap-lg);
 
-    @include try(190px, 77%, 78vh, $screen-xl);
+    @include try(190px, 79%, 45%, $screen-xl);
 
     .text {
 
@@ -181,7 +171,7 @@ $font: "FuturalPT";
       color: #b9343e;
       font-weight: 300;
       transform: rotate(7.811deg);
-      font-family: $font;
+      font-family: $font, "sans-serif";
 
       @media #{$bootstrap-md} {
         font-size: 2em;

@@ -79,16 +79,15 @@
             </div>
         </div>
         <div class="poll-screen section">
-            <div class="">
-                <div class="before_after_slider iphone">
-                    <div class="color">
-                        <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
-                    </div>
-                    <div class="black_white">
-                        <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
-                    </div>
+            <div class="before_after_slider iphone">
+                <div class="color">
+                    <img src="img/iphone-poll1.png" class="poll-photo-1" alt="" />
+                </div>
+                <div class="black_white">
+                    <img src="img/iphone-poll2.png" class="poll-photo-2" alt="black_white" />
                 </div>
             </div>
+            <img class="iphone-photo" src="img/iphone-poll.png">
             <img id="photo2" class="bg-poll-photo2" src="img/photo-poll2.png">
             <img id="photo1" class="bg-poll-photo1" src="img/photo-poll1.png">
             <div class="container">
@@ -116,12 +115,12 @@
             <img id="coat" src="img/coat.png" class="bg-look-coat">
             <img id="pants" src="img/pants.png" class="bg-look-pants">
             <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
+            <div class="iphone">
+                <img class="taggd" src="img/iphonegrey.png">
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5  col-sm-offset-1 iphone">
-                        <img class="taggd" src="img/iphonegrey.png">
-                    </div>
-                    <div class="col-sm-6  look-text">
+                    <div class="col-sm-6 col-sm-offset-5 look-text">
                         <div class="look-header">
                             <h2>TAG THE <br />BRAND</h2>
                         </div>
@@ -142,8 +141,10 @@
             </div>
         </div>
         <div class="explore-screen section">
-            <div class="iphone"></div>
             <img class="question" src="img/question.png">
+            <div class="iphone">
+                <img src="img/iphonegold2.png">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5 explore-text">

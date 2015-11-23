@@ -1,3 +1,5 @@
+$font: "FuturalPT";
+
 .main-screen-mobile {
   background: url(../img/main-bg.jpg) 50% 50%, rgba(176, 52, 61, 0.65);
   background-size: cover;
@@ -16,7 +18,7 @@
 
     .header {
       text-transform: uppercase;
-      font-family: $font;
+      font-family: $font, "sans-serif";
       color: #400001;
       font-size: 3.3em;
       font-weight: 300;
@@ -48,7 +50,7 @@
 
       .cta-btn {
         text-transform: uppercase;
-        font-family: $font;
+        font-family: $font, "sans-serif";
         color: #ffffff;
         font-size: 32px;
         font-weight: 300;

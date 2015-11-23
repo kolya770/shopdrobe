@@ -1,3 +1,5 @@
+$font: "FuturalPT";
+
 .choose-wisely-mobile {
   background: url(../img/footerslide.png) 50% 50%, rgba(176, 52, 62, 0.99);
   background-size: cover;
@@ -10,7 +12,7 @@
 
       text-align: center;
       color: #fff;
-      font-family: $font;
+      font-family: $font, "sans-serif";
       font-size: 3.3em;
       font-weight: 300;
     }
@@ -29,7 +31,7 @@
       display: none;
       //margin-top: 10vh;
       small {
-        font-family: $font;
+        font-family: $font, "sans-serif";
         font-size: 1.3em;
         font-weight: 300;
         text-align: center;

@@ -5,16 +5,29 @@ $font: "FuturalPT";
   background-color: rgb(248, 242, 240);
 
   .iphone {
-    background: url(../img/iphonegold2.png) no-repeat;
-    background-size: 100%;
-    position: absolute;
+    text-align: center;
+    max-width: 422px;
+    top:50%;
+    left: 64%;
 
-    @include iphone-size(270px, 525px, 64%, 10%, 72px, 27px, $bootstrap-md);
+    @include iphone-position(525px, $bootstrap-md);
 
-    @include iphone-size(310px, 600px, 64%, 3%, 87px, 31px, $bootstrap-lg);
+    @include iphone-position(600px, $bootstrap-lg);
 
-    @include iphone-size(422px, 820px, 62%, 10%, 114px, 42px, $screen-xl);
+    @include iphone-position(822px, $screen-xl);
 
+
+
+    img {
+      position: absolute;
+
+      @include iphone-size(270px, 525px, 0, 50%, 0, 0, $bootstrap-md);
+
+      @include iphone-size(310px, 600px, 0, 50%, 0, 0, $bootstrap-lg);
+
+      @include iphone-size(422px, 822px, 0, 50%, 0, 0, $screen-xl);
+
+    }
   }
 
   .question {
@@ -48,7 +61,7 @@ $font: "FuturalPT";
       text-align: center;
 
       h2 {
-        font-family: $font;
+        font-family: $font, "sans-serif";
         font-weight: 300;
         color: rgb(176, 52, 62);
 
@@ -72,7 +85,7 @@ $font: "FuturalPT";
       h3 {
         padding: 0 16%;
         font-weight: 300;
-        font-family: $font;
+        font-family: $font, "sans-serif";
         color: rgb(64, 65, 66);
 
         @media #{$bootstrap-md} {
@@ -108,7 +121,7 @@ $font: "FuturalPT";
       font-weight: 300;
       transform: rotate(-9.974deg);
       color:rgb(185, 52, 62);
-      font-family: $font;
+      font-family: $font, "sans-serif";
 
       @media #{$bootstrap-md} {
         font-size: 2.225em;

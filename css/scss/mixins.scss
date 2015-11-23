@@ -42,6 +42,13 @@ $screen-xl: "(min-width:1400px)";
     margin-top: - ($height / 2);
   }
 }
+@mixin iphone-position($height, $media) {
+  @media #{$media} {
+    position: absolute;
+    height: $height;
+    margin-top: - ($height / 2);
+  }
+}
 
 @mixin poll-image($width, $margin-top, $margin-left, $media) {
 

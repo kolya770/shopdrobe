@@ -231,7 +231,7 @@ $(document).ready(function() {
 
     var $black_white = $('.black_white'),
         img_width = $('.black_white img').width(),
-        init_split = Math.round((img_width/2)-4);
+        init_split = Math.round(img_width/2);
 
     $black_white.width(init_split);
 
