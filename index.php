@@ -116,7 +116,7 @@
             <img id="pants" src="img/pants.png" class="bg-look-pants">
             <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
             <div class="iphone">
-                <img class="taggd" src="img/iphonegrey.png">
+                <img class="taggd dot" src="img/iphonegrey.png">
             </div>
             <div class="container">
                 <div class="row">
