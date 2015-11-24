@@ -132,6 +132,14 @@ $(document).ready(function() {
                     top: "-=10%"
 
                 }, 1200 );
+
+                function animationCurtain() {
+                    $('.black_white').animate({width: "-=-100px"} , 1200, function(){
+                        $('.black_white').animate({width: "-=100px"}, 1200, animationCurtain);
+                    });
+
+                }
+                animationCurtain();
             }
 
         },
@@ -231,7 +239,7 @@ $(document).ready(function() {
 
     var $black_white = $('.black_white'),
         img_width = $('.black_white img').width(),
-        init_split = Math.round(img_width/2);
+        init_split = Math.round(img_width/3);
 
     $black_white.width(init_split);
 

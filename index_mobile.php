@@ -119,7 +119,7 @@ $detect = new Mobile_Detect();
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 iphone">
-                    <img class="taggd" src="img/iphonegrey.png">
+                    <img class="taggd center-block" src="img/iphonegrey.png">
                 </div>
                 <div class="col-xs-12 try-it-look" style="display: none;">
                     <div class="text">

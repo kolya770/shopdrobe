@@ -9,8 +9,8 @@ $font: "FuturalPT";
 
     img {
 
-      //width: 310px;
-      max-width: 100%;
+      width: 310px;
+      max-width: 90%;
     }
 
     @media #{$bootstrap-sm} {
@@ -31,8 +31,6 @@ $font: "FuturalPT";
         font-weight: 300;
         color: rgb(176, 52, 62);
         font-size: 3.3em;
-        //
-
       }
 
       h3 {
