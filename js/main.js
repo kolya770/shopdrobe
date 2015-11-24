@@ -126,22 +126,74 @@ $(document).ready(function() {
                     left: "-=-10%",
                     top: "-=-10%"
 
-                }, 1200 );
+                }, 1200);
                 $('#photo2').animate({
                     left: "-=-10%",
                     top: "-=10%"
 
-                }, 1200 );
+                }, 1200);
+
 
                 function animationCurtain() {
-                    $('.black_white').animate({width: "-=-100px"} , 1200, function(){
-                        $('.black_white').animate({width: "-=100px"}, 1200, animationCurtain);
+                    $('.black_white').stop(true).animate({width: "-=-100px"} , 1200, function(){
+                        $('.black_white').stop(true).animate({width: "-=100px"}, 1200, animationCurtain);
                     });
-
                 }
                 animationCurtain();
-            }
 
+                
+                //Первый закоменченый по логике должен рабоатать
+                //$(".before_after_slider").mouseover(function() {
+                //    $('.before_after_slider').mousemove(function(e){
+                //        var offX  = (e.offsetX || e.clientX - $black_white.offset().left);
+                //        $black_white.width(offX);
+                //    });
+                //
+                //    $('.before_after_slider').mouseleave(function(e){
+                //        $black_white.stop().animate({
+                //            width: init_split
+                //        }, 100)
+                //    });
+                //});
+
+
+
+                //$(".before_after_slider").hover(function() {
+                //    $('.black_white').stop(true).animate({width: "-=-100px"} ,1200);
+                //}, function() {
+                //    $('.black_white').stop(true).animate({width: "-=100px"}, 1200);
+                //});
+
+
+                //$(".before_after_slider").mouseover(function () {
+                //    //$(this).find(".black_white").animate({width: "-=100px"}, 2500)
+                //    .mousemove(function(e){
+                //        var offX  = (e.offsetX || e.clientX - $black_white.offset().left);
+                //         $black_white.width(offX);
+                //        });
+                //    });
+                //
+                //$(".before_after_slider").mouseout(function () {
+                //    $(this).find(".black_white").animate({width: "-=-100px"}, 2500)
+                //        .mousemove(function(e){
+                //
+                //        })
+                //});
+                //$('.before_after_slider').mousemove(function(e){
+                //    var offX  = (e.offsetX || e.clientX - $black_white.offset().left);
+                //    $black_white.width(offX);
+                //});
+                //
+                //$('.before_after_slider').mouseleave(function(e){
+                //            $black_white.stop().animate({
+                //                width: init_split
+                //            }, 100)
+                //        });
+                //
+                //$(".before_after_slider").mouseover(function(){
+                //    $(".black_white").css("background-color", "yellow");
+                //});
+            }
         },
         afterRender: function(){},
         afterResize: function(){},
@@ -253,6 +305,4 @@ $(document).ready(function() {
             width: init_split
         }, 100)
     });
-
-
 });
