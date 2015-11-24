@@ -228,10 +228,10 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen-mobile .center-block-mobile .header-logo img{width:75%}
 .main-screen-mobile .center-block-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px;margin-top:8vh}
 .main-screen-mobile .center-block-mobile .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
-.look-screen-mobile .iphone img,.poll-screen-mobile .iphone img{width:310px;max-width:100%}
 .main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
 .poll-screen-mobile{background:#b0343e}
 .poll-screen-mobile .iphone{text-align:center}
+.poll-screen-mobile .iphone img{max-width:100%;width:310px}
 .poll-screen-mobile .poll-text{color:#fff;margin-top:60px}
 .poll-screen-mobile .poll-text .poll-header{margin-bottom:30px;text-align:center}
 .poll-screen-mobile .poll-text .poll-header h2{font-size:3.3em}
@@ -252,6 +252,7 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 }
 .look-screen-mobile{background-color:#e6cfc9}
 .look-screen-mobile .iphone{text-align:center}
+.look-screen-mobile .iphone img{max-width:100%}
 @media (min-width:768px){.look-screen-mobile .iphone{margin-left:35.8%}
 }
 .look-screen-mobile .look-text{margin-top:60px}
@@ -276,9 +277,8 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely-mobile .center-block-choose-mobile h2{text-align:center;color:#fff;font-family:FuturalPT,sans-serif;font-size:3.3em;font-weight:300}
 .choose-wisely-mobile .center-block-choose-mobile .get-it-btn{margin-top:5vh;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
 .choose-wisely-mobile footer{margin-top:10vh;color:#fff;bottom:1vh}
-.choose-wisely-mobile footer .copyright{display:none}
-.choose-wisely-mobile footer .copyright small{font-family:FuturalPT,sans-serif;font-size:1.3em;font-weight:300;text-align:center}
-.choose-wisely-mobile footer a{color:#fff;font-size:1.3em;text-align:center}
+.choose-wisely-mobile footer .copyright small{font-family:FuturalPT,sans-serif;font-size:1.3em;font-weight:300;text-align:center;width:55%}
+.choose-wisely-mobile footer a{color:#fff;font-size:1.3em;text-align:center;width:45%}
 .choose-wisely-mobile footer .icons{margin-top:150px}
 .choose-wisely-mobile footer .icons:first-child{text-align:center}
 .choose-wisely-mobile footer .fa{font-size:2em;padding:15px;border:1px solid #fff;border-radius:50%;display:inline-block;text-align:center}

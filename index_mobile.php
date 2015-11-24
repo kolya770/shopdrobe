@@ -190,13 +190,7 @@ $detect = new Mobile_Detect();
                     <div class="copyright col-xs-12">
                         <div class="row links">
                             <small class="col-xs-6">� 2015 Shopdrobe</small>
-                            <a class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="row links">
-                            <a href="policy.html" target="_blank" class="col-sm-6">Privacy Policy</a>
-                            <a href="terms.html" target="_blank" class="col-sm-6">Terms & Conditions</a>
+                            <a href="" class="col-xs-6" data-toggle="modal" data-target="#contactUs">Contact us</a>
                         </div>
                     </div>
                 </div>

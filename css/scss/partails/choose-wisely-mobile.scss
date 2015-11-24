@@ -28,13 +28,14 @@ $font: "FuturalPT";
     bottom: 1vh;
 
     .copyright {
-      display: none;
+      //display: none;
       //margin-top: 10vh;
       small {
         font-family: $font, "sans-serif";
         font-size: 1.3em;
         font-weight: 300;
         text-align: center;
+        width: 55%;
       }
     }
 
@@ -42,6 +43,7 @@ $font: "FuturalPT";
       color: #fff;
       font-size: 1.3em;
       text-align: center;
+      width: 45%;
     }
     .icons {
       margin-top: 150px;
