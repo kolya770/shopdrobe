@@ -103,11 +103,6 @@ $(document).ready(function() {
             width: init_split
         }, 100)
     });
-
-    setInterval(function() {
-        $(".taggd-wrapper").css("position", "relative");
-        $(".taggd-wrapper").css("left", "50%");
-        $(".taggd-wrapper").css("margin-left", "-155px");
-    }, 100)
-
+    
+    $(".taggd-wrapper").addClass("center-block");
 });

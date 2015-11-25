@@ -262,8 +262,6 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 }
 .look-screen-mobile{background-color:#e6cfc9}
 .look-screen-mobile .iphone{text-align:center;margin-bottom:35px}
-@media (max-width:380px){.look-screen-mobile .iphone{width:100%}
-}
 .look-screen-mobile .iphone img{width:310px}
 @media (max-width:380px){.look-screen-mobile .iphone img{width:100%}
 }
