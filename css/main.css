@@ -261,13 +261,11 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:1400px){.color{clip:rect(3em,24.55em,33.4em,auto)}
 }
 .look-screen-mobile{background-color:#e6cfc9}
-.look-screen-mobile .iphone{text-align:center;width:100%;margin-bottom:35px}
+.look-screen-mobile .iphone{text-align:center;margin-bottom:35px}
 @media (max-width:380px){.look-screen-mobile .iphone{width:100%}
 }
 .look-screen-mobile .iphone img{width:310px}
 @media (max-width:380px){.look-screen-mobile .iphone img{width:100%}
-}
-@media (min-width:768px){.look-screen-mobile .iphone{margin-left:35.8%}
 }
 .look-screen-mobile .look-text{margin-top:60px}
 .look-screen-mobile .look-text .look-header{margin-bottom:30px;text-align:center}

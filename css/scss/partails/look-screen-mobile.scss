@@ -6,7 +6,7 @@ $font: "FuturalPT";
 
   .iphone {
     text-align: center;
-    width: 100%;
+    //width: 100%;
     margin-bottom: 35px;
 
     @media (max-width: 380px) {
@@ -22,7 +22,7 @@ $font: "FuturalPT";
     }
 
     @media #{$bootstrap-sm} {
-      margin-left: 35.8%;
+
     }
 
   }

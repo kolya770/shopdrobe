@@ -41,7 +41,7 @@
             <div class="modal-content">
                 <div class="modal-body ">
                     <h5>Have questions? Contact with us!</h5>
-                    <form id="contForm"  action="send.php" name="contact">
+                    <form id="contForm"  action="mail.php" name="contact">
                         <label for="email">
                             *Email address:
                             <input type="email" name="email" required="required" spellcheck="false" placeholder="example@gmail.com" id="email">

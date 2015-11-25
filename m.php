@@ -118,7 +118,7 @@ $detect = new Mobile_Detect();
                         <h3>Provide us details and receive related content</h3>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 iphone">
+                <div class="col-xs-12 iphone">
                     <img class="taggd" src="img/iphonegrey.png">
                 </div>
                 <div class="col-xs-12 try-it-look" style="display: none;">
