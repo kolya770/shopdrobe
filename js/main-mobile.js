@@ -103,6 +103,6 @@ $(document).ready(function() {
             width: init_split
         }, 100)
     });
-    
+
     $(".taggd-wrapper").addClass("center-block");
 });

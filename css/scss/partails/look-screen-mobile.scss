@@ -6,12 +6,8 @@ $font: "FuturalPT";
 
   .iphone {
     text-align: center;
-    //width: 100%;
-    margin-bottom: 35px;
-
-    //@media (max-width: 380px) {
-    //  width: 100%;
-    //}
+    margin-bottom: 20px;
+    margin-top: 10px;
 
     img {
       width: 310px;
@@ -19,10 +15,6 @@ $font: "FuturalPT";
       @media (max-width: 380px) {
         width: 100%;
       }
-    }
-
-    @media #{$bootstrap-sm} {
-
     }
 
   }
@@ -56,20 +48,22 @@ $font: "FuturalPT";
 
   .try-it-look {
     text-align: center;
+    margin-bottom: 45px;
     .text {
-
+      margin-top: 5px;
       p {
         padding: 0;
         margin: 0;
         color: #b9343e;
-        font-weight: 300;
+        font-weight: 500;
         transform: rotate(7.811deg);
         font-family: $font, "sans-serif";
-        font-size: 2em;
+        font-size: 2.625em;
+        width: 100%;
       }
     }
     img {
-      width: 7%;
+      width: 18%;
     }
   }
 }

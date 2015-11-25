@@ -121,11 +121,11 @@ $detect = new Mobile_Detect();
                 <div class="col-xs-12 iphone">
                     <img class="taggd" src="img/iphonegrey.png">
                 </div>
-                <div class="col-xs-12 try-it-look" style="display: none;">
+                <div class="col-xs-12 try-it-look">
+                    <img src="img/arrowlook.png">
                     <div class="text">
                         <p>Tap it!</p>
                     </div>
-                    <img src="img/arrowlook.png">
                 </div>
             </div>
         </div>
