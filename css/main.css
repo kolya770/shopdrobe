@@ -231,8 +231,14 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .main-screen-mobile .center-block-mobile .header-logo{height:250px;text-align:center}
 .main-screen-mobile .center-block-mobile .header-logo img{width:75%}
 .main-screen-mobile .center-block-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#b9343e;width:348px;height:86px;margin-top:8vh}
+@media (max-width:380px){.main-screen-mobile .center-block-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-45%;left:50%;background-color:#b9343e;width:90%;height:86px}
+}
 .main-screen-mobile .center-block-mobile .get-it-btn .shirt{background:url(../img/shirt-btn.png);width:49px;height:49px;margin:17px 30px 0 0;display:inline-block}
-.main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:32px;text-align:right;vertical-align:middle;height:100%;display:inline-block}
+@media (max-width:380px){.main-screen-mobile .center-block-mobile .get-it-btn .shirt{width:35px;height:35px}
+}
+.main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{text-transform:uppercase;color:#fff;font-size:2em;text-align:right;vertical-align:middle;height:100%;display:inline-block}
+@media (max-width:380px){.main-screen-mobile .center-block-mobile .get-it-btn .cta-btn{line-height:75px;font-size:1.75em}
+}
 .poll-screen-mobile{background:#b0343e}
 .poll-screen-mobile .iphone{text-align:center}
 .poll-screen-mobile .iphone img{max-width:100%;width:310px}
@@ -255,24 +261,30 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 @media (min-width:1400px){.color{clip:rect(3em,24.55em,33.4em,auto)}
 }
 .look-screen-mobile{background-color:#e6cfc9}
-.look-screen-mobile .iphone{text-align:center}
-.look-screen-mobile .iphone img{width:310px;max-width:90%}
+.look-screen-mobile .iphone{text-align:center;width:100%;margin-bottom:35px}
+@media (max-width:380px){.look-screen-mobile .iphone{width:100%}
+}
+.look-screen-mobile .iphone img{width:310px}
+@media (max-width:380px){.look-screen-mobile .iphone img{width:100%}
+}
 @media (min-width:768px){.look-screen-mobile .iphone{margin-left:35.8%}
 }
 .look-screen-mobile .look-text{margin-top:60px}
 .look-screen-mobile .look-text .look-header{margin-bottom:30px;text-align:center}
 .look-screen-mobile .look-text .look-header h2{color:#b0343e;font-size:3.3em}
-.explore-screen-mobile .try-it-explore .text p,.look-screen-mobile .look-text .look-header h3,.look-screen-mobile .try-it-look .text p{font-size:2em;font-family:FuturalPT,sans-serif;font-weight:300}
+.look-screen-mobile .look-text .look-header h3,.look-screen-mobile .try-it-look .text p{font-size:2em;font-family:FuturalPT,sans-serif;font-weight:300}
 .look-screen-mobile .look-text .look-header h3{padding:0 16%;color:#404142;line-height:34px}
 .look-screen-mobile .try-it-look{text-align:center}
 .look-screen-mobile .try-it-look .text p{padding:0;margin:0;color:#b9343e;transform:rotate(7.811deg)}
 .look-screen-mobile .try-it-look img{width:7%}
 .explore-screen-mobile{background:#f8f2f0}
-.explore-screen-mobile .iphone{text-align:center}
+.explore-screen-mobile .iphone{text-align:center;margin-bottom:35px}
 .explore-screen-mobile .iphone img{max-width:100%;width:310px}
+.explore-screen-mobile .explore-text{margin-top:60px}
 .explore-screen-mobile .explore-text .explore-header{margin-bottom:30px;text-align:center}
-.explore-screen-mobile .explore-text .explore-header h2{font-family:FuturalPT,sans-serif;font-weight:300;color:#b0343e}
-.explore-screen-mobile .explore-text .explore-header h3{padding:0 16%;font-weight:300;font-family:FuturalPT,sans-serif;color:#404142}
+.explore-screen-mobile .explore-text .explore-header h2{font-family:FuturalPT,sans-serif;font-weight:300;color:#b0343e;font-size:3.3em}
+.explore-screen-mobile .explore-text .explore-header h3,.explore-screen-mobile .try-it-explore .text p{font-size:2em;font-family:FuturalPT,sans-serif;font-weight:300}
+.explore-screen-mobile .explore-text .explore-header h3{padding:0 16%;color:#404142}
 .explore-screen-mobile .try-it-explore{text-align:center}
 .explore-screen-mobile .try-it-explore .text p{padding:0;margin:0;color:#b9343e;transform:rotate(7.811deg)}
 .explore-screen-mobile .try-it-explore img{width:7%}
@@ -280,6 +292,8 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely-mobile .center-block-choose-mobile{margin-top:10vh}
 .choose-wisely-mobile .center-block-choose-mobile h2{text-align:center;color:#fff;font-family:FuturalPT,sans-serif;font-size:3.3em;font-weight:300}
 .choose-wisely-mobile .center-block-choose-mobile .get-it-btn{margin-top:5vh;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-174px;left:50%;background-color:#fff;width:348px;height:86px}
+@media (max-width:380px){.choose-wisely-mobile .center-block-choose-mobile .get-it-btn{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0;border:none;border-radius:11px;position:relative;margin-left:-45%;left:50%;background-color:#fff;width:90%;height:86px}
+}
 .choose-wisely-mobile footer{margin-top:10vh;color:#fff;bottom:1vh}
 .choose-wisely-mobile footer .copyright small{font-family:FuturalPT,sans-serif;font-size:1.3em;font-weight:300;text-align:center;width:55%}
 .choose-wisely-mobile footer a{color:#fff;font-size:1.3em;text-align:center;width:45%}

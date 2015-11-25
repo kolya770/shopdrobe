@@ -3,7 +3,7 @@
     $detect = new Mobile_Detect();
 
     if($detect->isMobile()) {
-        header('Location: http://kievdev.com/kolya/shopdrobe/m.php');
+        header('Location: http://shopdrobeapp.com/m.php');
         exit;
     }
 ?>

@@ -19,17 +19,19 @@ $font: "FuturalPT";
     .get-it-btn {
       margin-top: 5vh;
       @include button-centered(348px, 86px, #fff);
+
+      @media (max-width: 380px) {
+        @include button-centered(90%, 86px, #fff);
+      }
     }
   }
   footer {
     margin-top: 10vh;
     color: #fff;
-
     bottom: 1vh;
 
     .copyright {
-      //display: none;
-      //margin-top: 10vh;
+
       small {
         font-family: $font, "sans-serif";
         font-size: 1.3em;

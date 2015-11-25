@@ -6,11 +6,19 @@ $font: "FuturalPT";
 
   .iphone {
     text-align: center;
+    width: 100%;
+    margin-bottom: 35px;
+
+    @media (max-width: 380px) {
+      width: 100%;
+    }
 
     img {
-
       width: 310px;
-      max-width: 90%;
+
+      @media (max-width: 380px) {
+        width: 100%;
+      }
     }
 
     @media #{$bootstrap-sm} {
