@@ -16,26 +16,44 @@ $font: "FuturalPT";
 
   .iphone {
     text-align: center;
-    max-width: 422px;
-    top:50%;
-    left: 20%;
+    margin-left: 20%;
 
-    @include iphone-position(525px, $bootstrap-md);
-
-    @include iphone-position(600px, $bootstrap-lg);
-
-    @include iphone-position(822px, $screen-xl);
-
-    img {
+    @media #{$bootstrap-md} {
+      height: 525px;
+      width: 270px;
       position: absolute;
+      top: 50%;
+      margin-top: -267.5px;
+    }
 
-      @include iphone-size(270px, 525px, 0, 50%, 0, 0, $bootstrap-md);
-
-      @include iphone-size(310px, 600px, 0, 50%, 0, 0, $bootstrap-lg);
-
-      @include iphone-size(422px, 822px, 0, 50%, 0, 0, $screen-xl);
+    @media #{$bootstrap-lg} {
+      height: 600px;
+      width: 370px;
+      position:absolute;
+      top: 50%;
+      margin-top: -300px;
+    }
+    @media #{$screen-xl} {
+      width: 422px;
+      height: 822px;
+      position: absolute;
+      top: 50%;
+      margin-top: -411px;
 
     }
+
+    img {
+      @media #{$bootstrap-md} {
+        width: 270px;
+      }
+      @media #{$bootstrap-lg} {
+        width: 310px;
+      }
+      @media #{$screen-xl} {
+        width: 422px;
+      }
+    }
+
   }
 
   .bg-look-shirt {

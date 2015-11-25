@@ -4,9 +4,15 @@
 100%{transform:rotate(360deg)}
 }
 @font-face{font-family:FuturalPT;src:url(../fonts/Futura-Medium.eot);src:url(../fonts/Futura-Medium.eot?#iefix) format("embedded-opentype"),url(../fonts/FuturaPTBook.otf) format("opentype"),url(../fonts/Futura-Medium.woff) format("woff"),url(../fonts/Futura-Medium.ttf) format("truetype"),url(../fonts/Futura-Medium.svg#FururalPT) format("svg");font-weight:400;font-style:normal}
-.modal-dialog{width:600px}
+.modal-dialog{margin-top:60px}
+@media (max-width:767px){.modal-dialog{width:95%}
+}
+@media (min-width:768px){.modal-dialog{max-width:600px;position:absolute;left:50%;margin-left:-300px}
+}
 .modal.contact h5{color:#929292;width:80%;margin-left:auto;margin-right:auto;margin-bottom:15px;text-align:center;font-size:22px}
 .modal.contact .modal-content{background:#fbf8f7;font-family:FuturalPT,arial,sans-serif;border-radius:7px;width:600px;margin:auto}
+@media (max-width:767px){.modal.contact .modal-content{max-width:100%}
+}
 .modal.contact .modal-content form{width:93%;margin:auto}
 .modal.contact .modal-content form>label{font-family:inherit;width:100%;color:rgba(76,80,93,.7);display:block;font-size:16px}
 .modal.contact .modal-content form button{display:block;font-family:inherit;border:none;color:#fff;outline:0;box-shadow:inset 0 0 6px rgba(249,175,162,.75);background:#b0343d;border-radius:5px;width:100%;transition:.3s ease;font-size:22px;margin-top:17px;padding:10px 0;line-height:20px;margin-bottom:10px}
@@ -91,27 +97,22 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .poll-screen .try-it{position:absolute;width:210px;top:86%;left:48%}
 }
 .poll-screen .try-it p{padding:0;font-size:2.625em;color:#FFF}
-.look-screen{background-color:#e6cfc9}
-.look-screen ::-webkit-selection{background:rgba(230,207,201,.8);color:#FFF}
-.look-screen ::selection{background:rgba(230,207,201,.8);color:#fff}
-.look-screen .iphone{text-align:center;max-width:422px;top:50%;left:20%}
 @media (min-width:992px){.poll-screen .try-it p{font-size:2.225em}
 .poll-screen .try-it img{width:33%}
-.look-screen .iphone{position:absolute;height:525px;margin-top:-262.5px}
 }
 @media (min-width:1200px){.poll-screen .try-it p{font-size:2.375em}
 .poll-screen .try-it img{width:33%}
-.look-screen .iphone{position:absolute;height:600px;margin-top:-300px}
+}
+.look-screen{background-color:#e6cfc9}
+.look-screen ::-webkit-selection{background:rgba(230,207,201,.8);color:#FFF}
+.look-screen ::selection{background:rgba(230,207,201,.8);color:#fff}
+.look-screen .iphone{text-align:center;margin-left:20%}
+@media (min-width:992px){.look-screen .iphone{height:525px;width:270px;position:absolute;top:50%;margin-top:-267.5px}
+}
+@media (min-width:1200px){.look-screen .iphone{height:600px;width:370px;position:absolute;top:50%;margin-top:-300px}
 }
 @media (min-width:1400px){.poll-screen .try-it p{font-size:2.625em}
-.look-screen .iphone{position:absolute;height:822px;margin-top:-411px}
-}
-.look-screen .iphone img{position:absolute}
-@media (min-width:992px){.look-screen .iphone img{width:270px;height:525px;left:0;top:50%;padding-top:0;padding-left:0;margin-top:-262.5px}
-}
-@media (min-width:1200px){.look-screen .iphone img{width:310px;height:600px;left:0;top:50%;padding-top:0;padding-left:0;margin-top:-300px}
-}
-@media (min-width:1400px){.look-screen .iphone img{width:422px;height:822px;left:0;top:50%;padding-top:0;padding-left:0;margin-top:-411px}
+.look-screen .iphone{width:422px;height:822px;position:absolute;top:50%;margin-top:-411px}
 }
 .look-screen .bg-look-shirt{position:absolute;right:-23vh;top:6vh;height:53vh}
 .look-screen .bg-look-coat{position:absolute;left:-40vh;top:3vh;height:93vh}
@@ -121,13 +122,16 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .look-screen .look-text .look-header h2{color:#b0343e}
 .look-screen .look-text .look-header h2 ::-webkit-selection{background:rgba(230,207,201,.8);color:#b0343e}
 .look-screen .look-text .look-header h2 ::selection{background:rgba(230,207,201,.8);color:#b0343e}
-@media (min-width:992px){.look-screen .look-text{height:270px}
+@media (min-width:992px){.look-screen .iphone img{width:270px}
+.look-screen .look-text{height:270px}
 .look-screen .look-text .look-header h2{font-size:3.375em;line-height:45px}
 }
-@media (min-width:1200px){.look-screen .look-text{height:290px}
+@media (min-width:1200px){.look-screen .iphone img{width:310px}
+.look-screen .look-text{height:290px}
 .look-screen .look-text .look-header h2{font-size:3.7em;line-height:50px}
 }
-@media (min-width:1400px){.look-screen .look-text{height:410px}
+@media (min-width:1400px){.look-screen .iphone img{width:422px}
+.look-screen .look-text{height:410px}
 .look-screen .look-text .look-header h2{font-size:4.375em;line-height:80px}
 }
 .look-screen .look-text .look-header h3{padding:0 16%;color:#404142}
