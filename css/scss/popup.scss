@@ -1,5 +1,14 @@
 .modal-dialog {
-  width: 600px;
+  margin-top: 60px;
+  @media #{$bootstrap-xs} {
+    width: 95%;
+  }
+  @media #{$bootstrap-sm} {
+    max-width: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+  }
 }
 .modal.contact {
 
@@ -18,6 +27,9 @@
     border-radius: 7px;
     width: 600px;
     margin: auto;
+    @media #{$bootstrap-xs} {
+      max-width: 100%;
+    }
     form {
       width: 93%;
       margin: auto;

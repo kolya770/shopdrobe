@@ -3,7 +3,7 @@
     $detect = new Mobile_Detect();
 
     if($detect->isMobile()) {
-        header('Location: http://kievdev.com/kolya/shopdrobe/m.php');
+        header('Location: http://shopdrobeapp.com/m.php');
         exit;
     }
 ?>
@@ -120,7 +120,7 @@
             <img id="coat" src="img/coat.png" class="bg-look-coat">
             <img id="pants" src="img/pants.png" class="bg-look-pants">
             <img id="shoes" src="img/shoes.png" class="bg-look-shoes">
-            <div class="iphone">
+            <div class="col-sm-5 iphone">
                 <img class="taggd dot" src="img/iphonegrey.png">
             </div>
             <div class="container">
