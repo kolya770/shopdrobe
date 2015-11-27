@@ -36,3 +36,45 @@ $font: "FuturalPT";
 @import "partails/choose-wisely-mobile";
 
 
+*::-webkit-selection {
+  background: rgb(119, 204, 233);
+  color: #FFFFFF;
+}
+
+*::selection {
+  background: rgb(119, 204, 233);
+  color: #ffffff;
+}
+
+.thanks-page {
+  z-index: 100;
+  position: fixed;
+  width: 500px;
+  height: 150px;
+  top:50%;
+  left:50%;
+  margin-top: -75px;
+  margin-left: -250px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+
+  @media #{$bootstrap-xs} {
+    width: 210px;
+    height: 110px;
+    margin-top: -55px;
+    margin-left: -115px;
+
+  }
+  p {
+    font-family: $font;
+    font-size: 3em;
+    color: rgb(176, 52, 62);
+    font-weight: 600;
+
+    @media #{$bootstrap-xs} {
+      font-size: 1.75em;
+    }
+
+  }
+}

@@ -33,12 +33,25 @@ $(document).ready(function(){
         });
         function result(response,form){
             console.log(response);
-            var text = "Thank you! We sent your message!";
-            if (response != "ok")
-                text = "Something goes wrong. Please try ones more";
-            console.log(text);
-            alert (text);
-            $('#myModal').modal('hide');
+            //if( response == "OK" ){  // make your .php script return an "OK" string
+            //    $('#thanks').show();
+            //}else{
+            //    // DO something else if something went wrong
+            //}
+            //var text = "Thank you! We sent your message!";
+            //if (response != "ok")
+            //    text = "Something goes wrong. Please try ones more";
+            //console.log(text);
+            $('#contactUs').modal('hide');
+
+            $('#thanks').show(3000);
+
+            function thanks() {
+                $('#thanks').hide(3000);
+            }
+
+            setTimeout(thanks, 5500);
+
             form.find("span.success").remove();
             //form.prepend( "<span class='success'>"+text+"</span>" );
 

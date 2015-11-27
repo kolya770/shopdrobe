@@ -4,16 +4,6 @@ $font: "FuturalPT";
 
   background: rgb(176, 52, 62);
 
-  *::-webkit-selection {
-    background: rgba(176, 52, 62, 0.8);
-    color: #FFFFFF;
-  }
-
-  *::selection {
-    background: rgba(176, 52, 62, 0.8);
-    color: #ffffff;
-  }
-
   .iphone {
     position: absolute;
 

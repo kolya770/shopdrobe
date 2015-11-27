@@ -4,16 +4,6 @@ $font: "FuturalPT";
 
   background-color: rgb(230, 207, 201);
 
-  *::-webkit-selection {
-    background: rgba(230, 207, 201, 0.8);
-    color: #FFFFFF;
-  }
-
-  *::selection {
-    background: rgba(230, 207, 201, 0.8);
-    color: #ffffff;
-  }
-
   .iphone {
     text-align: center;
     margin-left: 20%;
@@ -106,16 +96,6 @@ $font: "FuturalPT";
         font-family: $font, "sans-serif";
         font-weight: 300;
         color: rgb(176, 52, 62);
-
-        *::-webkit-selection {
-          background: rgba(230, 207, 201, 0.8);
-          color: rgb(176, 52, 62);
-        }
-
-        *::selection {
-          background: rgba(230, 207, 201, 0.8);
-          color: rgb(176, 52, 62);
-        }
 
         @media #{$bootstrap-md} {
           font-size: 3.375em;
