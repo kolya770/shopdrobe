@@ -76,7 +76,7 @@
         });
     </script>
 
-    <div class="modal fade contact popup-wrapper" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade contact popup-wrapper" id="contactUs"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -102,8 +102,16 @@
         </div>
     </div>
 
-    <div class="modal thanks-page" id="thanks">
-        <p>Thank you!<br/> We sent your message!</p>
+    <div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="thanks-message">
+                        <p class="thx">Thank you!<br/> We sent your message!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="fullpage">

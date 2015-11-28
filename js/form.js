@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    $('.modal-content').attr('style', 'background: #fbf8f7;');
     var forms=[
         $('#contForm'),
         $('#mailForm')
@@ -33,24 +33,20 @@ $(document).ready(function(){
         });
         function result(response,form){
             console.log(response);
-            //if( response == "OK" ){  // make your .php script return an "OK" string
-            //    $('#thanks').show();
-            //}else{
-            //    // DO something else if something went wrong
-            //}
+
             //var text = "Thank you! We sent your message!";
             //if (response != "ok")
             //    text = "Something goes wrong. Please try ones more";
             //console.log(text);
             $('#contactUs').modal('hide');
 
-            $('#thanks').show(3000);
+            $('#thanks').modal('show', 2500);
 
             function thanks() {
-                $('#thanks').hide(3000);
+                $('#thanks').modal('hide');
             }
 
-            setTimeout(thanks, 5500);
+            setTimeout(thanks, 4000);
 
             form.find("span.success").remove();
             //form.prepend( "<span class='success'>"+text+"</span>" );

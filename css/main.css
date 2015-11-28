@@ -20,6 +20,7 @@
 .modal.contact .modal-content input{height:33px}
 .modal.contact .modal-content textarea{min-height:115px}
 .modal.contact .modal-content input,.modal.contact .modal-content textarea{width:100%;font-family:inherit;padding:0 10px;outline:0;min-width:100%;margin:2px 0 0;font-size:16px;display:block;max-width:100%;border:1px solid #d8d8d8;border-radius:5px}
+.thx{font-size:3em;font-family:FuturalPT,arial,sans-serif;text-align:center;background:#fbf8f7;font-weight:300;color:#929292}
 .explore-screen .explore-text .explore-header h2,.explore-screen .explore-text .explore-header h3,.look-screen .look-text .look-header h2,.look-screen .look-text .look-header h3,.look-screen .try-it-look p,.main-screen .get-it-btn .cta-btn,.main-screen .header,.poll-screen .poll-text .poll-header h2,.poll-screen .poll-text .poll-header h3{font-weight:300;font-family:FuturalPT,sans-serif}
 pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-height:35px}
 .main-screen{background:url(../img/main-bg.jpg) 50% 50%,rgba(176,52,61,.65);background-size:cover}
@@ -301,8 +302,4 @@ pre{width:90%;position:relative;left:-50%;margin-left:55%;font-size:1.5em;line-h
 .choose-wisely-mobile footer .links{margin-top:25px}
 ::-webkit-selection{background:#77cce9;color:#FFF}
 ::selection{background:#77cce9;color:#fff}
-.thanks-page{z-index:100;position:fixed;width:500px;height:150px;top:50%;left:50%;margin-top:-75px;margin-left:-250px;background-color:#fff;border-radius:15px;text-align:center}
-.thanks-page p{font-family:FuturalPT;font-size:3em;color:#b0343e;font-weight:600}
-@media (max-width:767px){.thanks-page{width:210px;height:110px;margin-top:-55px;margin-left:-115px}
-.thanks-page p{font-size:1.75em}
-}
+.thanks-message{text-align:center}
