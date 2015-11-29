@@ -1,5 +1,7 @@
 $(document).ready(function(){
+
     $('.modal-content').attr('style', 'background: #fbf8f7;');
+
     var forms=[
         $('#contForm'),
         $('#mailForm')
@@ -34,10 +36,6 @@ $(document).ready(function(){
         function result(response,form){
             console.log(response);
 
-            //var text = "Thank you! We sent your message!";
-            //if (response != "ok")
-            //    text = "Something goes wrong. Please try ones more";
-            //console.log(text);
             $('#contactUs').modal('hide');
 
             $('#thanks').modal('show', 2500);
