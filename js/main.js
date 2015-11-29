@@ -64,26 +64,31 @@ $(document).ready(function() {
                     top: "-=-10%"
 
                 }, 1200 );
+
+
+                $black_white.stop(true).animate({
+                    width: init_split
+                }, 2000) ;
             }
 
             if (index == 3) {
                 $("#coat").animate({
                     left: "-=10vh"
-                }, 1200 );
+                }, 1200);
 
                 $("#shoes").animate({
                     bottom: "-=8vh"
-                }, 1200 );
+                }, 1200);
 
                 $("#shirt").animate({
                     right: "-=7vh",
                     top: "-=-5vh"
-                }, 1200 );
+                }, 1200);
 
                 $("#pants").animate({
                     right: "-=10vh",
                     bottom: "-=8vh"
-                }, 1200 );
+                }, 1200);
             }
 
             if (index == 4) {
@@ -112,16 +117,7 @@ $(document).ready(function() {
                     right: "-=-10vh",
                     bottom: "-=-8vh"
                 }, 1200 );
-
-                // ANIMATION LOOK DOT
-                var theID= setInterval(function(){
-                        $(".dot").trigger("click");
-                    }, 2000);
-
-                    $(".dot").hover(function() {
-                        clearInterval(theID);
-                    });
-                }
+            }
 
             if (anchorLink == 'explore') {
                 $('.question').animate({
@@ -261,11 +257,21 @@ $(document).ready(function() {
 
     });
 
+    // ANIMATION LOOK DOT
+    var theID= setInterval(function(){
+        $(".dot").trigger("click")
+    }, 2000);
+
+    $(".dot").hover(function() {
+        clearInterval(theID);
+    });
+
+    // ANIMATION POLL
     var $black_white = $('.black_white'),
         img_width = $('.black_white img').width(),
         init_split = Math.round(img_width/2);
 
     $black_white.width(init_split);
-
+    
 });
 
