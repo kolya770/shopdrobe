@@ -29,11 +29,11 @@ $font: "FuturalPT";
 @import "partails/look-screen";
 @import "partails/explore-screen";
 @import "partails/choose-wisely";
-@import "partails/main-screen-mobile";
-@import "partails/poll-screen-mobile";
-@import "partails/look-screen-mobile";
-@import "partails/explore-screen-mobile";
-@import "partails/choose-wisely-mobile";
+@import "partails/mobile/main-screen";
+@import "partails/mobile/poll-screen";
+@import "partails/mobile/look-screen";
+@import "partails/mobile/explore-screen";
+@import "partails/mobile/choose-wisely";
 
 
 *::-webkit-selection {
@@ -45,7 +45,6 @@ $font: "FuturalPT";
   background: rgb(119, 204, 233);
   color: #ffffff;
 }
-
 
 .thanks-message {
   text-align: center;

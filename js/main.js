@@ -272,6 +272,6 @@ $(document).ready(function() {
         init_split = Math.round(img_width/2);
 
     $black_white.width(init_split);
-    
+
 });
 
