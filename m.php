@@ -188,7 +188,7 @@ $detect = new Mobile_Detect();
                         <h2>EXPLORE AND<br/>INSPIRE</h2>
                     </div>
                     <div class="explore-header">
-                        <h3>Surf though a selection of daily fashion inspirations</h3>
+                        <h3>Surf through a selection of daily fashion inspirations</h3>
                     </div>
                     <div class="explore-header">
                         <h3>Find a voguish solution for your wardrobe</h3>
