@@ -133,7 +133,6 @@ $font: "FuturalPT";
 
         h3 {
 
-          padding: 0 16%;
           font-weight: 300;
           font-family: $font, "sans-serif";
 
@@ -145,11 +144,9 @@ $font: "FuturalPT";
           @media #{$bootstrap-lg} {
             font-size: 1.8em;
             line-height: 30px;
-            padding: 0 19.5%;
           }
 
           @media #{$screen-xl} {
-            padding: 0 16%;
             font-size: 2em;
             line-height: 48px;
           }

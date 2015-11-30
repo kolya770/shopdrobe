@@ -37,7 +37,7 @@ $font: "FuturalPT";
         font-size: 1.3em;
         font-weight: 300;
         text-align: center;
-        width: 55%;
+        width: 50%;
       }
     }
 
@@ -45,8 +45,11 @@ $font: "FuturalPT";
       color: #fff;
       font-size: 1.3em;
       text-align: center;
-      width: 45%;
+      width: 50%;
       outline: none;
+      @media (max-width: 375px) {
+        padding-top: 15px;
+      }
     }
     .icons {
       margin-top: 150px;

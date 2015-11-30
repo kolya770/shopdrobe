@@ -120,13 +120,14 @@ $detect = new Mobile_Detect();
             <div class="row">
                 <div class="col-xs-12 poll-text">
                     <div class="poll-header">
-                        <h2>WHICH ONE IS BETTER?</h2>
+                        <h2>LEFT OR RIGHT?</h2>
                     </div>
                     <div class="poll-header">
-                        <h3>Swipe photos and vote <br/>for the best one!</h3>
+                        <h3>Let friends solve your
+                            everyday fitting room dilemmas</h3>
                     </div>
                     <div class="poll-header">
-                        <h3>With us you can dive into shopping in seconds!</h3>
+                        <h3>With Shopdrobe you can make the right choice quickly and easily</h3>
                     </div>
                 </div>
                 <div class="col-xs-12 iphone">
@@ -156,13 +157,15 @@ $detect = new Mobile_Detect();
             <div class="row">
                 <div class="col-xs-12 look-text">
                     <div class="look-header">
-                        <h2>TAG THE BRAND</h2>
+                        <h2>TAG THE <br />BRAND</h2>
                     </div>
                     <div class="look-header">
-                        <h3>Let us know what you wear!</h3>
+                        <h3>Got your own style?<br />
+                            Then show it to others!
+                        </h3>
                     </div>
                     <div class="look-header">
-                        <h3>Provide us details and receive related content</h3>
+                        <h3>Share your looks and set new fashion trends</h3>
                     </div>
                 </div>
                 <div class="col-xs-12 iphone">
@@ -185,10 +188,10 @@ $detect = new Mobile_Detect();
                         <h2>EXPLORE AND<br/>INSPIRE</h2>
                     </div>
                     <div class="explore-header">
-                        <h3>Join our fashion community!</h3>
+                        <h3>Surf though a selection of daily fashion inspirations</h3>
                     </div>
                     <div class="explore-header">
-                        <h3>Exchange ideas with other fashionistas</h3>
+                        <h3>Find a voguish solution for your wardrobe</h3>
                     </div>
                 </div>
                 <div class="col-xs-12 iphone">
